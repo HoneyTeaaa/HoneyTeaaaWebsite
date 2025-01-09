@@ -1,0 +1,209 @@
+.root {
+  display: grid;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  align-content: center;
+  justify-items: center;
+  background: url("/plasmic/liz_website/images/honeyTeaaaWebBgPng.png") top 50% left 50% / cover repeat;
+  overflow: auto;
+  min-width: 0;
+  grid-template-columns:
+    var(--plsmc-viewport-gap) 1fr minmax(0, var(--plsmc-wide-chunk))
+    min(
+      var(--plsmc-standard-width),
+      calc(100% - var(--plsmc-viewport-gap) - var(--plsmc-viewport-gap))
+    )
+    minmax(0, var(--plsmc-wide-chunk)) 1fr var(--plsmc-viewport-gap);
+  padding: 50px;
+}
+.root > * {
+  grid-column: 4;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .root > * {
+    grid-column: 4;
+  }
+}
+.img__nxIwS {
+  object-fit: cover;
+  max-width: 100%;
+  left: auto;
+  top: 0;
+  z-index: 1;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  display: none !important;
+}
+.img__nxIwS > picture > img {
+  object-fit: cover;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .img__nxIwS {
+    display: none !important;
+  }
+}
+.section {
+  position: fixed;
+  align-content: center;
+  justify-items: flex-start;
+  width: 40%;
+  left: 0;
+  top: 25%;
+  z-index: 1;
+  bottom: 25%;
+  height: 50%;
+  display: none;
+  grid-template-columns:
+    var(--plsmc-viewport-gap) 1fr minmax(0, var(--plsmc-wide-chunk))
+    min(
+      var(--plsmc-standard-width),
+      calc(100% - var(--plsmc-viewport-gap) - var(--plsmc-viewport-gap))
+    )
+    minmax(0, var(--plsmc-wide-chunk)) 1fr var(--plsmc-viewport-gap);
+  padding: 25px;
+}
+.section > * {
+  grid-column: 4;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .section {
+    width: 100%;
+    height: auto;
+    min-width: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .section > * {
+    grid-column: 4;
+  }
+}
+.text__ktIHs {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  color: var(--token-wm5TQEsc-4q4);
+  font-family: "Roboto Mono";
+  text-align: left;
+  justify-self: flex-start;
+  font-weight: 700;
+  display: none;
+}
+.text__pyq0P {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  color: var(--token-wm5TQEsc-4q4);
+  font-family: "Roboto Mono";
+  text-align: left;
+  justify-self: flex-start;
+}
+.img__dg3Hv {
+  object-fit: cover;
+  width: 100%;
+  grid-column-start: 3 !important;
+  grid-column-end: -3 !important;
+}
+.img__dg3Hv > picture > img {
+  object-fit: cover;
+}
+.link___8Lko {
+  position: fixed;
+  top: auto;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  margin: 25px;
+}
+.img__m8C {
+  object-fit: cover;
+  max-width: 20%;
+}
+.img__m8C > picture > img {
+  object-fit: cover;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .img__m8C {
+    max-width: 100%;
+  }
+}
+.freeBox__y2AP {
+  flex-direction: column;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  justify-self: flex-start;
+  backdrop-filter: none;
+  box-shadow: none;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  min-width: 0;
+  display: none;
+  -webkit-backdrop-filter: none;
+  padding: 25px;
+}
+.link___4KkCp {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  font-family: "Roboto Mono";
+  color: var(--token-wm5TQEsc-4q4);
+  font-weight: 700;
+  min-width: 0;
+}
+.link__ii1NP {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  font-family: "Roboto Mono";
+  color: var(--token-wm5TQEsc-4q4);
+  font-weight: 700;
+  min-width: 0;
+}
+.link___6ERzm {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  font-family: "Roboto Mono";
+  color: var(--token-wm5TQEsc-4q4);
+  font-weight: 700;
+  min-width: 0;
+}
+.link__watvw {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  font-family: "Roboto Mono";
+  color: var(--token-wm5TQEsc-4q4);
+  font-weight: 700;
+  min-width: 0;
+}
+.freeBox___40Vx {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  justify-content: center;
+  align-items: stretch;
+  justify-self: center;
+  overflow: hidden;
+  grid-column-start: 3 !important;
+  grid-column-end: -3 !important;
+  padding: 0px;
+}
+.enterButton:global(.__wab_instance) {
+  align-self: center;
+}

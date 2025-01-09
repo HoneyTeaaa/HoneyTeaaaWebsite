@@ -1,0 +1,32 @@
+.socials {
+  display: grid;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  align-content: center;
+  justify-items: center;
+  background: url("/plasmic/liz_website/images/honeyTeaaaWebBgPng.png") top 50% left 50% / cover repeat;
+  min-width: 0;
+  min-height: 0;
+  grid-template-columns:
+    var(--plsmc-viewport-gap) 1fr minmax(0, var(--plsmc-wide-chunk))
+    min(
+      var(--plsmc-standard-width),
+      calc(100% - var(--plsmc-viewport-gap) - var(--plsmc-viewport-gap))
+    )
+    minmax(0, var(--plsmc-wide-chunk)) 1fr var(--plsmc-viewport-gap);
+  padding: 50px;
+}
+.socials > * {
+  grid-column: 4;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .socials {
+    background: var(--token-z5IKgHokHwfh);
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .socials > * {
+    grid-column: 4;
+  }
+}

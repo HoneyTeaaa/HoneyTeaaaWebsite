@@ -1,0 +1,39 @@
+{
+  "props": [
+    {
+      "name": "BG",
+      "type": "color",
+      "value": "#FDE9D1",
+      "category": "color",
+      "meta": {
+        "projectId": "pqbSBZb9VG36A9gA4GgWPg",
+        "id": "z5IKgHokHwfh"
+      }
+    },
+    {
+      "name": "Dark Brown",
+      "type": "color",
+      "value": "#331009",
+      "category": "color",
+      "meta": {
+        "projectId": "pqbSBZb9VG36A9gA4GgWPg",
+        "id": "wm5TQEsc-4q4"
+      }
+    },
+    {
+      "name": "Mid Dark Brown",
+      "type": "color",
+      "value": "#B25A34",
+      "category": "color",
+      "meta": {
+        "projectId": "pqbSBZb9VG36A9gA4GgWPg",
+        "id": "VHKbq1Ltfo9Q"
+      }
+    }
+  ],
+  "global": {
+    "meta": {
+      "source": "plasmic.app"
+    }
+  }
+}

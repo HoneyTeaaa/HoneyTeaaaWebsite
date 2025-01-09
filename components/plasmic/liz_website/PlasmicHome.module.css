@@ -103,7 +103,8 @@
 .img__a2Rf1 {
   object-fit: cover;
   max-width: 100%;
-  width: 64px;
+  width: 128px;
+  height: 64px;
   flex-shrink: 0;
 }
 .img__a2Rf1 > picture > img {
@@ -708,6 +709,7 @@
   }
 }
 .column___0HqXo {
+  display: flex;
   flex-direction: column;
   position: relative;
   width: 100%;
@@ -716,7 +718,6 @@
   justify-content: flex-start;
   align-items: center;
   min-width: 0;
-  display: none;
   padding: 0px;
 }
 .freeBox__h5LKi {
@@ -750,6 +751,10 @@
   > picture
   > img {
   margin-top: 10px;
+}
+.embedHtml__wa2W:global(.__wab_instance) {
+  max-width: 100%;
+  object-fit: cover;
 }
 .column__ds9NL {
   display: flex;
@@ -853,7 +858,7 @@
   > img {
   margin-top: 10px;
 }
-.embedHtml:global(.__wab_instance) {
+.embedHtml__vEbPw:global(.__wab_instance) {
   object-fit: cover;
   width: 100%;
   min-width: 0;

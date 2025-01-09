@@ -97,7 +97,6 @@ export type PlasmicHome__OverridesType = {
   tikTok?: Flex__<"a"> & Partial<LinkProps>;
   youTube?: Flex__<"a"> & Partial<LinkProps>;
   vrChat?: Flex__<"a"> & Partial<LinkProps>;
-  embedHtml?: Flex__<typeof Embed>;
 };
 
 export interface DefaultHomeProps {}
@@ -183,17 +182,17 @@ function PlasmicHome__RenderFunc(props: {
             <PlasmicImg__
               alt={""}
               className={classNames(sty.img__a2Rf1)}
-              displayHeight={"auto"}
+              displayHeight={"64px"}
               displayMaxHeight={"none"}
               displayMaxWidth={"100%"}
               displayMinHeight={"0"}
               displayMinWidth={"0"}
-              displayWidth={"64px"}
+              displayWidth={"128px"}
               loading={"lazy"}
               src={{
-                src: "/plasmic/liz_website/images/honeyTeaaaStickerCoffeeOverlay1KPng.png",
+                src: "/plasmic/liz_website/images/honeyTeaSticker1024Png.png",
                 fullWidth: 1024,
-                fullHeight: 832,
+                fullHeight: 1024,
                 aspectRatio: undefined
               }}
             />
@@ -515,7 +514,14 @@ function PlasmicHome__RenderFunc(props: {
                 as={"div"}
                 hasGap={true}
                 className={classNames(projectcss.all, sty.freeBox__h5LKi)}
-              />
+              >
+                <Embed
+                  className={classNames("__wab_instance", sty.embedHtml__wa2W)}
+                  code={
+                    '<script src="https://disuko.neocities.org/ring.js"></script>'
+                  }
+                />
+              </Stack__>
             </div>
             <div className={classNames(projectcss.all, sty.column__ds9NL)}>
               <Stack__
@@ -535,9 +541,10 @@ function PlasmicHome__RenderFunc(props: {
                   className={classNames(projectcss.all, sty.freeBox__lyGEt)}
                 >
                   <Embed
-                    data-plasmic-name={"embedHtml"}
-                    data-plasmic-override={overrides.embedHtml}
-                    className={classNames("__wab_instance", sty.embedHtml)}
+                    className={classNames(
+                      "__wab_instance",
+                      sty.embedHtml__vEbPw
+                    )}
                     code={
                       '<iframe src="https://tamanotchi.world/17972c" style="border:0px #ffffff none;" name="tamanotchi" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="512px" width="100%" allowfullscreen></iframe>'
                     }
@@ -562,8 +569,7 @@ const PlasmicDescendants = {
     "bluesky",
     "tikTok",
     "youTube",
-    "vrChat",
-    "embedHtml"
+    "vrChat"
   ],
   reveal: [
     "reveal",
@@ -573,8 +579,7 @@ const PlasmicDescendants = {
     "bluesky",
     "tikTok",
     "youTube",
-    "vrChat",
-    "embedHtml"
+    "vrChat"
   ],
   ul: ["ul", "li"],
   li: ["li"],
@@ -582,8 +587,7 @@ const PlasmicDescendants = {
   bluesky: ["bluesky"],
   tikTok: ["tikTok"],
   youTube: ["youTube"],
-  vrChat: ["vrChat"],
-  embedHtml: ["embedHtml"]
+  vrChat: ["vrChat"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -598,7 +602,6 @@ type NodeDefaultElementType = {
   tikTok: "a";
   youTube: "a";
   vrChat: "a";
-  embedHtml: typeof Embed;
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -669,7 +672,6 @@ export const PlasmicHome = Object.assign(
     tikTok: makeNodeComponent("tikTok"),
     youTube: makeNodeComponent("youTube"),
     vrChat: makeNodeComponent("vrChat"),
-    embedHtml: makeNodeComponent("embedHtml"),
 
     // Metadata about props expected for PlasmicHome
     internalVariantProps: PlasmicHome__VariantProps,

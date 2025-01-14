@@ -59,8 +59,8 @@ import {
   useGlobalActions
 } from "@plasmicapp/react-web/lib/host";
 
-import { Reveal } from "@plasmicpkgs/react-awesome-reveal";
 import Navbar from "../../Navbar"; // plasmic-import: tGuDlEY_p2-T/component
+import { Reveal } from "@plasmicpkgs/react-awesome-reveal";
 import SocialButton from "../../SocialButton"; // plasmic-import: mVglz-2PPnwm/component
 import YouTube from "@plasmicpkgs/react-youtube";
 import { Embed } from "@plasmicpkgs/plasmic-basic-components";
@@ -91,8 +91,8 @@ export const PlasmicHome__ArgProps = new Array<ArgPropType>();
 
 export type PlasmicHome__OverridesType = {
   root?: Flex__<"div">;
-  reveal?: Flex__<typeof Reveal>;
   navbar?: Flex__<typeof Navbar>;
+  reveal?: Flex__<typeof Reveal>;
   ul?: Flex__<"ul">;
   li?: Flex__<"li">;
   youTube?: Flex__<typeof YouTube>;
@@ -166,6 +166,12 @@ function PlasmicHome__RenderFunc(props: {
           sty.root
         )}
       >
+        <Navbar
+          data-plasmic-name={"navbar"}
+          data-plasmic-override={overrides.navbar}
+          className={classNames("__wab_instance", sty.navbar)}
+        />
+
         <Reveal
           data-plasmic-name={"reveal"}
           data-plasmic-override={overrides.reveal}
@@ -174,12 +180,6 @@ function PlasmicHome__RenderFunc(props: {
           reverse={false}
           triggerOnce={true}
         >
-          <Navbar
-            data-plasmic-name={"navbar"}
-            data-plasmic-override={overrides.navbar}
-            className={classNames("__wab_instance", sty.navbar)}
-          />
-
           <Stack__
             as={"div"}
             hasGap={true}
@@ -475,9 +475,9 @@ function PlasmicHome__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "reveal", "navbar", "ul", "li", "youTube"],
-  reveal: ["reveal", "navbar", "ul", "li", "youTube"],
+  root: ["root", "navbar", "reveal", "ul", "li", "youTube"],
   navbar: ["navbar"],
+  reveal: ["reveal", "ul", "li", "youTube"],
   ul: ["ul", "li"],
   li: ["li"],
   youTube: ["youTube"]
@@ -487,8 +487,8 @@ type DescendantsType<T extends NodeNameType> =
   (typeof PlasmicDescendants)[T][number];
 type NodeDefaultElementType = {
   root: "div";
-  reveal: typeof Reveal;
   navbar: typeof Navbar;
+  reveal: typeof Reveal;
   ul: "ul";
   li: "li";
   youTube: typeof YouTube;
@@ -554,8 +554,8 @@ export const PlasmicHome = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    reveal: makeNodeComponent("reveal"),
     navbar: makeNodeComponent("navbar"),
+    reveal: makeNodeComponent("reveal"),
     ul: makeNodeComponent("ul"),
     li: makeNodeComponent("li"),
     youTube: makeNodeComponent("youTube"),

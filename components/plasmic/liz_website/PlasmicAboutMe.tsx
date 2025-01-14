@@ -59,8 +59,8 @@ import {
   useGlobalActions
 } from "@plasmicapp/react-web/lib/host";
 
-import { Reveal } from "@plasmicpkgs/react-awesome-reveal";
 import Navbar from "../../Navbar"; // plasmic-import: tGuDlEY_p2-T/component
+import { Reveal } from "@plasmicpkgs/react-awesome-reveal";
 
 import "@plasmicapp/react-web/lib/plasmic.css";
 
@@ -80,8 +80,8 @@ export const PlasmicAboutMe__ArgProps = new Array<ArgPropType>();
 
 export type PlasmicAboutMe__OverridesType = {
   root?: Flex__<"div">;
-  reveal?: Flex__<typeof Reveal>;
   navbar?: Flex__<typeof Navbar>;
+  reveal?: Flex__<typeof Reveal>;
   columns?: Flex__<"div">;
   freeBox?: Flex__<"div">;
 };
@@ -151,6 +151,12 @@ function PlasmicAboutMe__RenderFunc(props: {
             sty.root
           )}
         >
+          <Navbar
+            data-plasmic-name={"navbar"}
+            data-plasmic-override={overrides.navbar}
+            className={classNames("__wab_instance", sty.navbar)}
+          />
+
           <Reveal
             data-plasmic-name={"reveal"}
             data-plasmic-override={overrides.reveal}
@@ -158,12 +164,6 @@ function PlasmicAboutMe__RenderFunc(props: {
             className={classNames("__wab_instance", sty.reveal)}
             triggerOnce={true}
           >
-            <Navbar
-              data-plasmic-name={"navbar"}
-              data-plasmic-override={overrides.navbar}
-              className={classNames("__wab_instance", sty.navbar)}
-            />
-
             <Stack__
               as={"div"}
               data-plasmic-name={"columns"}
@@ -236,9 +236,9 @@ function PlasmicAboutMe__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "reveal", "navbar", "columns", "freeBox"],
-  reveal: ["reveal", "navbar", "columns", "freeBox"],
+  root: ["root", "navbar", "reveal", "columns", "freeBox"],
   navbar: ["navbar"],
+  reveal: ["reveal", "columns", "freeBox"],
   columns: ["columns", "freeBox"],
   freeBox: ["freeBox"]
 } as const;
@@ -247,8 +247,8 @@ type DescendantsType<T extends NodeNameType> =
   (typeof PlasmicDescendants)[T][number];
 type NodeDefaultElementType = {
   root: "div";
-  reveal: typeof Reveal;
   navbar: typeof Navbar;
+  reveal: typeof Reveal;
   columns: "div";
   freeBox: "div";
 };
@@ -313,8 +313,8 @@ export const PlasmicAboutMe = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    reveal: makeNodeComponent("reveal"),
     navbar: makeNodeComponent("navbar"),
+    reveal: makeNodeComponent("reveal"),
     columns: makeNodeComponent("columns"),
     freeBox: makeNodeComponent("freeBox"),
 

@@ -1,0 +1,105 @@
+.root {
+  background: var(--token-z5IKgHokHwfh);
+  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  max-width: 100%;
+  width: 100%;
+  position: relative;
+  min-width: 0;
+  border-radius: 0px;
+  padding: 10px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 0;
+  margin-left: calc(0px - 20px);
+  width: calc(100% + 20px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 20px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .root {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .root > :global(.__wab_flex-container) {
+    flex-direction: column;
+    margin-left: calc(0px - 0px);
+    width: calc(100% + 0px);
+    margin-top: calc(0px - 20px);
+    height: calc(100% + 20px);
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .root > :global(.__wab_flex-container) > *,
+  .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+  .root > :global(.__wab_flex-container) > picture > img,
+  .root
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+}
+.img {
+  object-fit: cover;
+  max-width: 100%;
+  width: 128px;
+  height: 64px;
+  flex-shrink: 0;
+}
+.img > picture > img {
+  object-fit: cover;
+}
+.home {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  color: var(--token-wm5TQEsc-4q4);
+  font-family: "Roboto Mono";
+  font-weight: 700;
+  padding-bottom: 0px;
+}
+.about {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  color: var(--token-wm5TQEsc-4q4);
+  font-family: "Roboto Mono";
+  font-weight: 700;
+  padding-bottom: 0px;
+}
+.link__wCi2X {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  color: var(--token-wm5TQEsc-4q4);
+  font-family: "Roboto Mono";
+  font-weight: 700;
+  display: none;
+}
+.link__y68OF {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  color: var(--token-wm5TQEsc-4q4);
+  font-family: "Roboto Mono";
+  font-weight: 700;
+  display: none;
+}

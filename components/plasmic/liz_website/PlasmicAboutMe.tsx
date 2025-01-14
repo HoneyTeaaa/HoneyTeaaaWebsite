@@ -59,6 +59,9 @@ import {
   useGlobalActions
 } from "@plasmicapp/react-web/lib/host";
 
+import { Reveal } from "@plasmicpkgs/react-awesome-reveal";
+import Navbar from "../../Navbar"; // plasmic-import: tGuDlEY_p2-T/component
+
 import "@plasmicapp/react-web/lib/plasmic.css";
 
 import projectcss from "./plasmic.module.css"; // plasmic-import: pqbSBZb9VG36A9gA4GgWPg/projectcss
@@ -77,6 +80,10 @@ export const PlasmicAboutMe__ArgProps = new Array<ArgPropType>();
 
 export type PlasmicAboutMe__OverridesType = {
   root?: Flex__<"div">;
+  reveal?: Flex__<typeof Reveal>;
+  navbar?: Flex__<typeof Navbar>;
+  columns?: Flex__<"div">;
+  freeBox?: Flex__<"div">;
 };
 
 export interface DefaultAboutMeProps {}
@@ -143,20 +150,107 @@ function PlasmicAboutMe__RenderFunc(props: {
             projectcss.plasmic_tokens,
             sty.root
           )}
-        />
+        >
+          <Reveal
+            data-plasmic-name={"reveal"}
+            data-plasmic-override={overrides.reveal}
+            cascade={false}
+            className={classNames("__wab_instance", sty.reveal)}
+            triggerOnce={true}
+          >
+            <Navbar
+              data-plasmic-name={"navbar"}
+              data-plasmic-override={overrides.navbar}
+              className={classNames("__wab_instance", sty.navbar)}
+            />
+
+            <Stack__
+              as={"div"}
+              data-plasmic-name={"columns"}
+              data-plasmic-override={overrides.columns}
+              hasGap={true}
+              className={classNames(projectcss.all, sty.columns)}
+            >
+              <div className={classNames(projectcss.all, sty.column__pByYc)}>
+                <PlasmicImg__
+                  alt={""}
+                  className={classNames(sty.img___5TE)}
+                  displayHeight={"auto"}
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"100%"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={"100%"}
+                  loading={"lazy"}
+                />
+              </div>
+              <div className={classNames(projectcss.all, sty.column___0Edc9)}>
+                <Stack__
+                  as={"div"}
+                  data-plasmic-name={"freeBox"}
+                  data-plasmic-override={overrides.freeBox}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox)}
+                >
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text___0GoFc
+                    )}
+                  >
+                    {"About Me.*"}
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__rybgu
+                    )}
+                  >
+                    {
+                      "I'm Tea, an amateur 3D artist and full time college student. I make art, mainly for VrChat, to learn new skills!"
+                    }
+                  </div>
+                </Stack__>
+              </div>
+              <div className={classNames(projectcss.all, sty.column__vhaDu)}>
+                <PlasmicImg__
+                  alt={""}
+                  className={classNames(sty.img__q2PNg)}
+                  displayHeight={"auto"}
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"100%"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={"100%"}
+                  loading={"lazy"}
+                />
+              </div>
+            </Stack__>
+          </Reveal>
+        </div>
       </div>
     </React.Fragment>
   ) as React.ReactElement | null;
 }
 
 const PlasmicDescendants = {
-  root: ["root"]
+  root: ["root", "reveal", "navbar", "columns", "freeBox"],
+  reveal: ["reveal", "navbar", "columns", "freeBox"],
+  navbar: ["navbar"],
+  columns: ["columns", "freeBox"],
+  freeBox: ["freeBox"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
   (typeof PlasmicDescendants)[T][number];
 type NodeDefaultElementType = {
   root: "div";
+  reveal: typeof Reveal;
+  navbar: typeof Navbar;
+  columns: "div";
+  freeBox: "div";
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -219,6 +313,10 @@ export const PlasmicAboutMe = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
+    reveal: makeNodeComponent("reveal"),
+    navbar: makeNodeComponent("navbar"),
+    columns: makeNodeComponent("columns"),
+    freeBox: makeNodeComponent("freeBox"),
 
     // Metadata about props expected for PlasmicAboutMe
     internalVariantProps: PlasmicAboutMe__VariantProps,

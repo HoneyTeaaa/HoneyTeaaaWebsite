@@ -60,6 +60,8 @@ import {
 } from "@plasmicapp/react-web/lib/host";
 
 import { Reveal } from "@plasmicpkgs/react-awesome-reveal";
+import Navbar from "../../Navbar"; // plasmic-import: tGuDlEY_p2-T/component
+import SocialButton from "../../SocialButton"; // plasmic-import: mVglz-2PPnwm/component
 import YouTube from "@plasmicpkgs/react-youtube";
 import { Embed } from "@plasmicpkgs/plasmic-basic-components";
 
@@ -90,13 +92,10 @@ export const PlasmicHome__ArgProps = new Array<ArgPropType>();
 export type PlasmicHome__OverridesType = {
   root?: Flex__<"div">;
   reveal?: Flex__<typeof Reveal>;
+  navbar?: Flex__<typeof Navbar>;
   ul?: Flex__<"ul">;
   li?: Flex__<"li">;
-  instagram?: Flex__<"a"> & Partial<LinkProps>;
-  bluesky?: Flex__<"a"> & Partial<LinkProps>;
-  tikTok?: Flex__<"a"> & Partial<LinkProps>;
-  youTube?: Flex__<"a"> & Partial<LinkProps>;
-  vrChat?: Flex__<"a"> & Partial<LinkProps>;
+  youTube?: Flex__<typeof YouTube>;
 };
 
 export interface DefaultHomeProps {}
@@ -172,71 +171,15 @@ function PlasmicHome__RenderFunc(props: {
           data-plasmic-override={overrides.reveal}
           cascade={false}
           className={classNames("__wab_instance", sty.reveal)}
+          reverse={false}
           triggerOnce={true}
         >
-          <Stack__
-            as={"div"}
-            hasGap={true}
-            className={classNames(projectcss.all, sty.freeBox__zyTaD)}
-          >
-            <PlasmicImg__
-              alt={""}
-              className={classNames(sty.img__a2Rf1)}
-              displayHeight={"64px"}
-              displayMaxHeight={"none"}
-              displayMaxWidth={"100%"}
-              displayMinHeight={"0"}
-              displayMinWidth={"0"}
-              displayWidth={"128px"}
-              loading={"lazy"}
-              src={{
-                src: "/plasmic/liz_website/images/honeyTeaSticker1024Png.png",
-                fullWidth: 1024,
-                fullHeight: 1024,
-                aspectRatio: undefined
-              }}
-            />
+          <Navbar
+            data-plasmic-name={"navbar"}
+            data-plasmic-override={overrides.navbar}
+            className={classNames("__wab_instance", sty.navbar)}
+          />
 
-            <PlasmicLink__
-              className={classNames(
-                projectcss.all,
-                projectcss.a,
-                projectcss.__wab_text,
-                sty.link__ofYrd
-              )}
-              component={Link}
-              href={"linktr.ee/honeyteaaa"}
-              platform={"nextjs"}
-            >
-              {"Contact.*"}
-            </PlasmicLink__>
-            <PlasmicLink__
-              className={classNames(
-                projectcss.all,
-                projectcss.a,
-                projectcss.__wab_text,
-                sty.link__nnRdh
-              )}
-              component={Link}
-              href={"linktr.ee/honeyteaaa"}
-              platform={"nextjs"}
-            >
-              {"Socials.*"}
-            </PlasmicLink__>
-            <PlasmicLink__
-              className={classNames(
-                projectcss.all,
-                projectcss.a,
-                projectcss.__wab_text,
-                sty.link___4Tv9
-              )}
-              component={Link}
-              href={"linktr.ee/honeyteaaa"}
-              platform={"nextjs"}
-            >
-              {"Portfolio.*"}
-            </PlasmicLink__>
-          </Stack__>
           <Stack__
             as={"div"}
             hasGap={true}
@@ -355,98 +298,68 @@ function PlasmicHome__RenderFunc(props: {
                     hasGap={true}
                     className={classNames(projectcss.all, sty.freeBox___7I8Uj)}
                   >
-                    <PlasmicLink__
-                      data-plasmic-name={"instagram"}
-                      data-plasmic-override={overrides.instagram}
+                    <SocialButton
                       className={classNames(
-                        projectcss.all,
-                        projectcss.a,
-                        sty.instagram
+                        "__wab_instance",
+                        sty.socialButton__rYspe
                       )}
-                      component={Link}
-                      href={"https://www.instagram.com/honeyteaaaaaaaa/"}
-                      platform={"nextjs"}
-                      target={"_blank"}
+                      linkUrl={"https://www.instagram.com/honeyteaaaaaaaa/"}
                     >
                       <InstagramSvgIcon
-                        className={classNames(projectcss.all, sty.svg__hQwWa)}
+                        className={classNames(projectcss.all, sty.svg___85MY)}
                         role={"img"}
                       />
-                    </PlasmicLink__>
-                    <PlasmicLink__
-                      data-plasmic-name={"bluesky"}
-                      data-plasmic-override={overrides.bluesky}
+                    </SocialButton>
+                    <SocialButton
                       className={classNames(
-                        projectcss.all,
-                        projectcss.a,
-                        sty.bluesky
+                        "__wab_instance",
+                        sty.socialButton__tYaJ
                       )}
-                      component={Link}
-                      href={"https://bsky.app/profile/honeyteaaa.art"}
-                      platform={"nextjs"}
-                      target={"_blank"}
+                      linkUrl={"https://bsky.app/profile/honeyteaaa.art"}
                     >
                       <BlueskyLogoSvgIcon
-                        className={classNames(projectcss.all, sty.svg__bhP19)}
+                        className={classNames(projectcss.all, sty.svg__a53Wt)}
                         role={"img"}
                       />
-                    </PlasmicLink__>
-                    <PlasmicLink__
-                      data-plasmic-name={"tikTok"}
-                      data-plasmic-override={overrides.tikTok}
+                    </SocialButton>
+                    <SocialButton
                       className={classNames(
-                        projectcss.all,
-                        projectcss.a,
-                        sty.tikTok
+                        "__wab_instance",
+                        sty.socialButton__nqBwO
                       )}
-                      component={Link}
-                      href={"https://www.tiktok.com/@honey.teaaa_"}
-                      platform={"nextjs"}
-                      target={"_blank"}
+                      linkUrl={"https://www.tiktok.com/@honey.teaaa_"}
                     >
                       <STikTok18ND2XSvgIcon
-                        className={classNames(projectcss.all, sty.svg___53Qw2)}
+                        className={classNames(projectcss.all, sty.svg___1AonZ)}
                         role={"img"}
                       />
-                    </PlasmicLink__>
-                    <PlasmicLink__
-                      data-plasmic-name={"youTube"}
-                      data-plasmic-override={overrides.youTube}
+                    </SocialButton>
+                    <SocialButton
                       className={classNames(
-                        projectcss.all,
-                        projectcss.a,
-                        sty.youTube
+                        "__wab_instance",
+                        sty.socialButton__lnVc5
                       )}
-                      component={Link}
-                      href={"https://www.youtube.com/@honeyteaaaa"}
-                      platform={"nextjs"}
-                      target={"_blank"}
+                      linkUrl={"https://www.youtube.com/@honeyteaaaa"}
                     >
                       <YoutubeSvgIcon
-                        className={classNames(projectcss.all, sty.svg__n9AcV)}
+                        className={classNames(projectcss.all, sty.svg__uv1W)}
                         role={"img"}
                       />
-                    </PlasmicLink__>
-                    <PlasmicLink__
-                      data-plasmic-name={"vrChat"}
-                      data-plasmic-override={overrides.vrChat}
+                    </SocialButton>
+                    <SocialButton
                       className={classNames(
-                        projectcss.all,
-                        projectcss.a,
-                        sty.vrChat
+                        "__wab_instance",
+                        sty.socialButton__ooR1
                       )}
-                      component={Link}
-                      href={
+                      linkUrl={
                         "https://vrchat.com/home/group/grp_50eb80e9-8899-423e-b6e5-d18b6669e73e"
                       }
-                      platform={"nextjs"}
-                      target={"_blank"}
                     >
                       <Asset1VrcSvgIcon
-                        className={classNames(projectcss.all, sty.svg___0G3RG)}
+                        className={classNames(projectcss.all, sty.svg__ttBmh)}
                         role={"img"}
                       />
-                    </PlasmicLink__>
+                    </SocialButton>
                   </Stack__>
                 </Stack__>
                 <Stack__
@@ -500,7 +413,9 @@ function PlasmicHome__RenderFunc(props: {
             className={classNames(projectcss.all, sty.freeBox__f9Fio)}
           >
             <YouTube
-              className={classNames("__wab_instance", sty.youTube___55BVu)}
+              data-plasmic-name={"youTube"}
+              data-plasmic-override={overrides.youTube}
+              className={classNames("__wab_instance", sty.youTube)}
               videoId={"DLiNRjd395w"}
             />
           </Stack__>
@@ -560,34 +475,12 @@ function PlasmicHome__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: [
-    "root",
-    "reveal",
-    "ul",
-    "li",
-    "instagram",
-    "bluesky",
-    "tikTok",
-    "youTube",
-    "vrChat"
-  ],
-  reveal: [
-    "reveal",
-    "ul",
-    "li",
-    "instagram",
-    "bluesky",
-    "tikTok",
-    "youTube",
-    "vrChat"
-  ],
+  root: ["root", "reveal", "navbar", "ul", "li", "youTube"],
+  reveal: ["reveal", "navbar", "ul", "li", "youTube"],
+  navbar: ["navbar"],
   ul: ["ul", "li"],
   li: ["li"],
-  instagram: ["instagram"],
-  bluesky: ["bluesky"],
-  tikTok: ["tikTok"],
-  youTube: ["youTube"],
-  vrChat: ["vrChat"]
+  youTube: ["youTube"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -595,13 +488,10 @@ type DescendantsType<T extends NodeNameType> =
 type NodeDefaultElementType = {
   root: "div";
   reveal: typeof Reveal;
+  navbar: typeof Navbar;
   ul: "ul";
   li: "li";
-  instagram: "a";
-  bluesky: "a";
-  tikTok: "a";
-  youTube: "a";
-  vrChat: "a";
+  youTube: typeof YouTube;
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -665,13 +555,10 @@ export const PlasmicHome = Object.assign(
   {
     // Helper components rendering sub-elements
     reveal: makeNodeComponent("reveal"),
+    navbar: makeNodeComponent("navbar"),
     ul: makeNodeComponent("ul"),
     li: makeNodeComponent("li"),
-    instagram: makeNodeComponent("instagram"),
-    bluesky: makeNodeComponent("bluesky"),
-    tikTok: makeNodeComponent("tikTok"),
     youTube: makeNodeComponent("youTube"),
-    vrChat: makeNodeComponent("vrChat"),
 
     // Metadata about props expected for PlasmicHome
     internalVariantProps: PlasmicHome__VariantProps,

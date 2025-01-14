@@ -294,6 +294,32 @@
           "scheme": "blackbox",
           "componentType": "page",
           "path": "/portfolio"
+        },
+        {
+          "id": "mVglz-2PPnwm",
+          "name": "SocialButton",
+          "type": "managed",
+          "projectId": "pqbSBZb9VG36A9gA4GgWPg",
+          "renderModuleFilePath": "plasmic/liz_website/PlasmicSocialButton.tsx",
+          "importSpec": {
+            "modulePath": "SocialButton.tsx"
+          },
+          "cssFilePath": "plasmic/liz_website/PlasmicSocialButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "tGuDlEY_p2-T",
+          "name": "Navbar",
+          "type": "managed",
+          "projectId": "pqbSBZb9VG36A9gA4GgWPg",
+          "renderModuleFilePath": "plasmic/liz_website/PlasmicNavbar.tsx",
+          "importSpec": {
+            "modulePath": "Navbar.tsx"
+          },
+          "cssFilePath": "plasmic/liz_website/PlasmicNavbar.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [
@@ -448,6 +474,11 @@
           "id": "iQZq4vgRn5DT",
           "name": "HoneyTeaSticker1024.png",
           "filePath": "../public/plasmic/liz_website/images/honeyTeaSticker1024Png.png"
+        },
+        {
+          "id": "ZkjwBuW2u0a7",
+          "name": "sherbertlean.png",
+          "filePath": "../public/plasmic/liz_website/images/sherbertleanPng.png"
         }
       ],
       "indirect": false,

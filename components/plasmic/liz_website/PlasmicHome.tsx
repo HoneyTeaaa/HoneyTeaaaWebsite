@@ -202,9 +202,9 @@ function PlasmicHome__RenderFunc(props: {
                   displayWidth={"auto"}
                   loading={"lazy"}
                   src={{
-                    src: "/plasmic/liz_website/images/fallLizPictureEditedJpg.jpg",
-                    fullWidth: 1296,
-                    fullHeight: 728,
+                    src: "/plasmic/liz_website/images/fallLizPictureJpg.jpg",
+                    fullWidth: 2592,
+                    fullHeight: 1456,
                     aspectRatio: undefined
                   }}
                 />
@@ -217,7 +217,7 @@ function PlasmicHome__RenderFunc(props: {
                   )}
                 >
                   {
-                    "I'm Tea, an amateur 3D artist and full time college student. I make art, mainly for VrChat, to learn new skills!"
+                    "I'm Tea, a multidisciplinary digital artist and full time college student. I make art in Blender, VRChat Avatars and games in Unity Engine, and love to learn new software."
                   }
                 </div>
               </Stack__>
@@ -387,9 +387,9 @@ function PlasmicHome__RenderFunc(props: {
                     displayWidth={"100%"}
                     loading={"lazy"}
                     src={{
-                      src: "/plasmic/liz_website/images/_20250108221736StudioPlasmicAppD4Eac1E56Dd1Png.png",
-                      fullWidth: 1559,
-                      fullHeight: 705,
+                      src: "/plasmic/liz_website/images/image8.png",
+                      fullWidth: 1668,
+                      fullHeight: 2420,
                       aspectRatio: undefined
                     }}
                   />
@@ -401,7 +401,7 @@ function PlasmicHome__RenderFunc(props: {
                       sty.text___01SXj
                     )}
                   >
-                    {"This website :3"}
+                    {"Teasona"}
                   </div>
                 </Stack__>
               </Stack__>
@@ -461,7 +461,7 @@ function PlasmicHome__RenderFunc(props: {
                       sty.embedHtml__vEbPw
                     )}
                     code={
-                      '<iframe src="https://tamanotchi.world/17972c" style="border:0px #ffffff none;" name="tamanotchi" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="512px" width="100%" allowfullscreen></iframe>'
+                      '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0Jcnu4dG3Tk60sAzxF1VGJ?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>'
                     }
                   />
                 </Stack__>

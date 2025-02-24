@@ -218,7 +218,7 @@ function PlasmicNavbar__RenderFunc(props: {
           sty.link__y68OF
         )}
         component={Link}
-        href={"linktr.ee/honeyteaaa"}
+        href={`/portfolio`}
         platform={"nextjs"}
       >
         {"Portfolio.*"}

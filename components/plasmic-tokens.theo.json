@@ -11,6 +11,46 @@
       }
     },
     {
+      "name": "Basic/Ring",
+      "type": "color",
+      "value": "#9CA3AF",
+      "category": "color",
+      "meta": {
+        "projectId": "pqbSBZb9VG36A9gA4GgWPg",
+        "id": "alpzJY7GPJz2"
+      }
+    },
+    {
+      "name": "Basic/Text-Primary",
+      "type": "color",
+      "value": "#030712",
+      "category": "color",
+      "meta": {
+        "projectId": "pqbSBZb9VG36A9gA4GgWPg",
+        "id": "u6FgoO_s0YZ1"
+      }
+    },
+    {
+      "name": "Basic/Text-Secondary",
+      "type": "color",
+      "value": "#6B7280",
+      "category": "color",
+      "meta": {
+        "projectId": "pqbSBZb9VG36A9gA4GgWPg",
+        "id": "uDAr5R3L-kDc"
+      }
+    },
+    {
+      "name": "Brand/Brand",
+      "type": "color",
+      "value": "#2563EB",
+      "category": "color",
+      "meta": {
+        "projectId": "pqbSBZb9VG36A9gA4GgWPg",
+        "id": "CjoiA0ZGRzIr"
+      }
+    },
+    {
       "name": "Dark Brown",
       "type": "color",
       "value": "#331009",
@@ -21,6 +61,76 @@
       }
     },
     {
+      "name": "Destructive/Destructive",
+      "type": "color",
+      "value": "#DC2626",
+      "category": "color",
+      "meta": {
+        "projectId": "pqbSBZb9VG36A9gA4GgWPg",
+        "id": "SV_Ncj9rapyb"
+      }
+    },
+    {
+      "name": "Font-LG",
+      "type": "fontsize",
+      "value": "1.25rem",
+      "category": "fontsize",
+      "meta": {
+        "projectId": "pqbSBZb9VG36A9gA4GgWPg",
+        "id": "u7C7lrVC_VHm"
+      }
+    },
+    {
+      "name": "Font-MD",
+      "type": "fontsize",
+      "value": "1rem",
+      "category": "fontsize",
+      "meta": {
+        "projectId": "pqbSBZb9VG36A9gA4GgWPg",
+        "id": "1D8xxlsoaYJG"
+      }
+    },
+    {
+      "name": "Font-SM",
+      "type": "fontsize",
+      "value": "0.75rem",
+      "category": "fontsize",
+      "meta": {
+        "projectId": "pqbSBZb9VG36A9gA4GgWPg",
+        "id": "bgUwqWhU9_j1"
+      }
+    },
+    {
+      "name": "Line-height-LG",
+      "type": "lineheight",
+      "value": "1.4",
+      "category": "lineheight",
+      "meta": {
+        "projectId": "pqbSBZb9VG36A9gA4GgWPg",
+        "id": "7C1Snkt0nsBR"
+      }
+    },
+    {
+      "name": "Line-height-MD",
+      "type": "lineheight",
+      "value": "1.25",
+      "category": "lineheight",
+      "meta": {
+        "projectId": "pqbSBZb9VG36A9gA4GgWPg",
+        "id": "ip7MblBX9ib1"
+      }
+    },
+    {
+      "name": "Line-height-SM",
+      "type": "lineheight",
+      "value": "1",
+      "category": "lineheight",
+      "meta": {
+        "projectId": "pqbSBZb9VG36A9gA4GgWPg",
+        "id": "30PIxXbVZLQ6"
+      }
+    },
+    {
       "name": "Mid Dark Brown",
       "type": "color",
       "value": "#B25A34",
@@ -28,6 +138,76 @@
       "meta": {
         "projectId": "pqbSBZb9VG36A9gA4GgWPg",
         "id": "VHKbq1Ltfo9Q"
+      }
+    },
+    {
+      "name": "Sans-serif",
+      "type": "fontfamily",
+      "value": "Inter",
+      "category": "fontfamily",
+      "meta": {
+        "projectId": "pqbSBZb9VG36A9gA4GgWPg",
+        "id": "53yuAZy1TVCd"
+      }
+    },
+    {
+      "name": "Size-12",
+      "type": "spacing",
+      "value": "12px",
+      "category": "spacing",
+      "meta": {
+        "projectId": "pqbSBZb9VG36A9gA4GgWPg",
+        "id": "tBbN9DUDGATj"
+      }
+    },
+    {
+      "name": "Size-2",
+      "type": "spacing",
+      "value": "0.125rem",
+      "category": "spacing",
+      "meta": {
+        "projectId": "pqbSBZb9VG36A9gA4GgWPg",
+        "id": "0bsux5k5AK1h"
+      }
+    },
+    {
+      "name": "Size-20",
+      "type": "spacing",
+      "value": "1.25rem",
+      "category": "spacing",
+      "meta": {
+        "projectId": "pqbSBZb9VG36A9gA4GgWPg",
+        "id": "Z8wdEUUw3p0h"
+      }
+    },
+    {
+      "name": "Size-4",
+      "type": "spacing",
+      "value": "0.25rem",
+      "category": "spacing",
+      "meta": {
+        "projectId": "pqbSBZb9VG36A9gA4GgWPg",
+        "id": "AWG1GpDBu43_"
+      }
+    },
+    {
+      "name": "Size-8",
+      "type": "spacing",
+      "value": "0.5rem",
+      "category": "spacing",
+      "meta": {
+        "projectId": "pqbSBZb9VG36A9gA4GgWPg",
+        "id": "jSz_owAAoySy"
+      }
+    },
+    {
+      "name": "White",
+      "type": "color",
+      "value": "#FFFAF3",
+      "category": "color",
+      "meta": {
+        "projectId": "pqbSBZb9VG36A9gA4GgWPg",
+        "id": "jlwgUsImAuBd"
       }
     }
   ],

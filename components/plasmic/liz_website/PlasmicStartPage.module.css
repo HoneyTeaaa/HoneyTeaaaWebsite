@@ -206,4 +206,5 @@
 }
 .enterButton:global(.__wab_instance) {
   align-self: center;
+  width: 45%;
 }

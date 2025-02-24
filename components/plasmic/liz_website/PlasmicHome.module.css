@@ -5,7 +5,7 @@
   height: 100vh;
   align-content: flex-start;
   justify-items: center;
-  background: url("/plasmic/liz_website/images/honeyTeaaaWebBgPng.png") top 50% left 50% / cover repeat;
+  background: url("/plasmic/liz_website/images/honeyTeaaaWebBgPng.png") top 50% left 50% / cover repeat fixed;
   overflow: auto;
   min-width: 0;
   grid-template-columns:

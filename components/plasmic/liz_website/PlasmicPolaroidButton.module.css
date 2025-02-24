@@ -1,0 +1,47 @@
+.root {
+  position: relative;
+  transform: skewX(0deg) skewY(0deg) translateX(0px) translateY(0px)
+    translateZ(0px);
+  backface-visibility: hidden;
+  font-family: "Gochi Hand";
+  line-height: 1;
+  background: var(--token-VHKbq1Ltfo9Q);
+  color: var(--token-jlwgUsImAuBd);
+  font-size: 24px;
+  box-shadow: 3px 3px 0px 0px var(--token-wm5TQEsc-4q4);
+  transition-property: all;
+  transition-duration: 0.25s;
+  width: auto;
+  justify-self: flex-start;
+  height: auto;
+  flex-grow: 0;
+  flex-shrink: 1;
+  display: inline-block;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.25s;
+  border-radius: var(--token-jSz_owAAoySy);
+  padding: 5px 7px;
+  border: 2px solid var(--token-jlwgUsImAuBd);
+}
+.rootback2 {
+  transform: skewX(0deg) skewY(0deg) translateX(0px) translateY(0px)
+    translateZ(0px);
+  backface-visibility: hidden;
+  font-family: "Gochi Hand";
+  line-height: 1;
+  background: var(--token-VHKbq1Ltfo9Q);
+  color: var(--token-jlwgUsImAuBd);
+  font-size: 24px;
+  border-radius: var(--token-jSz_owAAoySy);
+  padding: 5px;
+  border: 1px solid var(--token-jlwgUsImAuBd);
+}
+.root:hover {
+  transform: translateX(1px) translateY(1px) translateZ(0px);
+  box-shadow: 2px 2px 0px 0px var(--token-wm5TQEsc-4q4);
+}
+.root:active {
+  transform: skewX(0deg) skewY(0deg) translateX(2px) translateY(2px)
+    translateZ(0px);
+  box-shadow: 1px 1px 0px 0px var(--token-wm5TQEsc-4q4);
+}

@@ -205,11 +205,11 @@ function PlasmicAboutMe__RenderFunc(props: {
                     className={classNames(
                       projectcss.all,
                       projectcss.__wab_text,
-                      sty.text__rybgu
+                      sty.text___7I6Fm
                     )}
                   >
                     {
-                      "I'm Tea, an amateur 3D artist and full time college student. I make art, mainly for VrChat, to learn new skills!"
+                      "I'm Tea, a multidisciplinary digital artist and full time college student. I make art in Blender, VRChat Avatars and games in Unity Engine, and love to learn new software."
                     }
                   </div>
                 </Stack__>

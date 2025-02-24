@@ -210,7 +210,7 @@ function PlasmicEnterButton__RenderFunc(props: {
         displayMinHeight={"0"}
         displayMinWidth={"0"}
         displayWidth={
-          hasVariant(globalVariants, "screen", "mobileOnly") ? "256px" : "45%"
+          hasVariant(globalVariants, "screen", "mobileOnly") ? "256px" : "100%"
         }
         loading={"lazy"}
         onClick={async event => {

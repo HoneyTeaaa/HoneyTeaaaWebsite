@@ -437,6 +437,114 @@
           "cssFilePath": "plasmic/liz_website/PlasmicVhsTape.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "5Va_uZjqlW_m",
+          "name": "Template",
+          "type": "managed",
+          "projectId": "pqbSBZb9VG36A9gA4GgWPg",
+          "renderModuleFilePath": "plasmic/liz_website/PlasmicTemplate.tsx",
+          "importSpec": {
+            "modulePath": "Template.tsx"
+          },
+          "cssFilePath": "plasmic/liz_website/PlasmicTemplate.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "97KwaVSIhY1v",
+          "name": "MoreInfoBee",
+          "type": "managed",
+          "projectId": "pqbSBZb9VG36A9gA4GgWPg",
+          "renderModuleFilePath": "plasmic/liz_website/PlasmicMoreInfoBee.tsx",
+          "importSpec": {
+            "modulePath": "../pages/Bee.tsx"
+          },
+          "cssFilePath": "plasmic/liz_website/PlasmicMoreInfoBee.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/Bee"
+        },
+        {
+          "id": "LGxavWnqUsHr",
+          "name": "MoreInfoQueenie",
+          "type": "managed",
+          "projectId": "pqbSBZb9VG36A9gA4GgWPg",
+          "renderModuleFilePath": "plasmic/liz_website/PlasmicMoreInfoQueenie.tsx",
+          "importSpec": {
+            "modulePath": "../pages/Queenie.tsx"
+          },
+          "cssFilePath": "plasmic/liz_website/PlasmicMoreInfoQueenie.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/Queenie"
+        },
+        {
+          "id": "W_0c-3I8RVPn",
+          "name": "MoreInfoSugarV1",
+          "type": "managed",
+          "projectId": "pqbSBZb9VG36A9gA4GgWPg",
+          "renderModuleFilePath": "plasmic/liz_website/PlasmicMoreInfoSugarV1.tsx",
+          "importSpec": {
+            "modulePath": "../pages/Sugar V1.tsx"
+          },
+          "cssFilePath": "plasmic/liz_website/PlasmicMoreInfoSugarV1.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/Sugar V1"
+        },
+        {
+          "id": "gps9zapGC3h9",
+          "name": "MoreInfoSugarV2",
+          "type": "managed",
+          "projectId": "pqbSBZb9VG36A9gA4GgWPg",
+          "renderModuleFilePath": "plasmic/liz_website/PlasmicMoreInfoSugarV2.tsx",
+          "importSpec": {
+            "modulePath": "../pages/Sugar V1-2.tsx"
+          },
+          "cssFilePath": "plasmic/liz_website/PlasmicMoreInfoSugarV2.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/Sugar V1-2"
+        },
+        {
+          "id": "afhvlQtgWcWV",
+          "name": "ChunkyButton",
+          "type": "managed",
+          "projectId": "pqbSBZb9VG36A9gA4GgWPg",
+          "renderModuleFilePath": "plasmic/liz_website/PlasmicChunkyButton.tsx",
+          "importSpec": {
+            "modulePath": "ChunkyButton.tsx"
+          },
+          "cssFilePath": "plasmic/liz_website/PlasmicChunkyButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "MpsyFOWcgJb-",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "pqbSBZb9VG36A9gA4GgWPg",
+          "renderModuleFilePath": "plasmic/liz_website/PlasmicButton.tsx",
+          "importSpec": {
+            "modulePath": "Button.tsx"
+          },
+          "cssFilePath": "plasmic/liz_website/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "9jYfnuXxIGTf",
+          "name": "Drawer",
+          "type": "managed",
+          "projectId": "pqbSBZb9VG36A9gA4GgWPg",
+          "renderModuleFilePath": "plasmic/liz_website/PlasmicDrawer.tsx",
+          "importSpec": {
+            "modulePath": "Drawer.tsx"
+          },
+          "cssFilePath": "plasmic/liz_website/PlasmicDrawer.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [
@@ -479,6 +587,16 @@
           "id": "3K3JIfR6z95J",
           "name": "MinusIcon",
           "moduleFilePath": "plasmic/liz_website/icons/PlasmicIcon__Minus.tsx"
+        },
+        {
+          "id": "6mU2sApCUA59",
+          "name": "CircleIcon",
+          "moduleFilePath": "plasmic/liz_website/icons/PlasmicIcon__Circle.tsx"
+        },
+        {
+          "id": "CPTSatje6Vfz",
+          "name": "ChevronDownIcon",
+          "moduleFilePath": "plasmic/liz_website/icons/PlasmicIcon__ChevronDown.tsx"
         }
       ],
       "images": [
@@ -701,6 +819,76 @@
           "id": "Csy1fSHOdQPK",
           "name": "image 14",
           "filePath": "../public/plasmic/liz_website/images/image14.png"
+        },
+        {
+          "id": "RUmxzAZbQ4uf",
+          "name": "VRChat_2024-01-14_15-04-42.png",
+          "filePath": "../public/plasmic/liz_website/images/vrChat20240114150442Png.png"
+        },
+        {
+          "id": "4VDSgEplzaku",
+          "name": "VRChat_2024-01-14_15-02-23.png",
+          "filePath": "../public/plasmic/liz_website/images/vrChat20240114150223Png.png"
+        },
+        {
+          "id": "8LwiPkoK_Xpo",
+          "name": "VRChat_2024-01-14_15-03-32.png",
+          "filePath": "../public/plasmic/liz_website/images/vrChat20240114150332Png.png"
+        },
+        {
+          "id": "m-sLoLaFiy0d",
+          "name": "VRChat_2024-07-06_12-05-49.823_2560x1440.png",
+          "filePath": "../public/plasmic/liz_website/images/vrChat202407061205498232560X1440Png.png"
+        },
+        {
+          "id": "ipCk31TPRG2r",
+          "name": "VRChat_2024-07-06_11-58-32.644_2560x1440.png",
+          "filePath": "../public/plasmic/liz_website/images/vrChat202407061158326442560X1440Png.png"
+        },
+        {
+          "id": "aar3KSvARsk2",
+          "name": "VRChat_2024-07-06_12-02-38.971_2560x1440.png",
+          "filePath": "../public/plasmic/liz_website/images/vrChat202407061202389712560X1440Png.png"
+        },
+        {
+          "id": "Ngz8udOpnqkR",
+          "name": "VRChat_2023-08-04_10-57-05.194_7680x4320.png",
+          "filePath": "../public/plasmic/liz_website/images/vrChat202308041057051947680X4320Png.png"
+        },
+        {
+          "id": "0h5BI5EC0JX_",
+          "name": "VRChat_2023-04-14_13-20-02.836_4320x7680.png",
+          "filePath": "../public/plasmic/liz_website/images/vrChat202304141320028364320X7680Png.png"
+        },
+        {
+          "id": "h_zvFjUULvOb",
+          "name": "VRChat_2023-04-14_13-15-24.554_7680x4320.png",
+          "filePath": "../public/plasmic/liz_website/images/vrChat202304141315245547680X4320Png.png"
+        },
+        {
+          "id": "8vy_VQYcDJZY",
+          "name": "VRChat_2023-05-13_17-40-53.png",
+          "filePath": "../public/plasmic/liz_website/images/vrChat20230513174053Png.png"
+        },
+        {
+          "id": "kn02Kzuf_w_a",
+          "name": "VRChat_2023-08-08_22-54-30.png",
+          "filePath": "../public/plasmic/liz_website/images/vrChat20230808225430Png.png"
+        },
+        {
+          "id": "st7KEpdcJxwq",
+          "name": "VRChat_2024-01-14_15-13-20.png",
+          "filePath": "../public/plasmic/liz_website/images/vrChat20240114151320Png.png"
+        },
+        {
+          "id": "NBgm8HRavAIR",
+          "name": "VRChat_2024-01-14_15-12-58.png",
+          "filePath": "../public/plasmic/liz_website/images/vrChat20240114151258Png.png"
+        },
+        {
+          "id": "1Hmks-H53Rl3",
+          "name": "Screenshot 2025-02-25 164249.png",
+          "filePath": "../public/plasmic/liz_website/images/screenshot20250225164249Png.png"
         }
       ],
       "indirect": false,
@@ -928,7 +1116,8 @@
           "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerDialog"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "5dGW8Awro3qq8Hh5MveXLP",
@@ -956,7 +1145,8 @@
           "componentImportPath": "@plasmicpkgs/lottie-react"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     }
   ],
   "globalVariants": {

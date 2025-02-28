@@ -100,8 +100,8 @@ export type PlasmicPinboard__OverridesType = {
   polaroid11?: Flex__<typeof Polaroid>;
   polaroid2?: Flex__<typeof Polaroid>;
   polaroid5?: Flex__<typeof Polaroid>;
-  polaroid7?: Flex__<typeof Polaroid>;
   polaroid9?: Flex__<typeof Polaroid>;
+  polaroid7?: Flex__<typeof Polaroid>;
   polaroid8?: Flex__<typeof Polaroid>;
   polaroid6?: Flex__<typeof Polaroid>;
 };
@@ -618,8 +618,9 @@ function PlasmicPinboard__RenderFunc(props: {
               )
             })}
             date2={"2025 (In Progress)"}
+            infoPage={`/portfolio`}
             projectTitle={"TeaSona"}
-            slot={"Procreate"}
+            slot={""}
           >
             <PlasmicImg__
               alt={""}
@@ -803,9 +804,9 @@ function PlasmicPinboard__RenderFunc(props: {
               displayWidth={"100%"}
               loading={"lazy"}
               src={{
-                src: "/plasmic/liz_website/images/imagePng.png",
-                fullWidth: 1616,
-                fullHeight: 863,
+                src: "/plasmic/liz_website/images/screenshot20250225164249Png.png",
+                fullWidth: 1585,
+                fullHeight: 802,
                 aspectRatio: undefined
               }}
             />
@@ -884,7 +885,25 @@ function PlasmicPinboard__RenderFunc(props: {
             })}
             date2={"2024"}
             projectTitle={"Mochaccino"}
-          />
+          >
+            <PlasmicImg__
+              alt={""}
+              className={classNames(sty.img__jxQce)}
+              displayHeight={"100%"}
+              displayMaxHeight={"none"}
+              displayMaxWidth={"100%"}
+              displayMinHeight={"0"}
+              displayMinWidth={"0"}
+              displayWidth={"100%"}
+              loading={"lazy"}
+              src={{
+                src: "/plasmic/liz_website/images/image9.png",
+                fullWidth: 2560,
+                fullHeight: 1440,
+                aspectRatio: undefined
+              }}
+            />
+          </Polaroid>
         </div>
       </div>
       <div className={classNames(projectcss.all, sty.columns__wwKzh)}>
@@ -980,63 +999,9 @@ function PlasmicPinboard__RenderFunc(props: {
         </div>
         <div className={classNames(projectcss.all, sty.column___6LLa)}>
           <Polaroid
-            data-plasmic-name={"polaroid7"}
-            data-plasmic-override={overrides.polaroid7}
-            backHeader1={"Credits:"}
-            className={classNames("__wab_instance", sty.polaroid7, {
-              [sty.polaroid7projectType_blender]: hasVariant(
-                $state,
-                "projectType",
-                "blender"
-              ),
-              [sty.polaroid7projectType_fIlm]: hasVariant(
-                $state,
-                "projectType",
-                "fIlm"
-              ),
-              [sty.polaroid7projectType_unity]: hasVariant(
-                $state,
-                "projectType",
-                "unity"
-              )
-            })}
-            date2={"2022"}
-            projectTitle={"Queenie"}
-          >
-            <PlasmicImg__
-              alt={""}
-              className={classNames(sty.img__hJgkh)}
-              displayHeight={"100%"}
-              displayMaxHeight={"none"}
-              displayMaxWidth={"100%"}
-              displayMinHeight={"0"}
-              displayMinWidth={"0"}
-              displayWidth={"100%"}
-              loading={"lazy"}
-              src={{
-                src: "/plasmic/liz_website/images/vrChat20230521144825Png.png",
-                fullWidth: 719,
-                fullHeight: 404,
-                aspectRatio: undefined
-              }}
-            />
-          </Polaroid>
-        </div>
-      </div>
-      <div
-        className={classNames(projectcss.all, sty.columns__iVP9, {
-          [sty.columnsprojectType_unity__iVP9NjRr]: hasVariant(
-            $state,
-            "projectType",
-            "unity"
-          )
-        })}
-      >
-        <div className={classNames(projectcss.all, sty.column__glc00)}>
-          <Polaroid
             data-plasmic-name={"polaroid9"}
             data-plasmic-override={overrides.polaroid9}
-            backHeader1={"Credits:"}
+            backHeader1={"Software Used:"}
             className={classNames("__wab_instance", sty.polaroid9, {
               [sty.polaroid9projectType_blender]: hasVariant(
                 $state,
@@ -1055,7 +1020,39 @@ function PlasmicPinboard__RenderFunc(props: {
               )
             })}
             date2={"2023"}
+            infoPage={`/Sugar V1-2`}
             projectTitle={"Sugar Ver. 2"}
+            slot={
+              <React.Fragment>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__p5Tdr
+                  )}
+                >
+                  {"Substance Painter"}
+                </div>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__xN4Re
+                  )}
+                >
+                  {"Blender"}
+                </div>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__x3Reu
+                  )}
+                >
+                  {"Unity"}
+                </div>
+              </React.Fragment>
+            }
           >
             <PlasmicImg__
               alt={""}
@@ -1076,11 +1073,88 @@ function PlasmicPinboard__RenderFunc(props: {
             />
           </Polaroid>
         </div>
+      </div>
+      <div
+        className={classNames(projectcss.all, sty.columns__iVP9, {
+          [sty.columnsprojectType_unity__iVP9NjRr]: hasVariant(
+            $state,
+            "projectType",
+            "unity"
+          )
+        })}
+      >
+        <div className={classNames(projectcss.all, sty.column__glc00)}>
+          <Polaroid
+            data-plasmic-name={"polaroid7"}
+            data-plasmic-override={overrides.polaroid7}
+            backHeader1={"Software Used:"}
+            className={classNames("__wab_instance", sty.polaroid7, {
+              [sty.polaroid7projectType_blender]: hasVariant(
+                $state,
+                "projectType",
+                "blender"
+              ),
+              [sty.polaroid7projectType_fIlm]: hasVariant(
+                $state,
+                "projectType",
+                "fIlm"
+              ),
+              [sty.polaroid7projectType_unity]: hasVariant(
+                $state,
+                "projectType",
+                "unity"
+              )
+            })}
+            date2={"2022"}
+            infoPage={`/Queenie`}
+            projectTitle={"Queenie"}
+            slot={
+              <React.Fragment>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__yziqS
+                  )}
+                >
+                  {"Substance Painter"}
+                </div>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__bahAo
+                  )}
+                >
+                  {"Unity"}
+                </div>
+              </React.Fragment>
+            }
+          >
+            <PlasmicImg__
+              alt={""}
+              className={classNames(sty.img__hJgkh)}
+              displayHeight={"100%"}
+              displayMaxHeight={"none"}
+              displayMaxWidth={"100%"}
+              displayMinHeight={"0"}
+              displayMinWidth={"0"}
+              displayWidth={"100%"}
+              loading={"lazy"}
+              src={{
+                src: "/plasmic/liz_website/images/vrChat20230521144825Png.png",
+                fullWidth: 719,
+                fullHeight: 404,
+                aspectRatio: undefined
+              }}
+            />
+          </Polaroid>
+        </div>
         <div className={classNames(projectcss.all, sty.column__ymYep)}>
           <Polaroid
             data-plasmic-name={"polaroid8"}
             data-plasmic-override={overrides.polaroid8}
-            backHeader1={"Credits:"}
+            backHeader1={"Software Used:"}
             className={classNames("__wab_instance", sty.polaroid8, {
               [sty.polaroid8projectType_blender]: hasVariant(
                 $state,
@@ -1098,8 +1172,31 @@ function PlasmicPinboard__RenderFunc(props: {
                 "unity"
               )
             })}
-            date2={"2023"}
+            date2={"2022"}
+            infoPage={`/Sugar V1`}
             projectTitle={"Sugar Ver. 1"}
+            slot={
+              <React.Fragment>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__gw6KD
+                  )}
+                >
+                  {"Substance Painter"}
+                </div>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__wqzRo
+                  )}
+                >
+                  {"Unity"}
+                </div>
+              </React.Fragment>
+            }
           >
             <PlasmicImg__
               alt={""}
@@ -1130,7 +1227,7 @@ function PlasmicPinboard__RenderFunc(props: {
           <Polaroid
             data-plasmic-name={"polaroid6"}
             data-plasmic-override={overrides.polaroid6}
-            backHeader1={"Credits:"}
+            backHeader1={"Software Used:"}
             className={classNames("__wab_instance", sty.polaroid6, {
               [sty.polaroid6projectType_blender]: hasVariant(
                 $state,
@@ -1149,7 +1246,32 @@ function PlasmicPinboard__RenderFunc(props: {
               )
             })}
             date2={"2022"}
+            infoPage={`/Bee`}
             projectTitle={"Bee"}
+            slot={
+              <React.Fragment>
+                <li
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.li,
+                    projectcss.__wab_text,
+                    sty.li__lsi8A
+                  )}
+                >
+                  {"Substance Painter"}
+                </li>
+                <li
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.li,
+                    projectcss.__wab_text,
+                    sty.li__m7G9D
+                  )}
+                >
+                  {"Unity"}
+                </li>
+              </React.Fragment>
+            }
           >
             <PlasmicImg__
               alt={""}
@@ -1196,8 +1318,8 @@ const PlasmicDescendants = {
     "polaroid11",
     "polaroid2",
     "polaroid5",
-    "polaroid7",
     "polaroid9",
+    "polaroid7",
     "polaroid8",
     "polaroid6"
   ],
@@ -1220,8 +1342,8 @@ const PlasmicDescendants = {
   polaroid11: ["polaroid11"],
   polaroid2: ["polaroid2"],
   polaroid5: ["polaroid5"],
-  polaroid7: ["polaroid7"],
   polaroid9: ["polaroid9"],
+  polaroid7: ["polaroid7"],
   polaroid8: ["polaroid8"],
   polaroid6: ["polaroid6"]
 } as const;
@@ -1242,8 +1364,8 @@ type NodeDefaultElementType = {
   polaroid11: typeof Polaroid;
   polaroid2: typeof Polaroid;
   polaroid5: typeof Polaroid;
-  polaroid7: typeof Polaroid;
   polaroid9: typeof Polaroid;
+  polaroid7: typeof Polaroid;
   polaroid8: typeof Polaroid;
   polaroid6: typeof Polaroid;
 };
@@ -1320,8 +1442,8 @@ export const PlasmicPinboard = Object.assign(
     polaroid11: makeNodeComponent("polaroid11"),
     polaroid2: makeNodeComponent("polaroid2"),
     polaroid5: makeNodeComponent("polaroid5"),
-    polaroid7: makeNodeComponent("polaroid7"),
     polaroid9: makeNodeComponent("polaroid9"),
+    polaroid7: makeNodeComponent("polaroid7"),
     polaroid8: makeNodeComponent("polaroid8"),
     polaroid6: makeNodeComponent("polaroid6"),
 

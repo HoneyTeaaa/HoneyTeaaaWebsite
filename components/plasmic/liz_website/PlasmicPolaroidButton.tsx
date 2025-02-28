@@ -79,10 +79,12 @@ export const PlasmicPolaroidButton__VariantProps = new Array<VariantPropType>(
 
 export type PlasmicPolaroidButton__ArgsType = {
   infoPage?: string;
+  text?: string;
 };
 type ArgPropType = keyof PlasmicPolaroidButton__ArgsType;
 export const PlasmicPolaroidButton__ArgProps = new Array<ArgPropType>(
-  "infoPage"
+  "infoPage",
+  "text"
 );
 
 export type PlasmicPolaroidButton__OverridesType = {
@@ -91,6 +93,7 @@ export type PlasmicPolaroidButton__OverridesType = {
 
 export interface DefaultPolaroidButtonProps {
   infoPage?: string;
+  text?: string;
   back2?: SingleBooleanChoiceArg<"back2">;
   className?: string;
 }
@@ -116,7 +119,9 @@ function PlasmicPolaroidButton__RenderFunc(props: {
     () =>
       Object.assign(
         {
-          infoPage: `/portfolio`
+          infoPage: `/portfolio`,
+
+          text: "More Info"
         },
         Object.fromEntries(
           Object.entries(props.args).filter(([_, v]) => v !== undefined)
@@ -178,7 +183,7 @@ function PlasmicPolaroidButton__RenderFunc(props: {
               const actionArgs = {
                 destination: (() => {
                   try {
-                    return undefined;
+                    return $props.infoPage;
                   } catch (e) {
                     if (
                       e instanceof TypeError ||
@@ -213,7 +218,21 @@ function PlasmicPolaroidButton__RenderFunc(props: {
         }
       }}
     >
-      {hasVariant($state, "back2", "back2") ? "More Info" : "More Info"}
+      <React.Fragment>
+        {(() => {
+          try {
+            return $props.text;
+          } catch (e) {
+            if (
+              e instanceof TypeError ||
+              e?.plasmicType === "PlasmicUndefinedDataError"
+            ) {
+              return "More Info";
+            }
+            throw e;
+          }
+        })()}
+      </React.Fragment>
     </button>
   ) as React.ReactElement | null;
 }

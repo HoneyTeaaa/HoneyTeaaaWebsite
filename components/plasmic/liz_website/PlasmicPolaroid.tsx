@@ -400,7 +400,26 @@ function PlasmicPolaroid__RenderFunc(props: {
                 data-plasmic-name={"polaroidButton"}
                 data-plasmic-override={overrides.polaroidButton}
                 back2={true}
-                className={classNames("__wab_instance", sty.polaroidButton)}
+                className={classNames("__wab_instance", sty.polaroidButton, {
+                  [sty.polaroidButtonback2]: hasVariant(
+                    $state,
+                    "back2",
+                    "back2"
+                  )
+                })}
+                infoPage={(() => {
+                  try {
+                    return $props.infoPage;
+                  } catch (e) {
+                    if (
+                      e instanceof TypeError ||
+                      e?.plasmicType === "PlasmicUndefinedDataError"
+                    ) {
+                      return `/portfolio`;
+                    }
+                    throw e;
+                  }
+                })()}
               />
             </div>
           </div>

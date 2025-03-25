@@ -80,6 +80,7 @@ export const PlasmicVhsTape__VariantProps = new Array<VariantPropType>(
 export type PlasmicVhsTape__ArgsType = {
   filmTitle?: string;
   year?: string;
+  color2?: string;
   background?: React.ReactNode;
   children?: React.ReactNode;
 };
@@ -87,6 +88,7 @@ type ArgPropType = keyof PlasmicVhsTape__ArgsType;
 export const PlasmicVhsTape__ArgProps = new Array<ArgPropType>(
   "filmTitle",
   "year",
+  "color2",
   "background",
   "children"
 );
@@ -100,6 +102,7 @@ export type PlasmicVhsTape__OverridesType = {
 export interface DefaultVhsTapeProps {
   filmTitle?: string;
   year?: string;
+  color2?: string;
   background?: React.ReactNode;
   children?: React.ReactNode;
   vhsOut?: SingleBooleanChoiceArg<"vhsOut">;
@@ -128,7 +131,8 @@ function PlasmicVhsTape__RenderFunc(props: {
       Object.assign(
         {
           filmTitle: "Film Title",
-          year: "2025"
+          year: "2025",
+          color2: "blue"
         },
         Object.fromEntries(
           Object.entries(props.args).filter(([_, v]) => v !== undefined)
@@ -354,7 +358,15 @@ function PlasmicVhsTape__RenderFunc(props: {
             }}
           />
 
-          <div className={classNames(projectcss.all, sty.freeBox__ggJzG)}>
+          <div
+            className={classNames(projectcss.all, sty.freeBox__ggJzG, {
+              [sty.freeBoxvhsOut__ggJzGKnnZ7]: hasVariant(
+                $state,
+                "vhsOut",
+                "vhsOut"
+              )
+            })}
+          >
             <div
               className={classNames(
                 projectcss.all,
@@ -455,15 +467,15 @@ type NodeComponentProps<T extends NodeNameType> =
     args?: PlasmicVhsTape__ArgsType;
     overrides?: NodeOverridesType<T>;
   } & Omit<PlasmicVhsTape__VariantsArgs, ReservedPropsType> & // Specify variants directly as props
-    /* Specify args directly as props*/ Omit<
-      PlasmicVhsTape__ArgsType,
-      ReservedPropsType
-    > &
-    /* Specify overrides for each element directly as props*/ Omit<
+    // Specify args directly as props
+    Omit<PlasmicVhsTape__ArgsType, ReservedPropsType> &
+    // Specify overrides for each element directly as props
+    Omit<
       NodeOverridesType<T>,
       ReservedPropsType | VariantPropType | ArgPropType
     > &
-    /* Specify props for the root element*/ Omit<
+    // Specify props for the root element
+    Omit<
       Partial<React.ComponentProps<NodeDefaultElementType[T]>>,
       ReservedPropsType | VariantPropType | ArgPropType | DescendantsType<T>
     >;

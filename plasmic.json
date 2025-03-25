@@ -545,6 +545,20 @@
           "cssFilePath": "plasmic/liz_website/PlasmicDrawer.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "n9CAmSoM4Xda",
+          "name": "MoreInfoAerie",
+          "type": "managed",
+          "projectId": "pqbSBZb9VG36A9gA4GgWPg",
+          "renderModuleFilePath": "plasmic/liz_website/PlasmicMoreInfoAerie.tsx",
+          "importSpec": {
+            "modulePath": "../pages/Sugar V1-3.tsx"
+          },
+          "cssFilePath": "plasmic/liz_website/PlasmicMoreInfoAerie.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/Sugar V1-3"
         }
       ],
       "icons": [
@@ -889,6 +903,16 @@
           "id": "1Hmks-H53Rl3",
           "name": "Screenshot 2025-02-25 164249.png",
           "filePath": "../public/plasmic/liz_website/images/screenshot20250225164249Png.png"
+        },
+        {
+          "id": "lHdbNvbxGMW1",
+          "name": "Screenshot 2025-03-19 153701.png",
+          "filePath": "../public/plasmic/liz_website/images/screenshot20250319153701Png.png"
+        },
+        {
+          "id": "aM9Ei7Ac4qMO",
+          "name": "Screenshot 2025-03-19 154117.png",
+          "filePath": "../public/plasmic/liz_website/images/screenshot20250319154117Png.png"
         }
       ],
       "indirect": false,
@@ -1116,8 +1140,7 @@
           "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerDialog"
         }
       ],
-      "customFunctions": [],
-      "jsBundleThemes": []
+      "customFunctions": []
     },
     {
       "projectId": "5dGW8Awro3qq8Hh5MveXLP",
@@ -1163,6 +1186,6 @@
   "nextjsConfig": {
     "pagesDir": "../pages"
   },
-  "cliVersion": "0.1.335",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.335/dist/plasmic.schema.json"
+  "cliVersion": "0.1.337",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.337/dist/plasmic.schema.json"
 }

@@ -60,6 +60,7 @@ import {
 } from "@plasmicapp/react-web/lib/host";
 
 import Navbar from "../../Navbar"; // plasmic-import: tGuDlEY_p2-T/component
+import ChunkyButton from "../../ChunkyButton"; // plasmic-import: afhvlQtgWcWV/component
 import { SliderWrapper } from "@plasmicpkgs/react-slick";
 import { sliderHelpers as SliderWrapper_Helpers } from "@plasmicpkgs/react-slick";
 
@@ -83,7 +84,8 @@ export const PlasmicMoreInfoQueenie__ArgProps = new Array<ArgPropType>();
 export type PlasmicMoreInfoQueenie__OverridesType = {
   root?: Flex__<"div">;
   navbar?: Flex__<typeof Navbar>;
-  sliderCarousel?: Flex__<typeof SliderWrapper>;
+  columns?: Flex__<"div">;
+  sliderCarousel2?: Flex__<typeof SliderWrapper>;
 };
 
 export interface DefaultMoreInfoQueenieProps {}
@@ -129,12 +131,12 @@ function PlasmicMoreInfoQueenie__RenderFunc(props: {
   const stateSpecs: Parameters<typeof useDollarState>[0] = React.useMemo(
     () => [
       {
-        path: "sliderCarousel.currentSlide",
+        path: "sliderCarousel2.currentSlide",
         type: "private",
         variableType: "number",
         initFunc: ({ $props, $state, $queries, $ctx }) => 0,
 
-        refName: "sliderCarousel",
+        refName: "sliderCarousel2",
         onMutate: generateOnMutateForSpec("currentSlide", SliderWrapper_Helpers)
       }
     ],
@@ -182,18 +184,22 @@ function PlasmicMoreInfoQueenie__RenderFunc(props: {
           hasGap={true}
           className={classNames(projectcss.all, sty.freeBox___3GJ8H)}
         >
-          <PlasmicLink__
+          <div
             className={classNames(
               projectcss.all,
-              projectcss.a,
               projectcss.__wab_text,
-              sty.link__yaXj7
+              sty.text__w9OG
             )}
-            component={Link}
-            platform={"nextjs"}
           >
-            {"Asset Credits"}
-          </PlasmicLink__>
+            <React.Fragment>
+              <span
+                className={"plasmic_default__all plasmic_default__span"}
+                style={{ fontWeight: 700 }}
+              >
+                {"Asset Credits"}
+              </span>
+            </React.Fragment>
+          </div>
           <PlasmicLink__
             className={classNames(
               projectcss.all,
@@ -204,26 +210,7 @@ function PlasmicMoreInfoQueenie__RenderFunc(props: {
             component={Link}
             platform={"nextjs"}
           >
-            <React.Fragment>
-              <React.Fragment>{""}</React.Fragment>
-              {
-                <PlasmicLink__
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.a,
-                    projectcss.__wab_text,
-                    projectcss.plasmic_default__inline,
-                    sty.link__ilTDv
-                  )}
-                  component={Link}
-                  href={"https://discord.com/invite/Mj9hqZtXvF"}
-                  platform={"nextjs"}
-                >
-                  {"Thickerbeast Base Model . "}
-                </PlasmicLink__>
-              }
-              <React.Fragment>{"the.time.guardian"}</React.Fragment>
-            </React.Fragment>
+            {"Base Model . the.time.guardian"}
           </PlasmicLink__>
           <PlasmicLink__
             className={classNames(
@@ -295,131 +282,310 @@ function PlasmicMoreInfoQueenie__RenderFunc(props: {
           hasGap={true}
           className={classNames(projectcss.all, sty.freeBox___5Q2H6)}
         >
+          <Stack__
+            as={"div"}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.freeBox__yb4Hb)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__be2Oo
+              )}
+            >
+              <React.Fragment>
+                <span
+                  className={"plasmic_default__all plasmic_default__span"}
+                  style={{ fontWeight: 700 }}
+                >
+                  {"Showcase Photos"}
+                </span>
+              </React.Fragment>
+            </div>
+            <div
+              data-plasmic-name={"columns"}
+              data-plasmic-override={overrides.columns}
+              className={classNames(projectcss.all, sty.columns)}
+            >
+              <div className={classNames(projectcss.all, sty.column__l2Md1)}>
+                <div
+                  className={classNames(projectcss.all, sty.freeBox__sLfOr)}
+                  onClick={async event => {
+                    const $steps = {};
+
+                    $steps["updateSliderCarouselCurrentSlide"] = true
+                      ? (() => {
+                          const actionArgs = {
+                            variable: {
+                              objRoot: $state,
+                              variablePath: ["sliderCarousel2", "currentSlide"]
+                            },
+                            operation: 3
+                          };
+                          return (({
+                            variable,
+                            value,
+                            startIndex,
+                            deleteCount
+                          }) => {
+                            if (!variable) {
+                              return;
+                            }
+                            const { objRoot, variablePath } = variable;
+
+                            const oldValue = $stateGet(objRoot, variablePath);
+                            $stateSet(objRoot, variablePath, oldValue - 1);
+                            return oldValue - 1;
+                          })?.apply(null, [actionArgs]);
+                        })()
+                      : undefined;
+                    if (
+                      $steps["updateSliderCarouselCurrentSlide"] != null &&
+                      typeof $steps["updateSliderCarouselCurrentSlide"] ===
+                        "object" &&
+                      typeof $steps["updateSliderCarouselCurrentSlide"].then ===
+                        "function"
+                    ) {
+                      $steps["updateSliderCarouselCurrentSlide"] = await $steps[
+                        "updateSliderCarouselCurrentSlide"
+                      ];
+                    }
+                  }}
+                >
+                  <ChunkyButton
+                    className={classNames(
+                      "__wab_instance",
+                      sty.chunkyButton__mdYq5
+                    )}
+                    text={"<"}
+                  />
+                </div>
+              </div>
+              <div className={classNames(projectcss.all, sty.column__ya2Ru)}>
+                {(() => {
+                  const child$Props = {
+                    arrowColor: true ? "#331009" : undefined,
+                    arrows: false,
+                    autoplay: false,
+                    autoplaySpeed: 0,
+                    beforeChange: async (...eventArgs: any) => {
+                      generateStateOnChangePropForCodeComponents(
+                        $state,
+                        "currentSlide",
+                        ["sliderCarousel2", "currentSlide"],
+                        SliderWrapper_Helpers
+                      ).apply(null, eventArgs);
+                    },
+                    centerMode: false,
+                    className: classNames(
+                      "__wab_instance",
+                      sty.sliderCarousel2
+                    ),
+                    cssEase: "ease-in-out",
+                    dots: false,
+                    fade: true,
+                    initialSlide: generateStateValueProp($state, [
+                      "sliderCarousel2",
+                      "currentSlide"
+                    ]),
+                    ref: ref => {
+                      $refs["sliderCarousel2"] = ref;
+                    },
+                    sliderScopeClassName: sty["sliderCarousel2__slider"],
+                    speed: 250,
+                    useCSS: true,
+                    vertical: false
+                  };
+                  initializeCodeComponentStates(
+                    $state,
+                    [
+                      {
+                        name: "currentSlide",
+                        plasmicStateName: "sliderCarousel2.currentSlide"
+                      }
+                    ],
+                    [],
+                    SliderWrapper_Helpers ?? {},
+                    child$Props
+                  );
+
+                  return (
+                    <SliderWrapper
+                      data-plasmic-name={"sliderCarousel2"}
+                      data-plasmic-override={overrides.sliderCarousel2}
+                      {...child$Props}
+                    >
+                      <Stack__
+                        as={"div"}
+                        hasGap={true}
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__gh0Lh
+                        )}
+                      >
+                        <PlasmicImg__
+                          alt={""}
+                          className={classNames(sty.img__nn5U1)}
+                          displayHeight={"auto"}
+                          displayMaxHeight={"none"}
+                          displayMaxWidth={"100%"}
+                          displayMinHeight={"0"}
+                          displayMinWidth={"0"}
+                          displayWidth={"33%"}
+                          src={{
+                            src: "/plasmic/liz_website/images/vrChat202407061158326442560X1440Png.png",
+                            fullWidth: 1440,
+                            fullHeight: 2560,
+                            aspectRatio: undefined
+                          }}
+                        />
+
+                        <PlasmicImg__
+                          alt={""}
+                          className={classNames(sty.img__rr3Ji)}
+                          displayHeight={"auto"}
+                          displayMaxHeight={"none"}
+                          displayMaxWidth={"100%"}
+                          displayMinHeight={"0"}
+                          displayMinWidth={"0"}
+                          displayWidth={"33%"}
+                          src={{
+                            src: "/plasmic/liz_website/images/vrChat202407061202389712560X1440Png.png",
+                            fullWidth: 1440,
+                            fullHeight: 2560,
+                            aspectRatio: undefined
+                          }}
+                        />
+
+                        <PlasmicImg__
+                          alt={""}
+                          className={classNames(sty.img__io3X1)}
+                          displayHeight={"auto"}
+                          displayMaxHeight={"none"}
+                          displayMaxWidth={"100%"}
+                          displayMinHeight={"0"}
+                          displayMinWidth={"0"}
+                          displayWidth={"33%"}
+                          src={{
+                            src: "/plasmic/liz_website/images/vrChat202407061205498232560X1440Png.png",
+                            fullWidth: 1440,
+                            fullHeight: 2560,
+                            aspectRatio: undefined
+                          }}
+                        />
+                      </Stack__>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox___1Xy2P
+                        )}
+                      >
+                        <PlasmicImg__
+                          alt={""}
+                          className={classNames(sty.img__vsFm)}
+                          displayHeight={"100%"}
+                          displayMaxHeight={"none"}
+                          displayMaxWidth={"100%"}
+                          displayMinHeight={"0"}
+                          displayMinWidth={"0"}
+                          displayWidth={"100%"}
+                          src={{
+                            src: "/plasmic/liz_website/images/vrChat20230521144825Png.png",
+                            fullWidth: 719,
+                            fullHeight: 404,
+                            aspectRatio: undefined
+                          }}
+                        />
+                      </div>
+                    </SliderWrapper>
+                  );
+                })()}
+              </div>
+              <div className={classNames(projectcss.all, sty.column___1Nna)}>
+                <div
+                  className={classNames(projectcss.all, sty.freeBox__sVwd5)}
+                  onClick={async event => {
+                    const $steps = {};
+
+                    $steps["updateSliderCarouselCurrentSlide"] = true
+                      ? (() => {
+                          const actionArgs = {
+                            variable: {
+                              objRoot: $state,
+                              variablePath: ["sliderCarousel2", "currentSlide"]
+                            },
+                            operation: 2
+                          };
+                          return (({
+                            variable,
+                            value,
+                            startIndex,
+                            deleteCount
+                          }) => {
+                            if (!variable) {
+                              return;
+                            }
+                            const { objRoot, variablePath } = variable;
+
+                            const oldValue = $stateGet(objRoot, variablePath);
+                            $stateSet(objRoot, variablePath, oldValue + 1);
+                            return oldValue + 1;
+                          })?.apply(null, [actionArgs]);
+                        })()
+                      : undefined;
+                    if (
+                      $steps["updateSliderCarouselCurrentSlide"] != null &&
+                      typeof $steps["updateSliderCarouselCurrentSlide"] ===
+                        "object" &&
+                      typeof $steps["updateSliderCarouselCurrentSlide"].then ===
+                        "function"
+                    ) {
+                      $steps["updateSliderCarouselCurrentSlide"] = await $steps[
+                        "updateSliderCarouselCurrentSlide"
+                      ];
+                    }
+                  }}
+                >
+                  <ChunkyButton
+                    className={classNames(
+                      "__wab_instance",
+                      sty.chunkyButton__seMjf
+                    )}
+                    text={">"}
+                  />
+                </div>
+              </div>
+            </div>
+          </Stack__>
+        </Stack__>
+        <div className={classNames(projectcss.all, sty.freeBox__dyhqn)}>
           <PlasmicLink__
             className={classNames(
               projectcss.all,
               projectcss.a,
-              projectcss.__wab_text,
-              sty.link__o5GvC
+              sty.link__jnd9A
             )}
             component={Link}
+            href={`/portfolio`}
             platform={"nextjs"}
           >
-            {"Showcase Photos"}
+            <ChunkyButton
+              className={classNames("__wab_instance", sty.chunkyButton__izIzG)}
+              text={"Back to Portfolio"}
+            />
           </PlasmicLink__>
-          {(() => {
-            const child$Props = {
-              arrows: false,
-              autoplay: true,
-              autoplaySpeed: 0,
-              beforeChange: async (...eventArgs: any) => {
-                generateStateOnChangePropForCodeComponents(
-                  $state,
-                  "currentSlide",
-                  ["sliderCarousel", "currentSlide"],
-                  SliderWrapper_Helpers
-                ).apply(null, eventArgs);
-              },
-              centerMode: true,
-              className: classNames("__wab_instance", sty.sliderCarousel),
-              cssEase: "linear",
-              initialSlide: generateStateValueProp($state, [
-                "sliderCarousel",
-                "currentSlide"
-              ]),
-              ref: ref => {
-                $refs["sliderCarousel"] = ref;
-              },
-              sliderScopeClassName: sty["sliderCarousel__slider"],
-              slidesPerRow: 3,
-              speed: 5000
-            };
-            initializeCodeComponentStates(
-              $state,
-              [
-                {
-                  name: "currentSlide",
-                  plasmicStateName: "sliderCarousel.currentSlide"
-                }
-              ],
-              [],
-              SliderWrapper_Helpers ?? {},
-              child$Props
-            );
-
-            return (
-              <SliderWrapper
-                data-plasmic-name={"sliderCarousel"}
-                data-plasmic-override={overrides.sliderCarousel}
-                {...child$Props}
-              >
-                <div className={classNames(projectcss.all, sty.freeBox__fbwpd)}>
-                  <PlasmicImg__
-                    alt={""}
-                    className={classNames(sty.img__kblrN)}
-                    displayHeight={"auto"}
-                    displayMaxHeight={"none"}
-                    displayMaxWidth={"100%"}
-                    displayMinHeight={"0"}
-                    displayMinWidth={"0"}
-                    displayWidth={"auto"}
-                    src={{
-                      src: "/plasmic/liz_website/images/vrChat202407061205498232560X1440Png.png",
-                      fullWidth: 1440,
-                      fullHeight: 2560,
-                      aspectRatio: undefined
-                    }}
-                  />
-                </div>
-                <div className={classNames(projectcss.all, sty.freeBox__nqCuv)}>
-                  <PlasmicImg__
-                    alt={""}
-                    className={classNames(sty.img__jS5Io)}
-                    displayHeight={"auto"}
-                    displayMaxHeight={"none"}
-                    displayMaxWidth={"100%"}
-                    displayMinHeight={"0"}
-                    displayMinWidth={"0"}
-                    displayWidth={"auto"}
-                    src={{
-                      src: "/plasmic/liz_website/images/vrChat202407061158326442560X1440Png.png",
-                      fullWidth: 1440,
-                      fullHeight: 2560,
-                      aspectRatio: undefined
-                    }}
-                  />
-                </div>
-                <div className={classNames(projectcss.all, sty.freeBox__hVc5M)}>
-                  <PlasmicImg__
-                    alt={""}
-                    className={classNames(sty.img__lUIeN)}
-                    displayHeight={"auto"}
-                    displayMaxHeight={"none"}
-                    displayMaxWidth={"100%"}
-                    displayMinHeight={"0"}
-                    displayMinWidth={"0"}
-                    displayWidth={"auto"}
-                    src={{
-                      src: "/plasmic/liz_website/images/vrChat202407061202389712560X1440Png.png",
-                      fullWidth: 1440,
-                      fullHeight: 2560,
-                      aspectRatio: undefined
-                    }}
-                  />
-                </div>
-              </SliderWrapper>
-            );
-          })()}
-        </Stack__>
+        </div>
       </div>
     </React.Fragment>
   ) as React.ReactElement | null;
 }
 
 const PlasmicDescendants = {
-  root: ["root", "navbar", "sliderCarousel"],
+  root: ["root", "navbar", "columns", "sliderCarousel2"],
   navbar: ["navbar"],
-  sliderCarousel: ["sliderCarousel"]
+  columns: ["columns", "sliderCarousel2"],
+  sliderCarousel2: ["sliderCarousel2"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -427,7 +593,8 @@ type DescendantsType<T extends NodeNameType> =
 type NodeDefaultElementType = {
   root: "div";
   navbar: typeof Navbar;
-  sliderCarousel: typeof SliderWrapper;
+  columns: "div";
+  sliderCarousel2: typeof SliderWrapper;
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -442,15 +609,15 @@ type NodeComponentProps<T extends NodeNameType> =
     args?: PlasmicMoreInfoQueenie__ArgsType;
     overrides?: NodeOverridesType<T>;
   } & Omit<PlasmicMoreInfoQueenie__VariantsArgs, ReservedPropsType> & // Specify variants directly as props
-    /* Specify args directly as props*/ Omit<
-      PlasmicMoreInfoQueenie__ArgsType,
-      ReservedPropsType
-    > &
-    /* Specify overrides for each element directly as props*/ Omit<
+    // Specify args directly as props
+    Omit<PlasmicMoreInfoQueenie__ArgsType, ReservedPropsType> &
+    // Specify overrides for each element directly as props
+    Omit<
       NodeOverridesType<T>,
       ReservedPropsType | VariantPropType | ArgPropType
     > &
-    /* Specify props for the root element*/ Omit<
+    // Specify props for the root element
+    Omit<
       Partial<React.ComponentProps<NodeDefaultElementType[T]>>,
       ReservedPropsType | VariantPropType | ArgPropType | DescendantsType<T>
     >;
@@ -491,7 +658,8 @@ export const PlasmicMoreInfoQueenie = Object.assign(
   {
     // Helper components rendering sub-elements
     navbar: makeNodeComponent("navbar"),
-    sliderCarousel: makeNodeComponent("sliderCarousel"),
+    columns: makeNodeComponent("columns"),
+    sliderCarousel2: makeNodeComponent("sliderCarousel2"),
 
     // Metadata about props expected for PlasmicMoreInfoQueenie
     internalVariantProps: PlasmicMoreInfoQueenie__VariantProps,

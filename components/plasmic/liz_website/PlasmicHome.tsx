@@ -72,7 +72,6 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "./plasmic.module.css"; // plasmic-import: pqbSBZb9VG36A9gA4GgWPg/projectcss
 import sty from "./PlasmicHome.module.css"; // plasmic-import: YZNtPwXJ6VsS/css
 
-import InstagramSvgIcon from "./icons/PlasmicIcon__InstagramSvg"; // plasmic-import: SHrMv3TaeaGv/icon
 import BlueskyLogoSvgIcon from "./icons/PlasmicIcon__BlueskyLogoSvg"; // plasmic-import: FOXR5d_qZeG1/icon
 import STikTok18ND2XSvgIcon from "./icons/PlasmicIcon__STikTok18ND2XSvg"; // plasmic-import: etfjn81rVY-k/icon
 import YoutubeSvgIcon from "./icons/PlasmicIcon__YoutubeSvg"; // plasmic-import: o3oTJJ1QlA-2/icon
@@ -301,18 +300,6 @@ function PlasmicHome__RenderFunc(props: {
                     <SocialButton
                       className={classNames(
                         "__wab_instance",
-                        sty.socialButton__rYspe
-                      )}
-                      linkUrl={"https://www.instagram.com/honeyteaaaaaaaa/"}
-                    >
-                      <InstagramSvgIcon
-                        className={classNames(projectcss.all, sty.svg___85MY)}
-                        role={"img"}
-                      />
-                    </SocialButton>
-                    <SocialButton
-                      className={classNames(
-                        "__wab_instance",
                         sty.socialButton__tYaJ
                       )}
                       linkUrl={"https://bsky.app/profile/honeyteaaa.art"}
@@ -387,9 +374,9 @@ function PlasmicHome__RenderFunc(props: {
                     displayWidth={"100%"}
                     loading={"lazy"}
                     src={{
-                      src: "/plasmic/liz_website/images/image8.png",
-                      fullWidth: 1668,
-                      fullHeight: 2420,
+                      src: "/plasmic/liz_website/images/screenshot20250319153701Png.png",
+                      fullWidth: 856,
+                      fullHeight: 1075,
                       aspectRatio: undefined
                     }}
                   />
@@ -401,7 +388,7 @@ function PlasmicHome__RenderFunc(props: {
                       sty.text___01SXj
                     )}
                   >
-                    {"Teasona"}
+                    {"My portfolio page!"}
                   </div>
                 </Stack__>
               </Stack__>
@@ -430,6 +417,15 @@ function PlasmicHome__RenderFunc(props: {
                 hasGap={true}
                 className={classNames(projectcss.all, sty.freeBox__h5LKi)}
               >
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__p8P4J
+                  )}
+                >
+                  {"Red Panda Studios Webring"}
+                </div>
                 <Embed
                   className={classNames("__wab_instance", sty.embedHtml__wa2W)}
                   code={
@@ -506,15 +502,15 @@ type NodeComponentProps<T extends NodeNameType> =
     args?: PlasmicHome__ArgsType;
     overrides?: NodeOverridesType<T>;
   } & Omit<PlasmicHome__VariantsArgs, ReservedPropsType> & // Specify variants directly as props
-    /* Specify args directly as props*/ Omit<
-      PlasmicHome__ArgsType,
-      ReservedPropsType
-    > &
-    /* Specify overrides for each element directly as props*/ Omit<
+    // Specify args directly as props
+    Omit<PlasmicHome__ArgsType, ReservedPropsType> &
+    // Specify overrides for each element directly as props
+    Omit<
       NodeOverridesType<T>,
       ReservedPropsType | VariantPropType | ArgPropType
     > &
-    /* Specify props for the root element*/ Omit<
+    // Specify props for the root element
+    Omit<
       Partial<React.ComponentProps<NodeDefaultElementType[T]>>,
       ReservedPropsType | VariantPropType | ArgPropType | DescendantsType<T>
     >;

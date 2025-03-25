@@ -61,8 +61,8 @@ import {
 
 import CheckboxGroup from "../../CheckboxGroup"; // plasmic-import: _BIGxKAKL5XW/component
 import Checkbox from "../../Checkbox"; // plasmic-import: vt7lInvVpX0M/component
-import Polaroid from "../../Polaroid"; // plasmic-import: SGzL5zPyMcua/component
 import VhsTape from "../../VhsTape"; // plasmic-import: voAPSAvZhi6l/component
+import Polaroid from "../../Polaroid"; // plasmic-import: SGzL5zPyMcua/component
 
 import "@plasmicapp/react-web/lib/plasmic.css";
 
@@ -591,57 +591,6 @@ function PlasmicPinboard__RenderFunc(props: {
         })}
       >
         <div className={classNames(projectcss.all, sty.column__ikohT)}>
-          <Polaroid
-            data-plasmic-name={"polaroid10"}
-            data-plasmic-override={overrides.polaroid10}
-            backHeader1={"Software Used"}
-            className={classNames("__wab_instance", sty.polaroid10, {
-              [sty.polaroid10projectType_blender]: hasVariant(
-                $state,
-                "projectType",
-                "blender"
-              ),
-              [sty.polaroid10projectType_fIlm]: hasVariant(
-                $state,
-                "projectType",
-                "fIlm"
-              ),
-              [sty.polaroid10projectType_unity]: hasVariant(
-                $state,
-                "projectType",
-                "unity"
-              ),
-              [sty.polaroid10projectType_vrChat]: hasVariant(
-                $state,
-                "projectType",
-                "vrChat"
-              )
-            })}
-            date2={"2025 (In Progress)"}
-            infoPage={`/portfolio`}
-            projectTitle={"TeaSona"}
-            slot={""}
-          >
-            <PlasmicImg__
-              alt={""}
-              className={classNames(sty.img__u9SdO)}
-              displayHeight={"100%"}
-              displayMaxHeight={"none"}
-              displayMaxWidth={"100%"}
-              displayMinHeight={"0"}
-              displayMinWidth={"0"}
-              displayWidth={"100%"}
-              loading={"lazy"}
-              src={{
-                src: "/plasmic/liz_website/images/image8.png",
-                fullWidth: 1668,
-                fullHeight: 2420,
-                aspectRatio: undefined
-              }}
-            />
-          </Polaroid>
-        </div>
-        <div className={classNames(projectcss.all, sty.column___1E0Ss)}>
           <VhsTape
             background={
               <React.Fragment>
@@ -714,9 +663,9 @@ function PlasmicPinboard__RenderFunc(props: {
                   displayWidth={"100%"}
                   loading={"lazy"}
                   src={{
-                    src: "/plasmic/liz_website/images/screenshot20250223170320Png.png",
-                    fullWidth: 559,
-                    fullHeight: 448,
+                    src: "/plasmic/liz_website/images/screenshot20250319154117Png.png",
+                    fullWidth: 1906,
+                    fullHeight: 1015,
                     aspectRatio: undefined
                   }}
                 />
@@ -746,6 +695,57 @@ function PlasmicPinboard__RenderFunc(props: {
           >
             {"Directed by Liz  Manz"}
           </VhsTape>
+        </div>
+        <div className={classNames(projectcss.all, sty.column__oWo6K)}>
+          <Polaroid
+            data-plasmic-name={"polaroid10"}
+            data-plasmic-override={overrides.polaroid10}
+            backHeader1={"Software Used"}
+            className={classNames("__wab_instance", sty.polaroid10, {
+              [sty.polaroid10projectType_blender]: hasVariant(
+                $state,
+                "projectType",
+                "blender"
+              ),
+              [sty.polaroid10projectType_fIlm]: hasVariant(
+                $state,
+                "projectType",
+                "fIlm"
+              ),
+              [sty.polaroid10projectType_unity]: hasVariant(
+                $state,
+                "projectType",
+                "unity"
+              ),
+              [sty.polaroid10projectType_vrChat]: hasVariant(
+                $state,
+                "projectType",
+                "vrChat"
+              )
+            })}
+            date2={"2025 (In Progress)"}
+            infoPage={`/portfolio`}
+            projectTitle={"TeaSona"}
+            slot={""}
+          >
+            <PlasmicImg__
+              alt={""}
+              className={classNames(sty.img__u9SdO)}
+              displayHeight={"100%"}
+              displayMaxHeight={"none"}
+              displayMaxWidth={"100%"}
+              displayMinHeight={"0"}
+              displayMinWidth={"0"}
+              displayWidth={"100%"}
+              loading={"lazy"}
+              src={{
+                src: "/plasmic/liz_website/images/image8.png",
+                fullWidth: 1668,
+                fullHeight: 2420,
+                aspectRatio: undefined
+              }}
+            />
+          </Polaroid>
         </div>
       </div>
       <div
@@ -1382,15 +1382,15 @@ type NodeComponentProps<T extends NodeNameType> =
     args?: PlasmicPinboard__ArgsType;
     overrides?: NodeOverridesType<T>;
   } & Omit<PlasmicPinboard__VariantsArgs, ReservedPropsType> & // Specify variants directly as props
-    /* Specify args directly as props*/ Omit<
-      PlasmicPinboard__ArgsType,
-      ReservedPropsType
-    > &
-    /* Specify overrides for each element directly as props*/ Omit<
+    // Specify args directly as props
+    Omit<PlasmicPinboard__ArgsType, ReservedPropsType> &
+    // Specify overrides for each element directly as props
+    Omit<
       NodeOverridesType<T>,
       ReservedPropsType | VariantPropType | ArgPropType
     > &
-    /* Specify props for the root element*/ Omit<
+    // Specify props for the root element
+    Omit<
       Partial<React.ComponentProps<NodeDefaultElementType[T]>>,
       ReservedPropsType | VariantPropType | ArgPropType | DescendantsType<T>
     >;

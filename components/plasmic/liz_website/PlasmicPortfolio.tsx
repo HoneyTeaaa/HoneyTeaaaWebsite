@@ -203,7 +203,7 @@ function PlasmicPortfolio__RenderFunc(props: {
                     )}
                   >
                     {
-                      "I'm Tea, a multidisciplinary digital artist and full time college student. I make art in Blender, games in Unity Engine, VRChat Avatars and love to learn new software."
+                      "This is my professional portfolio! All of my finished work can be found here, any unfinished projects I have are archived on my discord as well."
                     }
                   </div>
                 </Stack__>
@@ -263,15 +263,15 @@ type NodeComponentProps<T extends NodeNameType> =
     args?: PlasmicPortfolio__ArgsType;
     overrides?: NodeOverridesType<T>;
   } & Omit<PlasmicPortfolio__VariantsArgs, ReservedPropsType> & // Specify variants directly as props
-    /* Specify args directly as props*/ Omit<
-      PlasmicPortfolio__ArgsType,
-      ReservedPropsType
-    > &
-    /* Specify overrides for each element directly as props*/ Omit<
+    // Specify args directly as props
+    Omit<PlasmicPortfolio__ArgsType, ReservedPropsType> &
+    // Specify overrides for each element directly as props
+    Omit<
       NodeOverridesType<T>,
       ReservedPropsType | VariantPropType | ArgPropType
     > &
-    /* Specify props for the root element*/ Omit<
+    // Specify props for the root element
+    Omit<
       Partial<React.ComponentProps<NodeDefaultElementType[T]>>,
       ReservedPropsType | VariantPropType | ArgPropType | DescendantsType<T>
     >;

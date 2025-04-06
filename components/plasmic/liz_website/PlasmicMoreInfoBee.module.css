@@ -215,6 +215,8 @@
   flex-direction: column;
   object-fit: cover;
   max-width: 100%;
+  width: 100%;
+  min-width: 0;
 }
 .columns__lCpu5 {
   display: flex;

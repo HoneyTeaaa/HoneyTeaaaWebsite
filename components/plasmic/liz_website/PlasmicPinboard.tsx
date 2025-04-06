@@ -89,12 +89,12 @@ export const PlasmicPinboard__ArgProps = new Array<ArgPropType>();
 export type PlasmicPinboard__OverridesType = {
   pinboard?: Flex__<"div">;
   checkboxGroup?: Flex__<typeof CheckboxGroup>;
-  freeBox?: Flex__<"div">;
   option1?: Flex__<typeof Checkbox>;
   option2?: Flex__<typeof Checkbox>;
   option3?: Flex__<typeof Checkbox>;
   option4?: Flex__<typeof Checkbox>;
   polaroid10?: Flex__<typeof Polaroid>;
+  ul?: Flex__<"ul">;
   polaroid?: Flex__<typeof Polaroid>;
   polaroid12?: Flex__<typeof Polaroid>;
   polaroid11?: Flex__<typeof Polaroid>;
@@ -264,10 +264,8 @@ function PlasmicPinboard__RenderFunc(props: {
         options={
           <Stack__
             as={"div"}
-            data-plasmic-name={"freeBox"}
-            data-plasmic-override={overrides.freeBox}
             hasGap={true}
-            className={classNames(projectcss.all, sty.freeBox)}
+            className={classNames(projectcss.all, sty.freeBox__n3ZfX)}
           >
             <Checkbox
               data-plasmic-name={"option1"}
@@ -723,28 +721,85 @@ function PlasmicPinboard__RenderFunc(props: {
                 "vrChat"
               )
             })}
-            date2={"2025 (In Progress)"}
-            infoPage={`/portfolio`}
-            projectTitle={"TeaSona"}
-            slot={""}
+            date2={"2025"}
+            infoPage={"https://www.instagram.com/p/DIE7iPCRJjE/?img_index=4"}
+            projectTitle={"The Honeysong"}
+            slot={
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__aj3N3
+                )}
+              >
+                <React.Fragment>
+                  <React.Fragment>{""}</React.Fragment>
+                  {
+                    <ul
+                      data-plasmic-name={"ul"}
+                      data-plasmic-override={overrides.ul}
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.ul,
+                        sty.ul
+                      )}
+                    >
+                      <li
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.li,
+                          projectcss.__wab_text,
+                          sty.li___9U1Kn
+                        )}
+                      >
+                        {"Blender"}
+                      </li>
+                      <li
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.li,
+                          projectcss.__wab_text,
+                          sty.li__u9CcE
+                        )}
+                      >
+                        {"Photoshop"}
+                      </li>
+                      <li
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.li,
+                          projectcss.__wab_text,
+                          sty.li__wkt2A
+                        )}
+                      >
+                        {"Adobe Premiere"}
+                      </li>
+                    </ul>
+                  }
+                  <React.Fragment>{""}</React.Fragment>
+                </React.Fragment>
+              </div>
+            }
           >
-            <PlasmicImg__
-              alt={""}
-              className={classNames(sty.img__u9SdO)}
-              displayHeight={"100%"}
-              displayMaxHeight={"none"}
-              displayMaxWidth={"100%"}
-              displayMinHeight={"0"}
-              displayMinWidth={"0"}
-              displayWidth={"100%"}
-              loading={"lazy"}
-              src={{
-                src: "/plasmic/liz_website/images/image8.png",
-                fullWidth: 1668,
-                fullHeight: 2420,
-                aspectRatio: undefined
-              }}
-            />
+            <div className={classNames(projectcss.all, sty.freeBox___72AvA)}>
+              <PlasmicImg__
+                alt={""}
+                className={classNames(sty.img__u9SdO)}
+                displayHeight={"100%"}
+                displayMaxHeight={"none"}
+                displayMaxWidth={"100%"}
+                displayMinHeight={"0"}
+                displayMinWidth={"0"}
+                displayWidth={"auto"}
+                loading={"lazy"}
+                src={{
+                  src: "/plasmic/liz_website/images/image15.png",
+                  fullWidth: 690,
+                  fullHeight: 863,
+                  aspectRatio: undefined
+                }}
+              />
+            </div>
           </Polaroid>
         </div>
       </div>
@@ -1307,12 +1362,12 @@ const PlasmicDescendants = {
   pinboard: [
     "pinboard",
     "checkboxGroup",
-    "freeBox",
     "option1",
     "option2",
     "option3",
     "option4",
     "polaroid10",
+    "ul",
     "polaroid",
     "polaroid12",
     "polaroid11",
@@ -1323,20 +1378,13 @@ const PlasmicDescendants = {
     "polaroid8",
     "polaroid6"
   ],
-  checkboxGroup: [
-    "checkboxGroup",
-    "freeBox",
-    "option1",
-    "option2",
-    "option3",
-    "option4"
-  ],
-  freeBox: ["freeBox", "option1", "option2", "option3", "option4"],
+  checkboxGroup: ["checkboxGroup", "option1", "option2", "option3", "option4"],
   option1: ["option1"],
   option2: ["option2"],
   option3: ["option3"],
   option4: ["option4"],
-  polaroid10: ["polaroid10"],
+  polaroid10: ["polaroid10", "ul"],
+  ul: ["ul"],
   polaroid: ["polaroid"],
   polaroid12: ["polaroid12"],
   polaroid11: ["polaroid11"],
@@ -1353,12 +1401,12 @@ type DescendantsType<T extends NodeNameType> =
 type NodeDefaultElementType = {
   pinboard: "div";
   checkboxGroup: typeof CheckboxGroup;
-  freeBox: "div";
   option1: typeof Checkbox;
   option2: typeof Checkbox;
   option3: typeof Checkbox;
   option4: typeof Checkbox;
   polaroid10: typeof Polaroid;
+  ul: "ul";
   polaroid: typeof Polaroid;
   polaroid12: typeof Polaroid;
   polaroid11: typeof Polaroid;
@@ -1431,12 +1479,12 @@ export const PlasmicPinboard = Object.assign(
   {
     // Helper components rendering sub-elements
     checkboxGroup: makeNodeComponent("checkboxGroup"),
-    freeBox: makeNodeComponent("freeBox"),
     option1: makeNodeComponent("option1"),
     option2: makeNodeComponent("option2"),
     option3: makeNodeComponent("option3"),
     option4: makeNodeComponent("option4"),
     polaroid10: makeNodeComponent("polaroid10"),
+    ul: makeNodeComponent("ul"),
     polaroid: makeNodeComponent("polaroid"),
     polaroid12: makeNodeComponent("polaroid12"),
     polaroid11: makeNodeComponent("polaroid11"),

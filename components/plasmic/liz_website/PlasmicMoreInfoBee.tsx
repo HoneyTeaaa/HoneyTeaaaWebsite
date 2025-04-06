@@ -403,9 +403,7 @@ function PlasmicMoreInfoBee__RenderFunc(props: {
               hasGap={true}
               className={classNames(projectcss.all, sty.columns__mhNt)}
             >
-              <div className={classNames(projectcss.all, sty.column__kPiQ)} />
-
-              <div className={classNames(projectcss.all, sty.column__u2Rjv)}>
+              <div className={classNames(projectcss.all, sty.column__kPiQ)}>
                 <PlasmicImg__
                   alt={""}
                   className={classNames(sty.img___6Jv5Q)}
@@ -423,6 +421,8 @@ function PlasmicMoreInfoBee__RenderFunc(props: {
                   }}
                 />
               </div>
+              <div className={classNames(projectcss.all, sty.column__u2Rjv)} />
+
               <div className={classNames(projectcss.all, sty.column__tM8)} />
             </Stack__>
             <div className={classNames(projectcss.all, sty.columns__nzXse)}>

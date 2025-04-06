@@ -322,6 +322,14 @@
   min-width: 0;
   padding: 8px;
 }
+.img___6Jv5Q {
+  object-fit: cover;
+  max-width: 100%;
+  width: auto;
+}
+.img___6Jv5Q > picture > img {
+  object-fit: cover;
+}
 .column__u2Rjv {
   display: flex;
   flex-direction: column;
@@ -333,14 +341,6 @@
   align-items: center;
   min-width: 0;
   padding: 8px;
-}
-.img___6Jv5Q {
-  object-fit: cover;
-  max-width: 100%;
-  width: auto;
-}
-.img___6Jv5Q > picture > img {
-  object-fit: cover;
 }
 .column__tM8 {
   display: flex;

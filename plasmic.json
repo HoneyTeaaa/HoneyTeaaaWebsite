@@ -553,12 +553,26 @@
           "projectId": "pqbSBZb9VG36A9gA4GgWPg",
           "renderModuleFilePath": "plasmic/liz_website/PlasmicMoreInfoAerie.tsx",
           "importSpec": {
-            "modulePath": "../pages/Sugar V1-3.tsx"
+            "modulePath": "../pages/Aerie.tsx"
           },
           "cssFilePath": "plasmic/liz_website/PlasmicMoreInfoAerie.module.css",
           "scheme": "blackbox",
           "componentType": "page",
           "path": "/Sugar V1-3"
+        },
+        {
+          "id": "ipseRw4g8tZK",
+          "name": "Template2",
+          "type": "managed",
+          "projectId": "pqbSBZb9VG36A9gA4GgWPg",
+          "renderModuleFilePath": "plasmic/liz_website/PlasmicTemplate2.tsx",
+          "importSpec": {
+            "modulePath": "../pages/template.tsx"
+          },
+          "cssFilePath": "plasmic/liz_website/PlasmicTemplate2.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/template"
         }
       ],
       "icons": [

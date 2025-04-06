@@ -322,6 +322,81 @@ function PlasmicMoreInfoSugarV2__RenderFunc(props: {
                 </span>
               </React.Fragment>
             </div>
+            <Stack__
+              as={"div"}
+              hasGap={true}
+              className={classNames(projectcss.all, sty.freeBox__gjt78)}
+            >
+              <PlasmicImg__
+                alt={""}
+                className={classNames(sty.img__gxvRj)}
+                displayHeight={"auto"}
+                displayMaxHeight={"none"}
+                displayMaxWidth={"100%"}
+                displayMinHeight={"0"}
+                displayMinWidth={"0"}
+                displayWidth={"33%"}
+                src={{
+                  src: "/plasmic/liz_website/images/vrChat20240114151258Png.png",
+                  fullWidth: 338,
+                  fullHeight: 601,
+                  aspectRatio: undefined
+                }}
+              />
+
+              <PlasmicImg__
+                alt={""}
+                className={classNames(sty.img___1HfNb)}
+                displayHeight={"auto"}
+                displayMaxHeight={"none"}
+                displayMaxWidth={"100%"}
+                displayMinHeight={"0"}
+                displayMinWidth={"0"}
+                displayWidth={"33%"}
+                src={{
+                  src: "/plasmic/liz_website/images/vrChat20240114151320Png.png",
+                  fullWidth: 338,
+                  fullHeight: 601,
+                  aspectRatio: undefined
+                }}
+              />
+            </Stack__>
+            <div className={classNames(projectcss.all, sty.freeBox__kJl8G)}>
+              <PlasmicImg__
+                alt={""}
+                className={classNames(sty.img__jTwdc)}
+                displayHeight={"100%"}
+                displayMaxHeight={"none"}
+                displayMaxWidth={"100%"}
+                displayMinHeight={"0"}
+                displayMinWidth={"0"}
+                displayWidth={"100%"}
+                src={{
+                  src: "/plasmic/liz_website/images/vrChat202308041057051947680X4320Png.png",
+                  fullWidth: 7680,
+                  fullHeight: 4320,
+                  aspectRatio: undefined
+                }}
+              />
+            </div>
+            <div className={classNames(projectcss.all, sty.freeBox___1GHbL)}>
+              <PlasmicImg__
+                alt={""}
+                className={classNames(sty.img__yftUo)}
+                displayHeight={"100%"}
+                displayMaxHeight={"none"}
+                displayMaxWidth={"100%"}
+                displayMinHeight={"0"}
+                displayMinWidth={"0"}
+                displayWidth={"100%"}
+                src={{
+                  src: "/plasmic/liz_website/images/vrChat20230808225430Png.png",
+                  fullWidth: 719,
+                  fullHeight: 404,
+                  aspectRatio: undefined
+                }}
+              />
+            </div>
             <div
               data-plasmic-name={"columns"}
               data-plasmic-override={overrides.columns}
@@ -397,6 +472,7 @@ function PlasmicMoreInfoSugarV2__RenderFunc(props: {
                       ).apply(null, eventArgs);
                     },
                     centerMode: false,
+                    children: null,
                     className: classNames(
                       "__wab_instance",
                       sty.sliderCarousel2
@@ -434,96 +510,7 @@ function PlasmicMoreInfoSugarV2__RenderFunc(props: {
                       data-plasmic-name={"sliderCarousel2"}
                       data-plasmic-override={overrides.sliderCarousel2}
                       {...child$Props}
-                    >
-                      <Stack__
-                        as={"div"}
-                        hasGap={true}
-                        className={classNames(
-                          projectcss.all,
-                          sty.freeBox__gjt78
-                        )}
-                      >
-                        <PlasmicImg__
-                          alt={""}
-                          className={classNames(sty.img__gxvRj)}
-                          displayHeight={"auto"}
-                          displayMaxHeight={"none"}
-                          displayMaxWidth={"100%"}
-                          displayMinHeight={"0"}
-                          displayMinWidth={"0"}
-                          displayWidth={"33%"}
-                          src={{
-                            src: "/plasmic/liz_website/images/vrChat20240114151258Png.png",
-                            fullWidth: 338,
-                            fullHeight: 601,
-                            aspectRatio: undefined
-                          }}
-                        />
-
-                        <PlasmicImg__
-                          alt={""}
-                          className={classNames(sty.img___1HfNb)}
-                          displayHeight={"auto"}
-                          displayMaxHeight={"none"}
-                          displayMaxWidth={"100%"}
-                          displayMinHeight={"0"}
-                          displayMinWidth={"0"}
-                          displayWidth={"33%"}
-                          src={{
-                            src: "/plasmic/liz_website/images/vrChat20240114151320Png.png",
-                            fullWidth: 338,
-                            fullHeight: 601,
-                            aspectRatio: undefined
-                          }}
-                        />
-                      </Stack__>
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          sty.freeBox__kJl8G
-                        )}
-                      >
-                        <PlasmicImg__
-                          alt={""}
-                          className={classNames(sty.img__jTwdc)}
-                          displayHeight={"100%"}
-                          displayMaxHeight={"none"}
-                          displayMaxWidth={"100%"}
-                          displayMinHeight={"0"}
-                          displayMinWidth={"0"}
-                          displayWidth={"100%"}
-                          src={{
-                            src: "/plasmic/liz_website/images/vrChat202308041057051947680X4320Png.png",
-                            fullWidth: 7680,
-                            fullHeight: 4320,
-                            aspectRatio: undefined
-                          }}
-                        />
-                      </div>
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          sty.freeBox___1GHbL
-                        )}
-                      >
-                        <PlasmicImg__
-                          alt={""}
-                          className={classNames(sty.img__yftUo)}
-                          displayHeight={"100%"}
-                          displayMaxHeight={"none"}
-                          displayMaxWidth={"100%"}
-                          displayMinHeight={"0"}
-                          displayMinWidth={"0"}
-                          displayWidth={"100%"}
-                          src={{
-                            src: "/plasmic/liz_website/images/vrChat20230808225430Png.png",
-                            fullWidth: 719,
-                            fullHeight: 404,
-                            aspectRatio: undefined
-                          }}
-                        />
-                      </div>
-                    </SliderWrapper>
+                    />
                   );
                 })()}
               </div>

@@ -393,187 +393,8 @@ function PlasmicMoreInfoBee__RenderFunc(props: {
                   />
                 </div>
               </div>
-              <div className={classNames(projectcss.all, sty.column___1PfoH)}>
-                {(() => {
-                  const child$Props = {
-                    arrowColor: true ? "#331009" : undefined,
-                    arrows: false,
-                    autoplay: false,
-                    autoplaySpeed: 0,
-                    beforeChange: async (...eventArgs: any) => {
-                      generateStateOnChangePropForCodeComponents(
-                        $state,
-                        "currentSlide",
-                        ["sliderCarousel2", "currentSlide"],
-                        SliderWrapper_Helpers
-                      ).apply(null, eventArgs);
-                    },
-                    centerMode: false,
-                    className: classNames(
-                      "__wab_instance",
-                      sty.sliderCarousel2
-                    ),
-                    cssEase: "ease-in-out",
-                    dots: false,
-                    fade: true,
-                    initialSlide: generateStateValueProp($state, [
-                      "sliderCarousel2",
-                      "currentSlide"
-                    ]),
-                    ref: ref => {
-                      $refs["sliderCarousel2"] = ref;
-                    },
-                    sliderScopeClassName: sty["sliderCarousel2__slider"],
-                    speed: 250,
-                    useCSS: true,
-                    vertical: false
-                  };
-                  initializeCodeComponentStates(
-                    $state,
-                    [
-                      {
-                        name: "currentSlide",
-                        plasmicStateName: "sliderCarousel2.currentSlide"
-                      }
-                    ],
-                    [],
-                    SliderWrapper_Helpers ?? {},
-                    child$Props
-                  );
+              <div className={classNames(projectcss.all, sty.column___1PfoH)} />
 
-                  return (
-                    <SliderWrapper
-                      data-plasmic-name={"sliderCarousel2"}
-                      data-plasmic-override={overrides.sliderCarousel2}
-                      {...child$Props}
-                    >
-                      <Stack__
-                        as={"div"}
-                        hasGap={true}
-                        className={classNames(
-                          projectcss.all,
-                          sty.columns__lCpu5
-                        )}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            sty.column__xfK0
-                          )}
-                        >
-                          <PlasmicImg__
-                            alt={""}
-                            className={classNames(sty.img__bn5F)}
-                            displayHeight={"auto"}
-                            displayMaxHeight={"none"}
-                            displayMaxWidth={"100%"}
-                            displayMinHeight={"0"}
-                            displayMinWidth={"0"}
-                            displayWidth={"100%"}
-                            src={{
-                              src: "/plasmic/liz_website/images/vrChat20240114150223Png.png",
-                              fullWidth: 338,
-                              fullHeight: 601,
-                              aspectRatio: undefined
-                            }}
-                          />
-                        </div>
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            sty.column__h87Bk
-                          )}
-                        >
-                          <PlasmicImg__
-                            alt={""}
-                            className={classNames(sty.img__sL6Wq)}
-                            displayHeight={"auto"}
-                            displayMaxHeight={"none"}
-                            displayMaxWidth={"100%"}
-                            displayMinHeight={"0"}
-                            displayMinWidth={"0"}
-                            displayWidth={"100%"}
-                            src={{
-                              src: "/plasmic/liz_website/images/vrChat20240114150332Png.png",
-                              fullWidth: 338,
-                              fullHeight: 601,
-                              aspectRatio: undefined
-                            }}
-                          />
-                        </div>
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            sty.column___8Zotg
-                          )}
-                        >
-                          <PlasmicImg__
-                            alt={""}
-                            className={classNames(sty.img__gvsbt)}
-                            displayHeight={"auto"}
-                            displayMaxHeight={"none"}
-                            displayMaxWidth={"100%"}
-                            displayMinHeight={"0"}
-                            displayMinWidth={"0"}
-                            displayWidth={"100%"}
-                            src={{
-                              src: "/plasmic/liz_website/images/vrChat20240114150442Png.png",
-                              fullWidth: 338,
-                              fullHeight: 601,
-                              aspectRatio: undefined
-                            }}
-                          />
-                        </div>
-                      </Stack__>
-                      <Stack__
-                        as={"div"}
-                        hasGap={true}
-                        className={classNames(
-                          projectcss.all,
-                          sty.columns__mhNt
-                        )}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            sty.column__kPiQ
-                          )}
-                        />
-
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            sty.column__u2Rjv
-                          )}
-                        >
-                          <PlasmicImg__
-                            alt={""}
-                            className={classNames(sty.img___6Jv5Q)}
-                            displayHeight={"auto"}
-                            displayMaxHeight={"none"}
-                            displayMaxWidth={"100%"}
-                            displayMinHeight={"0"}
-                            displayMinWidth={"0"}
-                            displayWidth={"auto"}
-                            src={{
-                              src: "/plasmic/liz_website/images/vrChat202401141525565852160X3840Png.png",
-                              fullWidth: 2160,
-                              fullHeight: 3840,
-                              aspectRatio: undefined
-                            }}
-                          />
-                        </div>
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            sty.column__tM8
-                          )}
-                        />
-                      </Stack__>
-                    </SliderWrapper>
-                  );
-                })()}
-              </div>
               <div className={classNames(projectcss.all, sty.column__ffc0R)}>
                 <div
                   className={classNames(projectcss.all, sty.freeBox__sqewD)}
@@ -629,6 +450,158 @@ function PlasmicMoreInfoBee__RenderFunc(props: {
                 </div>
               </div>
             </div>
+            {(() => {
+              const child$Props = {
+                arrowColor: true ? "#331009" : undefined,
+                arrows: true,
+                autoplay: false,
+                autoplaySpeed: 0,
+                beforeChange: async (...eventArgs: any) => {
+                  generateStateOnChangePropForCodeComponents(
+                    $state,
+                    "currentSlide",
+                    ["sliderCarousel2", "currentSlide"],
+                    SliderWrapper_Helpers
+                  ).apply(null, eventArgs);
+                },
+                centerMode: false,
+                className: classNames("__wab_instance", sty.sliderCarousel2),
+                cssEase: "ease-in-out",
+                dots: false,
+                fade: true,
+                initialSlide: generateStateValueProp($state, [
+                  "sliderCarousel2",
+                  "currentSlide"
+                ]),
+                ref: ref => {
+                  $refs["sliderCarousel2"] = ref;
+                },
+                sliderScopeClassName: sty["sliderCarousel2__slider"],
+                speed: 250,
+                useCSS: true,
+                vertical: false
+              };
+              initializeCodeComponentStates(
+                $state,
+                [
+                  {
+                    name: "currentSlide",
+                    plasmicStateName: "sliderCarousel2.currentSlide"
+                  }
+                ],
+                [],
+                SliderWrapper_Helpers ?? {},
+                child$Props
+              );
+
+              return (
+                <SliderWrapper
+                  data-plasmic-name={"sliderCarousel2"}
+                  data-plasmic-override={overrides.sliderCarousel2}
+                  {...child$Props}
+                >
+                  <Stack__
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.columns__lCpu5)}
+                  >
+                    <div
+                      className={classNames(projectcss.all, sty.column__xfK0)}
+                    >
+                      <PlasmicImg__
+                        alt={""}
+                        className={classNames(sty.img__bn5F)}
+                        displayHeight={"auto"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={"100%"}
+                        src={{
+                          src: "/plasmic/liz_website/images/vrChat20240114150223Png.png",
+                          fullWidth: 338,
+                          fullHeight: 601,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </div>
+                    <div
+                      className={classNames(projectcss.all, sty.column__h87Bk)}
+                    >
+                      <PlasmicImg__
+                        alt={""}
+                        className={classNames(sty.img__sL6Wq)}
+                        displayHeight={"auto"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={"100%"}
+                        src={{
+                          src: "/plasmic/liz_website/images/vrChat20240114150332Png.png",
+                          fullWidth: 338,
+                          fullHeight: 601,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </div>
+                    <div
+                      className={classNames(projectcss.all, sty.column___8Zotg)}
+                    >
+                      <PlasmicImg__
+                        alt={""}
+                        className={classNames(sty.img__gvsbt)}
+                        displayHeight={"auto"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={"100%"}
+                        src={{
+                          src: "/plasmic/liz_website/images/vrChat20240114150442Png.png",
+                          fullWidth: 338,
+                          fullHeight: 601,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </div>
+                  </Stack__>
+                  <Stack__
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.columns__mhNt)}
+                  >
+                    <div
+                      className={classNames(projectcss.all, sty.column__kPiQ)}
+                    />
+
+                    <div
+                      className={classNames(projectcss.all, sty.column__u2Rjv)}
+                    >
+                      <PlasmicImg__
+                        alt={""}
+                        className={classNames(sty.img___6Jv5Q)}
+                        displayHeight={"auto"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={"auto"}
+                        src={{
+                          src: "/plasmic/liz_website/images/vrChat202401141525565852160X3840Png.png",
+                          fullWidth: 2160,
+                          fullHeight: 3840,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </div>
+                    <div
+                      className={classNames(projectcss.all, sty.column__tM8)}
+                    />
+                  </Stack__>
+                </SliderWrapper>
+              );
+            })()}
           </Stack__>
         </Reveal>
         <div className={classNames(projectcss.all, sty.freeBox__cNwl)}>

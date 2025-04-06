@@ -126,7 +126,6 @@
   font-size: 16px;
 }
 .columns__nzXse {
-  display: flex;
   flex-direction: row;
   position: relative;
   align-items: stretch;
@@ -140,6 +139,7 @@
   flex-wrap: nowrap;
   flex-grow: 0;
   width: 110%;
+  display: none;
   --plsmc-rc-col-gap: 0px;
   padding: 8px;
 }
@@ -168,7 +168,6 @@
   }
 }
 .column___6Mgj {
-  display: flex;
   flex-direction: column;
   position: relative;
   width: 100%;
@@ -177,6 +176,7 @@
   justify-content: center;
   align-items: center;
   min-width: 0;
+  display: none;
   padding: 0px;
 }
 .freeBox__yYHqG {
@@ -210,6 +210,38 @@
   align-items: center;
   min-width: 0;
   padding: 0px;
+}
+.column__ffc0R {
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+  display: none;
+  padding: 0px;
+}
+.freeBox__sqewD {
+  display: flex;
+  position: relative;
+  width: 50px;
+  height: 98%;
+  max-width: 100%;
+  background: none;
+  transform: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+}
+.chunkyButton__u9Fzs:global(.__wab_instance) {
+  max-width: 100%;
+  height: 100%;
+  width: 100%;
+  min-width: 0;
+  min-height: 0;
 }
 .sliderCarousel2:global(.__wab_instance) {
   flex-direction: column;
@@ -446,38 +478,6 @@
   align-items: center;
   min-width: 0;
   padding: 8px;
-}
-.column__ffc0R {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  justify-content: center;
-  align-items: center;
-  min-width: 0;
-  padding: 0px;
-}
-.freeBox__sqewD {
-  display: flex;
-  position: relative;
-  width: 50px;
-  height: 98%;
-  max-width: 100%;
-  background: none;
-  transform: none;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 0px;
-}
-.chunkyButton__u9Fzs:global(.__wab_instance) {
-  max-width: 100%;
-  height: 100%;
-  width: 100%;
-  min-width: 0;
-  min-height: 0;
 }
 .freeBox__cNwl {
   display: flex;

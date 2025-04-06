@@ -85,7 +85,6 @@ export type PlasmicMoreInfoBee__OverridesType = {
   root?: Flex__<"div">;
   navbar?: Flex__<typeof Navbar>;
   reveal?: Flex__<typeof Reveal>;
-  columns?: Flex__<"div">;
   sliderCarousel2?: Flex__<typeof SliderWrapper>;
 };
 
@@ -339,11 +338,7 @@ function PlasmicMoreInfoBee__RenderFunc(props: {
                 </span>
               </React.Fragment>
             </div>
-            <div
-              data-plasmic-name={"columns"}
-              data-plasmic-override={overrides.columns}
-              className={classNames(projectcss.all, sty.columns)}
-            >
+            <div className={classNames(projectcss.all, sty.columns__nzXse)}>
               <div className={classNames(projectcss.all, sty.column___6Mgj)}>
                 <div
                   className={classNames(projectcss.all, sty.freeBox__yYHqG)}
@@ -457,83 +452,122 @@ function PlasmicMoreInfoBee__RenderFunc(props: {
                         hasGap={true}
                         className={classNames(
                           projectcss.all,
-                          sty.freeBox__lCpu5
+                          sty.columns__lCpu5
                         )}
                       >
-                        <PlasmicImg__
-                          alt={""}
-                          className={classNames(sty.img__bn5F)}
-                          displayHeight={"auto"}
-                          displayMaxHeight={"none"}
-                          displayMaxWidth={"100%"}
-                          displayMinHeight={"0"}
-                          displayMinWidth={"0"}
-                          displayWidth={"33%"}
-                          src={{
-                            src: "/plasmic/liz_website/images/vrChat20240114150223Png.png",
-                            fullWidth: 338,
-                            fullHeight: 601,
-                            aspectRatio: undefined
-                          }}
-                        />
-
-                        <PlasmicImg__
-                          alt={""}
-                          className={classNames(sty.img__sL6Wq)}
-                          displayHeight={"auto"}
-                          displayMaxHeight={"none"}
-                          displayMaxWidth={"100%"}
-                          displayMinHeight={"0"}
-                          displayMinWidth={"0"}
-                          displayWidth={"33%"}
-                          src={{
-                            src: "/plasmic/liz_website/images/vrChat20240114150332Png.png",
-                            fullWidth: 338,
-                            fullHeight: 601,
-                            aspectRatio: undefined
-                          }}
-                        />
-
-                        <PlasmicImg__
-                          alt={""}
-                          className={classNames(sty.img__gvsbt)}
-                          displayHeight={"auto"}
-                          displayMaxHeight={"none"}
-                          displayMaxWidth={"100%"}
-                          displayMinHeight={"0"}
-                          displayMinWidth={"0"}
-                          displayWidth={"33%"}
-                          src={{
-                            src: "/plasmic/liz_website/images/vrChat20240114150442Png.png",
-                            fullWidth: 338,
-                            fullHeight: 601,
-                            aspectRatio: undefined
-                          }}
-                        />
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.column__xfK0
+                          )}
+                        >
+                          <PlasmicImg__
+                            alt={""}
+                            className={classNames(sty.img__bn5F)}
+                            displayHeight={"auto"}
+                            displayMaxHeight={"none"}
+                            displayMaxWidth={"100%"}
+                            displayMinHeight={"0"}
+                            displayMinWidth={"0"}
+                            displayWidth={"100%"}
+                            src={{
+                              src: "/plasmic/liz_website/images/vrChat20240114150223Png.png",
+                              fullWidth: 338,
+                              fullHeight: 601,
+                              aspectRatio: undefined
+                            }}
+                          />
+                        </div>
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.column__h87Bk
+                          )}
+                        >
+                          <PlasmicImg__
+                            alt={""}
+                            className={classNames(sty.img__sL6Wq)}
+                            displayHeight={"auto"}
+                            displayMaxHeight={"none"}
+                            displayMaxWidth={"100%"}
+                            displayMinHeight={"0"}
+                            displayMinWidth={"0"}
+                            displayWidth={"100%"}
+                            src={{
+                              src: "/plasmic/liz_website/images/vrChat20240114150332Png.png",
+                              fullWidth: 338,
+                              fullHeight: 601,
+                              aspectRatio: undefined
+                            }}
+                          />
+                        </div>
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.column___8Zotg
+                          )}
+                        >
+                          <PlasmicImg__
+                            alt={""}
+                            className={classNames(sty.img__gvsbt)}
+                            displayHeight={"auto"}
+                            displayMaxHeight={"none"}
+                            displayMaxWidth={"100%"}
+                            displayMinHeight={"0"}
+                            displayMinWidth={"0"}
+                            displayWidth={"100%"}
+                            src={{
+                              src: "/plasmic/liz_website/images/vrChat20240114150442Png.png",
+                              fullWidth: 338,
+                              fullHeight: 601,
+                              aspectRatio: undefined
+                            }}
+                          />
+                        </div>
                       </Stack__>
                       <Stack__
                         as={"div"}
                         hasGap={true}
                         className={classNames(
                           projectcss.all,
-                          sty.freeBox__mhNt
+                          sty.columns__mhNt
                         )}
                       >
-                        <PlasmicImg__
-                          alt={""}
-                          className={classNames(sty.img___6Jv5Q)}
-                          displayHeight={"auto"}
-                          displayMaxHeight={"none"}
-                          displayMaxWidth={"100%"}
-                          displayMinHeight={"0"}
-                          displayMinWidth={"0"}
-                          displayWidth={"33%"}
-                          src={{
-                            src: "/plasmic/liz_website/images/vrChat202401141525565852160X3840Png.png",
-                            fullWidth: 2160,
-                            fullHeight: 3840,
-                            aspectRatio: undefined
-                          }}
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.column__kPiQ
+                          )}
+                        />
+
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.column__u2Rjv
+                          )}
+                        >
+                          <PlasmicImg__
+                            alt={""}
+                            className={classNames(sty.img___6Jv5Q)}
+                            displayHeight={"auto"}
+                            displayMaxHeight={"none"}
+                            displayMaxWidth={"100%"}
+                            displayMinHeight={"0"}
+                            displayMinWidth={"0"}
+                            displayWidth={"auto"}
+                            src={{
+                              src: "/plasmic/liz_website/images/vrChat202401141525565852160X3840Png.png",
+                              fullWidth: 2160,
+                              fullHeight: 3840,
+                              aspectRatio: undefined
+                            }}
+                          />
+                        </div>
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.column__tM8
+                          )}
                         />
                       </Stack__>
                     </SliderWrapper>
@@ -620,10 +654,9 @@ function PlasmicMoreInfoBee__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "navbar", "reveal", "columns", "sliderCarousel2"],
+  root: ["root", "navbar", "reveal", "sliderCarousel2"],
   navbar: ["navbar"],
-  reveal: ["reveal", "columns", "sliderCarousel2"],
-  columns: ["columns", "sliderCarousel2"],
+  reveal: ["reveal", "sliderCarousel2"],
   sliderCarousel2: ["sliderCarousel2"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
@@ -633,7 +666,6 @@ type NodeDefaultElementType = {
   root: "div";
   navbar: typeof Navbar;
   reveal: typeof Reveal;
-  columns: "div";
   sliderCarousel2: typeof SliderWrapper;
 };
 
@@ -699,7 +731,6 @@ export const PlasmicMoreInfoBee = Object.assign(
     // Helper components rendering sub-elements
     navbar: makeNodeComponent("navbar"),
     reveal: makeNodeComponent("reveal"),
-    columns: makeNodeComponent("columns"),
     sliderCarousel2: makeNodeComponent("sliderCarousel2"),
 
     // Metadata about props expected for PlasmicMoreInfoBee

@@ -374,9 +374,9 @@ function PlasmicHome__RenderFunc(props: {
                     displayWidth={"100%"}
                     loading={"lazy"}
                     src={{
-                      src: "/plasmic/liz_website/images/screenshot20250319153701Png.png",
-                      fullWidth: 856,
-                      fullHeight: 1075,
+                      src: "/plasmic/liz_website/images/render2Png.png",
+                      fullWidth: 1920,
+                      fullHeight: 1080,
                       aspectRatio: undefined
                     }}
                   />
@@ -388,7 +388,7 @@ function PlasmicHome__RenderFunc(props: {
                       sty.text___01SXj
                     )}
                   >
-                    {"My portfolio page!"}
+                    {"The Honeysong"}
                   </div>
                 </Stack__>
               </Stack__>

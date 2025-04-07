@@ -932,6 +932,11 @@
           "id": "XWCP9SPrt5Od",
           "name": "image 15",
           "filePath": "../public/plasmic/liz_website/images/image15.png"
+        },
+        {
+          "id": "-voWpAviavci",
+          "name": "Render2.png",
+          "filePath": "../public/plasmic/liz_website/images/render2Png.png"
         }
       ],
       "indirect": false,

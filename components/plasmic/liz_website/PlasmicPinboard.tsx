@@ -607,6 +607,7 @@ function PlasmicPinboard__RenderFunc(props: {
             data-plasmic-override={overrides.bugTaxi}
             backHeader1={"Skills Used:"}
             className={classNames("__wab_instance", sty.bugTaxi)}
+            infoPage={`/BugTaxi`}
             projectTitle={"Bug Taxi!"}
             slot={
               <React.Fragment>
@@ -928,7 +929,7 @@ function PlasmicPinboard__RenderFunc(props: {
               )
             })}
             date2={"2024"}
-            infoPage={`/BugTaxi`}
+            infoPage={`/DrinkRender`}
             projectTitle={"Piece a Shit"}
             slot={
               <React.Fragment>
@@ -1259,6 +1260,7 @@ function PlasmicPinboard__RenderFunc(props: {
               )
             })}
             date2={"2023"}
+            infoPage={`/Aerie`}
             projectTitle={"Aerie"}
             slot={
               <React.Fragment>

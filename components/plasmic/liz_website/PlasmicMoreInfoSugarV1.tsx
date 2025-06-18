@@ -124,6 +124,7 @@ function PlasmicMoreInfoSugarV1__RenderFunc(props: {
   };
 
   const __nextRouter = useNextRouter();
+
   const $ctx = useDataEnv?.() || {};
   const refsRef = React.useRef({});
   const $refs = refsRef.current;
@@ -224,8 +225,9 @@ function PlasmicMoreInfoSugarV1__RenderFunc(props: {
                   component={Link}
                   href={"https://discord.com/invite/Mj9hqZtXvF"}
                   platform={"nextjs"}
+                  target={"_blank"}
                 >
-                  {"Bapperbeast Base Model . AnEpicBeard . Updated by PxINKY"}
+                  {"Bapperbeast Base Model - AnEpicBeard & Updated by PxINKY"}
                 </PlasmicLink__>
               }
               <React.Fragment>{""}</React.Fragment>
@@ -255,8 +257,9 @@ function PlasmicMoreInfoSugarV1__RenderFunc(props: {
                   component={Link}
                   href={"https://novaicnight.gumroad.com"}
                   platform={"nextjs"}
+                  target={"_blank"}
                 >
-                  {"Wings and Tail .  NovaicNight"}
+                  {"Wings and Tail -  NovaicNight"}
                 </PlasmicLink__>
               }
               <React.Fragment>{""}</React.Fragment>
@@ -271,6 +274,7 @@ function PlasmicMoreInfoSugarV1__RenderFunc(props: {
             )}
             component={Link}
             platform={"nextjs"}
+            target={"_blank"}
           >
             <React.Fragment>
               <React.Fragment>{""}</React.Fragment>
@@ -286,12 +290,27 @@ function PlasmicMoreInfoSugarV1__RenderFunc(props: {
                   component={Link}
                   href={"https://aidenart.gumroad.com/l/fwZkp?layout=profile"}
                   platform={"nextjs"}
+                  target={"_blank"}
                 >
-                  {"Hair . AidenFur"}
+                  {"Hair - AidenFur"}
                 </PlasmicLink__>
               }
               <React.Fragment>{""}</React.Fragment>
             </React.Fragment>
+          </PlasmicLink__>
+          <PlasmicLink__
+            className={classNames(
+              projectcss.all,
+              projectcss.a,
+              projectcss.__wab_text,
+              sty.link__zjRk0
+            )}
+            component={Link}
+            href={"https://www.poiyomi.com"}
+            platform={"nextjs"}
+            target={"_blank"}
+          >
+            {"Poiyomi Shaders - Poiyomi"}
           </PlasmicLink__>
         </Stack__>
         <Stack__

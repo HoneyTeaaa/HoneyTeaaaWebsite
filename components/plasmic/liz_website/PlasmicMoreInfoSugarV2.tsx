@@ -124,6 +124,7 @@ function PlasmicMoreInfoSugarV2__RenderFunc(props: {
   };
 
   const __nextRouter = useNextRouter();
+
   const $ctx = useDataEnv?.() || {};
   const refsRef = React.useRef({});
   const $refs = refsRef.current;
@@ -224,6 +225,7 @@ function PlasmicMoreInfoSugarV2__RenderFunc(props: {
                   component={Link}
                   href={"https://discord.com/invite/Mj9hqZtXvF"}
                   platform={"nextjs"}
+                  target={"_blank"}
                 >
                   {"Bapperbeast Base Model . AnEpicBeard . Updated by PxINKY"}
                 </PlasmicLink__>
@@ -240,6 +242,7 @@ function PlasmicMoreInfoSugarV2__RenderFunc(props: {
             )}
             component={Link}
             platform={"nextjs"}
+            target={"_blank"}
           >
             <React.Fragment>
               <React.Fragment>{""}</React.Fragment>
@@ -257,6 +260,7 @@ function PlasmicMoreInfoSugarV2__RenderFunc(props: {
                     "https://novaicnight.gumroad.com/l/fluffytail?layout=profile"
                   }
                   platform={"nextjs"}
+                  target={"_blank"}
                 >
                   {"Tail .  NovaicNight"}
                 </PlasmicLink__>
@@ -273,6 +277,7 @@ function PlasmicMoreInfoSugarV2__RenderFunc(props: {
             )}
             component={Link}
             platform={"nextjs"}
+            target={"_blank"}
           >
             <React.Fragment>
               <React.Fragment>{""}</React.Fragment>
@@ -288,6 +293,7 @@ function PlasmicMoreInfoSugarV2__RenderFunc(props: {
                   component={Link}
                   href={"https://aidenart.gumroad.com/l/fwZkp?layout=profile"}
                   platform={"nextjs"}
+                  target={"_blank"}
                 >
                   {"Hair . AidenFur"}
                 </PlasmicLink__>
@@ -295,6 +301,53 @@ function PlasmicMoreInfoSugarV2__RenderFunc(props: {
               <React.Fragment>{""}</React.Fragment>
             </React.Fragment>
           </PlasmicLink__>
+          <PlasmicLink__
+            className={classNames(
+              projectcss.all,
+              projectcss.a,
+              projectcss.__wab_text,
+              sty.link__tho5B
+            )}
+            component={Link}
+            href={"https://www.poiyomi.com"}
+            platform={"nextjs"}
+            target={"_blank"}
+          >
+            {"Poiyomi Shaders - Poiyomi"}
+          </PlasmicLink__>
+        </Stack__>
+        <Stack__
+          as={"div"}
+          hasGap={true}
+          className={classNames(projectcss.all, sty.freeBox__rpBq5)}
+        >
+          <div
+            className={classNames(
+              projectcss.all,
+              projectcss.__wab_text,
+              sty.text__rFhre
+            )}
+          >
+            <React.Fragment>
+              <span
+                className={"plasmic_default__all plasmic_default__span"}
+                style={{ fontWeight: 700 }}
+              >
+                {"Avatar Information"}
+              </span>
+            </React.Fragment>
+          </div>
+          <div
+            className={classNames(
+              projectcss.all,
+              projectcss.__wab_text,
+              sty.text__wgWl
+            )}
+          >
+            {
+              "A while after I made my original design for Sugar, I decided I could do better on their design. This is the second version of Sugar has a whole new pattern on their body, as well as updated eyes. Many people found their first design to be uncanny when interacting with it in VrChat, but couldn't place why. After a lot of thought, I decided to redesign their eyes. Their first design had three pupils around a central point, which made eye contact difficult during conversation. For this new version I decided to make one central pupil with two smaller ones near it, making a clear point for people to make eye contact with. This was a unique design challenge to tackle, version two of this character was more well received\r\nthan version one in VR!"
+            }
+          </div>
         </Stack__>
         <Stack__
           as={"div"}

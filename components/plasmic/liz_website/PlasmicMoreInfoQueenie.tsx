@@ -124,6 +124,7 @@ function PlasmicMoreInfoQueenie__RenderFunc(props: {
   };
 
   const __nextRouter = useNextRouter();
+
   const $ctx = useDataEnv?.() || {};
   const refsRef = React.useRef({});
   const $refs = refsRef.current;
@@ -208,9 +209,11 @@ function PlasmicMoreInfoQueenie__RenderFunc(props: {
               sty.link__va0Ns
             )}
             component={Link}
+            href={"https://discord.gg/FmSbuJD"}
             platform={"nextjs"}
+            target={"_blank"}
           >
-            {"Base Model . the.time.guardian"}
+            {"Base Model - the.time.guardian"}
           </PlasmicLink__>
           <PlasmicLink__
             className={classNames(
@@ -238,8 +241,9 @@ function PlasmicMoreInfoQueenie__RenderFunc(props: {
                     "https://novaicnight.gumroad.com/l/MonsterBundle?layout=profile&recommended_by=search"
                   }
                   platform={"nextjs"}
+                  target={"_blank"}
                 >
-                  {"Wings and Tail .  NovaicNight"}
+                  {"Wings and Tail -  NovaicNight"}
                 </PlasmicLink__>
               }
               <React.Fragment>{""}</React.Fragment>
@@ -269,12 +273,27 @@ function PlasmicMoreInfoQueenie__RenderFunc(props: {
                   component={Link}
                   href={"https://aidenart.gumroad.com/l/fwZkp?layout=profile"}
                   platform={"nextjs"}
+                  target={"_blank"}
                 >
-                  {"Hair . AidenFur"}
+                  {"Hair - AidenFur"}
                 </PlasmicLink__>
               }
               <React.Fragment>{""}</React.Fragment>
             </React.Fragment>
+          </PlasmicLink__>
+          <PlasmicLink__
+            className={classNames(
+              projectcss.all,
+              projectcss.a,
+              projectcss.__wab_text,
+              sty.link__evQjh
+            )}
+            component={Link}
+            href={"https://www.poiyomi.com"}
+            platform={"nextjs"}
+            target={"_blank"}
+          >
+            {"Poiyomi Shaders - Poiyomi"}
           </PlasmicLink__>
         </Stack__>
         <Stack__

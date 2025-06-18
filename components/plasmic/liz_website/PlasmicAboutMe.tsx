@@ -83,7 +83,7 @@ export type PlasmicAboutMe__OverridesType = {
   navbar?: Flex__<typeof Navbar>;
   reveal?: Flex__<typeof Reveal>;
   columns?: Flex__<"div">;
-  freeBox?: Flex__<"div">;
+  img?: Flex__<typeof PlasmicImg__>;
 };
 
 export interface DefaultAboutMeProps {}
@@ -122,6 +122,7 @@ function PlasmicAboutMe__RenderFunc(props: {
   };
 
   const __nextRouter = useNextRouter();
+
   const $ctx = useDataEnv?.() || {};
   const refsRef = React.useRef({});
   const $refs = refsRef.current;
@@ -171,26 +172,13 @@ function PlasmicAboutMe__RenderFunc(props: {
               hasGap={true}
               className={classNames(projectcss.all, sty.columns)}
             >
-              <div className={classNames(projectcss.all, sty.column__pByYc)}>
-                <PlasmicImg__
-                  alt={""}
-                  className={classNames(sty.img___5TE)}
-                  displayHeight={"auto"}
-                  displayMaxHeight={"none"}
-                  displayMaxWidth={"100%"}
-                  displayMinHeight={"0"}
-                  displayMinWidth={"0"}
-                  displayWidth={"100%"}
-                  loading={"lazy"}
-                />
-              </div>
+              <div className={classNames(projectcss.all, sty.column__pByYc)} />
+
               <div className={classNames(projectcss.all, sty.column___0Edc9)}>
                 <Stack__
                   as={"div"}
-                  data-plasmic-name={"freeBox"}
-                  data-plasmic-override={overrides.freeBox}
                   hasGap={true}
-                  className={classNames(projectcss.all, sty.freeBox)}
+                  className={classNames(projectcss.all, sty.freeBox__oD23)}
                 >
                   <div
                     className={classNames(
@@ -201,6 +189,26 @@ function PlasmicAboutMe__RenderFunc(props: {
                   >
                     {"About Me.*"}
                   </div>
+                  <PlasmicImg__
+                    data-plasmic-name={"img"}
+                    data-plasmic-override={overrides.img}
+                    alt={""}
+                    className={classNames(sty.img)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"100%"}
+                    loading={"lazy"}
+                    src={{
+                      src: "/plasmic/liz_website/images/fallLizPictureJpg.jpg",
+                      fullWidth: 2592,
+                      fullHeight: 1456,
+                      aspectRatio: undefined
+                    }}
+                  />
+
                   <div
                     className={classNames(
                       projectcss.all,
@@ -209,24 +217,303 @@ function PlasmicAboutMe__RenderFunc(props: {
                     )}
                   >
                     {
-                      "I'm Tea, a multidisciplinary digital artist and full time college student. I make art in Blender, VRChat Avatars and games in Unity Engine, and love to learn new software."
+                      "I'm Tea, a multidisciplinary digital artist and full time college student. I make art in Blender, VRChat Avatars, games in Unity Engine, and love to learn new software."
                     }
+                  </div>
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__me8T6)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__zQ6S6
+                      )}
+                    >
+                      {"Hobbies.*"}
+                    </div>
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__swVq7
+                      )}
+                    >
+                      <React.Fragment>
+                        <React.Fragment>{""}</React.Fragment>
+                        {
+                          <ul
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.ul,
+                              sty.ul__smuia
+                            )}
+                          >
+                            <li
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.li,
+                                projectcss.__wab_text,
+                                sty.li__tcqx3
+                              )}
+                            >
+                              {"Making music"}
+                            </li>
+                            <li
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.li,
+                                projectcss.__wab_text,
+                                sty.li__tRcJl
+                              )}
+                            >
+                              {"Making art"}
+                            </li>
+                            <li
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.li,
+                                projectcss.__wab_text,
+                                sty.li__b1BRm
+                              )}
+                            >
+                              {"Playing video games"}
+                            </li>
+                          </ul>
+                        }
+                        <React.Fragment>{""}</React.Fragment>
+                      </React.Fragment>
+                    </div>
+                  </div>
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__q9UjD)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__ke6Hb
+                      )}
+                    >
+                      {"Favs.*"}
+                    </div>
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__pFnym
+                      )}
+                    >
+                      {"Music"}
+                    </div>
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__b0PtK
+                      )}
+                    >
+                      <React.Fragment>
+                        <React.Fragment>{""}</React.Fragment>
+                        {
+                          <ul
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.ul,
+                              sty.ul__vqJtU
+                            )}
+                          >
+                            <li
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.li,
+                                projectcss.__wab_text,
+                                sty.li__i2JyC
+                              )}
+                            >
+                              {"Indie Pop"}
+                            </li>
+                            <li
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.li,
+                                projectcss.__wab_text,
+                                sty.li__aYhpa
+                              )}
+                            >
+                              {"Vocaloid"}
+                            </li>
+                            <li
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.li,
+                                projectcss.__wab_text,
+                                sty.li__w0Fe
+                              )}
+                            >
+                              {"Kawaii Future Bass"}
+                            </li>
+                          </ul>
+                        }
+                        <React.Fragment>{""}</React.Fragment>
+                      </React.Fragment>
+                    </div>
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__jIyjr
+                      )}
+                    >
+                      {"Video Games"}
+                    </div>
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__vxdZh
+                      )}
+                    >
+                      <React.Fragment>
+                        <React.Fragment>{""}</React.Fragment>
+                        {
+                          <ul
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.ul,
+                              sty.ul__tFiqk
+                            )}
+                          >
+                            <li
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.li,
+                                projectcss.__wab_text,
+                                sty.li__jXsGr
+                              )}
+                            >
+                              {"UNDERTALE & deltarune"}
+                            </li>
+                            <li
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.li,
+                                projectcss.__wab_text,
+                                sty.li__flKYo
+                              )}
+                            >
+                              {"Night in the Woods"}
+                            </li>
+                            <li
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.li,
+                                projectcss.__wab_text,
+                                sty.li__c8Eiw
+                              )}
+                            >
+                              {"OneShot"}
+                            </li>
+                            <li
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.li,
+                                projectcss.__wab_text,
+                                sty.li__ebQn
+                              )}
+                            >
+                              {"Omori"}
+                            </li>
+                            <li
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.li,
+                                projectcss.__wab_text,
+                                sty.li__gcecr
+                              )}
+                            >
+                              {"VRChat"}
+                            </li>
+                            <li
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.li,
+                                projectcss.__wab_text,
+                                sty.li__rhXk1
+                              )}
+                            >
+                              {"Beat Saber"}
+                            </li>
+                          </ul>
+                        }
+                        <React.Fragment>{""}</React.Fragment>
+                      </React.Fragment>
+                    </div>
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__w2MfB
+                      )}
+                    >
+                      {"Food"}
+                    </div>
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__nrgz6
+                      )}
+                    >
+                      <React.Fragment>
+                        <React.Fragment>{""}</React.Fragment>
+                        {
+                          <ul
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.ul,
+                              sty.ul__azlqi
+                            )}
+                          >
+                            <li
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.li,
+                                projectcss.__wab_text,
+                                sty.li___0DM3V
+                              )}
+                            >
+                              {"Mac & Cheese"}
+                            </li>
+                            <li
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.li,
+                                projectcss.__wab_text,
+                                sty.li__xz7MV
+                              )}
+                            >
+                              {"Beef Ramen"}
+                            </li>
+                            <li
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.li,
+                                projectcss.__wab_text,
+                                sty.li__li2H
+                              )}
+                            >
+                              {"Bacon and Dippy Eggs"}
+                            </li>
+                          </ul>
+                        }
+                        <React.Fragment>{""}</React.Fragment>
+                      </React.Fragment>
+                    </div>
                   </div>
                 </Stack__>
               </div>
-              <div className={classNames(projectcss.all, sty.column__vhaDu)}>
-                <PlasmicImg__
-                  alt={""}
-                  className={classNames(sty.img__q2PNg)}
-                  displayHeight={"auto"}
-                  displayMaxHeight={"none"}
-                  displayMaxWidth={"100%"}
-                  displayMinHeight={"0"}
-                  displayMinWidth={"0"}
-                  displayWidth={"100%"}
-                  loading={"lazy"}
-                />
-              </div>
+              <div className={classNames(projectcss.all, sty.column__vhaDu)} />
             </Stack__>
           </Reveal>
         </div>
@@ -236,11 +523,11 @@ function PlasmicAboutMe__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "navbar", "reveal", "columns", "freeBox"],
+  root: ["root", "navbar", "reveal", "columns", "img"],
   navbar: ["navbar"],
-  reveal: ["reveal", "columns", "freeBox"],
-  columns: ["columns", "freeBox"],
-  freeBox: ["freeBox"]
+  reveal: ["reveal", "columns", "img"],
+  columns: ["columns", "img"],
+  img: ["img"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -250,7 +537,7 @@ type NodeDefaultElementType = {
   navbar: typeof Navbar;
   reveal: typeof Reveal;
   columns: "div";
-  freeBox: "div";
+  img: typeof PlasmicImg__;
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -316,7 +603,7 @@ export const PlasmicAboutMe = Object.assign(
     navbar: makeNodeComponent("navbar"),
     reveal: makeNodeComponent("reveal"),
     columns: makeNodeComponent("columns"),
-    freeBox: makeNodeComponent("freeBox"),
+    img: makeNodeComponent("img"),
 
     // Metadata about props expected for PlasmicAboutMe
     internalVariantProps: PlasmicAboutMe__VariantProps,

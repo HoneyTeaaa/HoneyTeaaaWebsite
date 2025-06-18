@@ -77,8 +77,7 @@
           "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
         }
       ],
-      "customFunctions": [],
-      "jsBundleThemes": []
+      "customFunctions": []
     },
     {
       "projectId": "enk3K4vZ6pmH6kVCoZJXGn",
@@ -100,8 +99,7 @@
           "componentImportPath": "@plasmicpkgs/react-youtube"
         }
       ],
-      "customFunctions": [],
-      "jsBundleThemes": []
+      "customFunctions": []
     },
     {
       "projectId": "szjgMQpPpxhmkjnaBvZQJG",
@@ -123,8 +121,7 @@
           "componentImportPath": "@plasmicpkgs/react-parallax-tilt"
         }
       ],
-      "customFunctions": [],
-      "jsBundleThemes": []
+      "customFunctions": []
     },
     {
       "projectId": "84wxoth5npGrp6RRXPL88z",
@@ -152,8 +149,7 @@
           "componentImportPath": "@plasmicpkgs/react-scroll-parallax"
         }
       ],
-      "customFunctions": [],
-      "jsBundleThemes": []
+      "customFunctions": []
     },
     {
       "projectId": "r3ASNrnyvLLLAtDvzUioQ",
@@ -179,8 +175,7 @@
           }
         }
       ],
-      "customFunctions": [],
-      "jsBundleThemes": []
+      "customFunctions": []
     },
     {
       "projectId": "58GpZjZCWTaJ8AUhpCwt2K",
@@ -202,8 +197,7 @@
           "componentImportPath": "@plasmicpkgs/react-awesome-reveal"
         }
       ],
-      "customFunctions": [],
-      "jsBundleThemes": []
+      "customFunctions": []
     },
     {
       "projectId": "pqbSBZb9VG36A9gA4GgWPg",
@@ -486,7 +480,7 @@
           "projectId": "pqbSBZb9VG36A9gA4GgWPg",
           "renderModuleFilePath": "plasmic/liz_website/PlasmicMoreInfoSugarV1.tsx",
           "importSpec": {
-            "modulePath": "../pages/Sugar V1.tsx"
+            "modulePath": "../pages/SugarV1.tsx"
           },
           "cssFilePath": "plasmic/liz_website/PlasmicMoreInfoSugarV1.module.css",
           "scheme": "blackbox",
@@ -500,7 +494,7 @@
           "projectId": "pqbSBZb9VG36A9gA4GgWPg",
           "renderModuleFilePath": "plasmic/liz_website/PlasmicMoreInfoSugarV2.tsx",
           "importSpec": {
-            "modulePath": "../pages/Sugar V1-2.tsx"
+            "modulePath": "../pages/SugarV2.tsx"
           },
           "cssFilePath": "plasmic/liz_website/PlasmicMoreInfoSugarV2.module.css",
           "scheme": "blackbox",
@@ -573,6 +567,76 @@
           "scheme": "blackbox",
           "componentType": "page",
           "path": "/template"
+        },
+        {
+          "id": "cUvwq54AIwDk",
+          "name": "MoreInfoAstro",
+          "type": "managed",
+          "projectId": "pqbSBZb9VG36A9gA4GgWPg",
+          "renderModuleFilePath": "plasmic/liz_website/PlasmicMoreInfoAstro.tsx",
+          "importSpec": {
+            "modulePath": "../pages/Astro.tsx"
+          },
+          "cssFilePath": "plasmic/liz_website/PlasmicMoreInfoAstro.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/Astro"
+        },
+        {
+          "id": "iZ3pTsugcA9b",
+          "name": "MoreInfoMochaccino",
+          "type": "managed",
+          "projectId": "pqbSBZb9VG36A9gA4GgWPg",
+          "renderModuleFilePath": "plasmic/liz_website/PlasmicMoreInfoMochaccino.tsx",
+          "importSpec": {
+            "modulePath": "../pages/Mochaccino.tsx"
+          },
+          "cssFilePath": "plasmic/liz_website/PlasmicMoreInfoMochaccino.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/Mochaccino"
+        },
+        {
+          "id": "xKDa_h1WuCnX",
+          "name": "MoreInfoDrinkRender",
+          "type": "managed",
+          "projectId": "pqbSBZb9VG36A9gA4GgWPg",
+          "renderModuleFilePath": "plasmic/liz_website/PlasmicMoreInfoDrinkRender.tsx",
+          "importSpec": {
+            "modulePath": "../pages/DrinkRender.tsx"
+          },
+          "cssFilePath": "plasmic/liz_website/PlasmicMoreInfoDrinkRender.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/DrinkRender"
+        },
+        {
+          "id": "gmP4OuqAmmNj",
+          "name": "MoreInfoBugTaxi",
+          "type": "managed",
+          "projectId": "pqbSBZb9VG36A9gA4GgWPg",
+          "renderModuleFilePath": "plasmic/liz_website/PlasmicMoreInfoBugTaxi.tsx",
+          "importSpec": {
+            "modulePath": "../pages/BugTaxi.tsx"
+          },
+          "cssFilePath": "plasmic/liz_website/PlasmicMoreInfoBugTaxi.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/BugTaxi"
+        },
+        {
+          "id": "mGYignknmvRA",
+          "name": "MoreInfoPieceAShit",
+          "type": "managed",
+          "projectId": "pqbSBZb9VG36A9gA4GgWPg",
+          "renderModuleFilePath": "plasmic/liz_website/PlasmicMoreInfoPieceAShit.tsx",
+          "importSpec": {
+            "modulePath": "../pages/PieceAShit.tsx"
+          },
+          "cssFilePath": "plasmic/liz_website/PlasmicMoreInfoPieceAShit.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/PieceAShit"
         }
       ],
       "icons": [
@@ -937,6 +1001,91 @@
           "id": "-voWpAviavci",
           "name": "Render2.png",
           "filePath": "../public/plasmic/liz_website/images/render2Png.png"
+        },
+        {
+          "id": "Mis8IUUwTEnk",
+          "name": "BugTaxiPoster.jpg",
+          "filePath": "../public/plasmic/liz_website/images/bugTaxiPosterJpg.jpg"
+        },
+        {
+          "id": "qIV6PBk_s9EW",
+          "name": "image 16",
+          "filePath": "../public/plasmic/liz_website/images/image16.jpg"
+        },
+        {
+          "id": "FM07swT54I7T",
+          "name": "image 17",
+          "filePath": "../public/plasmic/liz_website/images/image17.jpg"
+        },
+        {
+          "id": "cPNfzbqMbTK4",
+          "name": "image 18",
+          "filePath": "../public/plasmic/liz_website/images/image18.jpg"
+        },
+        {
+          "id": "J7ZIaz6I1wxY",
+          "name": "image 19",
+          "filePath": "../public/plasmic/liz_website/images/image19.png"
+        },
+        {
+          "id": "T1IFydq-P_l5",
+          "name": "BugTaxiPhoto1.jpg",
+          "filePath": "../public/plasmic/liz_website/images/bugTaxiPhoto1Jpg.jpg"
+        },
+        {
+          "id": "Mn0KuvhlBFeM",
+          "name": "BugTaxiPhoto3.jpg",
+          "filePath": "../public/plasmic/liz_website/images/bugTaxiPhoto3Jpg.jpg"
+        },
+        {
+          "id": "IDfbOEBk-9AM",
+          "name": "BugTaxiPhoto2.jpg",
+          "filePath": "../public/plasmic/liz_website/images/bugTaxiPhoto2Jpg.jpg"
+        },
+        {
+          "id": "vNxyAkjr3-GU",
+          "name": "VRChat_2024-01-14_15-10-40.png",
+          "filePath": "../public/plasmic/liz_website/images/vrChat20240114151040Png.png"
+        },
+        {
+          "id": "6kgz9OQFTaZ4",
+          "name": "VRChat_2024-01-14_15-11-25.png",
+          "filePath": "../public/plasmic/liz_website/images/vrChat20240114151125Png.png"
+        },
+        {
+          "id": "nAPEX7ElPtW0",
+          "name": "VRChat_2024-01-14_15-14-03.923_3840x2160.png",
+          "filePath": "../public/plasmic/liz_website/images/vrChat202401141514039233840X2160Png.webp"
+        },
+        {
+          "id": "QwecC-q2iAbP",
+          "name": "VRChat_2024-01-14_15-14-23.966_3840x2160.png",
+          "filePath": "../public/plasmic/liz_website/images/vrChat202401141514239663840X2160Png.webp"
+        },
+        {
+          "id": "MTvy--B90dWi",
+          "name": "VRChat_2024-01-14_15-14-57.001_3840x2160.png",
+          "filePath": "../public/plasmic/liz_website/images/vrChat202401141514570013840X2160Png.webp"
+        },
+        {
+          "id": "m2tNqv4daKBV",
+          "name": "snapshot.png",
+          "filePath": "../public/plasmic/liz_website/images/snapshotPng.png"
+        },
+        {
+          "id": "G3OAhOZ0IY2V",
+          "name": "image.png 2",
+          "filePath": "../public/plasmic/liz_website/images/imagePng2.png"
+        },
+        {
+          "id": "NyPz0sC7j3As",
+          "name": "mocha.png",
+          "filePath": "../public/plasmic/liz_website/images/mochaPng.png"
+        },
+        {
+          "id": "z_JfVTFN-6Nr",
+          "name": "77c50091-d0b1-41c5-b1f5-15da202ecab7.png",
+          "filePath": "../public/plasmic/liz_website/images/_77C50091D0B141C5B1F515Da202Ecab7Png.jpg"
         }
       ],
       "indirect": false,
@@ -1164,8 +1313,7 @@
           "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerDialog"
         }
       ],
-      "customFunctions": [],
-      "jsBundleThemes": []
+      "customFunctions": []
     },
     {
       "projectId": "5dGW8Awro3qq8Hh5MveXLP",
@@ -1193,8 +1341,7 @@
           "componentImportPath": "@plasmicpkgs/lottie-react"
         }
       ],
-      "customFunctions": [],
-      "jsBundleThemes": []
+      "customFunctions": []
     }
   ],
   "globalVariants": {
@@ -1211,6 +1358,6 @@
   "nextjsConfig": {
     "pagesDir": "../pages"
   },
-  "cliVersion": "0.1.337",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.337/dist/plasmic.schema.json"
+  "cliVersion": "0.1.338",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.338/dist/plasmic.schema.json"
 }

@@ -35,14 +35,14 @@
   right: 0;
   bottom: 0;
   height: 100%;
-  display: none !important;
+  display: none;
 }
 .img__nxIwS > picture > img {
   object-fit: cover;
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .img__nxIwS {
-    display: none !important;
+    display: none;
   }
 }
 .section {

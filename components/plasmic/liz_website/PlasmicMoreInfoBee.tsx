@@ -124,6 +124,7 @@ function PlasmicMoreInfoBee__RenderFunc(props: {
   };
 
   const __nextRouter = useNextRouter();
+
   const $ctx = useDataEnv?.() || {};
   const refsRef = React.useRef({});
   const $refs = refsRef.current;
@@ -245,8 +246,9 @@ function PlasmicMoreInfoBee__RenderFunc(props: {
                     component={Link}
                     href={"https://discord.com/invite/kitavali"}
                     platform={"nextjs"}
+                    target={"_blank"}
                   >
-                    {"Kitavali Base Model . Rai Kitamatsu"}
+                    {"Kitavali Base Model - Rai Kitamatsu"}
                   </PlasmicLink__>
                 }
                 <React.Fragment>{""}</React.Fragment>
@@ -257,33 +259,14 @@ function PlasmicMoreInfoBee__RenderFunc(props: {
                 projectcss.all,
                 projectcss.a,
                 projectcss.__wab_text,
-                sty.link___7Zzd
+                sty.link__quwSl
               )}
               component={Link}
+              href={"https://www.poiyomi.com"}
               platform={"nextjs"}
+              target={"_blank"}
             >
-              <React.Fragment>
-                <React.Fragment>{""}</React.Fragment>
-                {
-                  <PlasmicLink__
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.a,
-                      projectcss.__wab_text,
-                      projectcss.plasmic_default__inline,
-                      sty.link__dpj3P
-                    )}
-                    component={Link}
-                    href={
-                      "https://github.com/poiyomi/PoiyomiToonShader/releases"
-                    }
-                    platform={"nextjs"}
-                  >
-                    {"Shaders . Poiyomi"}
-                  </PlasmicLink__>
-                }
-                <React.Fragment>{""}</React.Fragment>
-              </React.Fragment>
+              {"Poiyomi Shaders - Poiyomi"}
             </PlasmicLink__>
             <PlasmicLink__
               className={classNames(
@@ -309,13 +292,47 @@ function PlasmicMoreInfoBee__RenderFunc(props: {
                     component={Link}
                     href={"https://vrcmods.com/item?id=4933"}
                     platform={"nextjs"}
+                    target={"_blank"}
                   >
-                    {"Glasses . Shinbi"}
+                    {"Glasses - Shinbi"}
                   </PlasmicLink__>
                 }
                 <React.Fragment>{""}</React.Fragment>
               </React.Fragment>
             </PlasmicLink__>
+          </Stack__>
+          <Stack__
+            as={"div"}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.freeBox__vROvH)}
+          >
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__n9YDo
+              )}
+            >
+              <React.Fragment>
+                <span
+                  className={"plasmic_default__all plasmic_default__span"}
+                  style={{ fontWeight: 700 }}
+                >
+                  {"Avatar Information"}
+                </span>
+              </React.Fragment>
+            </div>
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__qUjv1
+              )}
+            >
+              {
+                "Bee is the first avatar I have ever made, I became interested in avatar creation after I found the kitavali base model and the helpful community that surrounds it. The model had premade Substance files that made it easy to start learning and exploring the program as well as a kind community that helped me figure out any Unity issues I got stuck on. Bee ended up being the first project to set me down the path of 3D art."
+              }
+            </div>
           </Stack__>
           <Stack__
             as={"div"}

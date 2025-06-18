@@ -502,6 +502,7 @@
   user-select: text;
   text-decoration-line: none;
   text-overflow: clip;
+  margin-top: calc(0px + 10px) !important;
   min-width: 0;
 }
 .freeBox__f9Fio {

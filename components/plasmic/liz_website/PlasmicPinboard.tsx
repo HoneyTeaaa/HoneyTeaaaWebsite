@@ -61,8 +61,8 @@ import {
 
 import CheckboxGroup from "../../CheckboxGroup"; // plasmic-import: _BIGxKAKL5XW/component
 import Checkbox from "../../Checkbox"; // plasmic-import: vt7lInvVpX0M/component
-import VhsTape from "../../VhsTape"; // plasmic-import: voAPSAvZhi6l/component
 import Polaroid from "../../Polaroid"; // plasmic-import: SGzL5zPyMcua/component
+import VhsTape from "../../VhsTape"; // plasmic-import: voAPSAvZhi6l/component
 
 import "@plasmicapp/react-web/lib/plasmic.css";
 
@@ -93,17 +93,29 @@ export type PlasmicPinboard__OverridesType = {
   option2?: Flex__<typeof Checkbox>;
   option3?: Flex__<typeof Checkbox>;
   option4?: Flex__<typeof Checkbox>;
-  polaroid10?: Flex__<typeof Polaroid>;
+  bugTaxi?: Flex__<typeof Polaroid>;
+  mochaccinoCoverPhoto?: Flex__<typeof PlasmicImg__>;
+  theHoneysong?: Flex__<typeof Polaroid>;
+  honeysongCoverPhoto?: Flex__<typeof PlasmicImg__>;
   ul?: Flex__<"ul">;
-  polaroid?: Flex__<typeof Polaroid>;
-  polaroid12?: Flex__<typeof Polaroid>;
-  polaroid11?: Flex__<typeof Polaroid>;
-  polaroid2?: Flex__<typeof Polaroid>;
-  polaroid5?: Flex__<typeof Polaroid>;
-  polaroid9?: Flex__<typeof Polaroid>;
-  polaroid7?: Flex__<typeof Polaroid>;
-  polaroid8?: Flex__<typeof Polaroid>;
-  polaroid6?: Flex__<typeof Polaroid>;
+  pieceAShit?: Flex__<typeof Polaroid>;
+  pieceAShitCoverPhoto?: Flex__<typeof PlasmicImg__>;
+  drinkRender?: Flex__<typeof Polaroid>;
+  drinkRenderCoverPhoto?: Flex__<typeof PlasmicImg__>;
+  mochaccino?: Flex__<typeof Polaroid>;
+  mochaccinoCoverPhoto2?: Flex__<typeof PlasmicImg__>;
+  astro?: Flex__<typeof Polaroid>;
+  astroCoverPhoto?: Flex__<typeof PlasmicImg__>;
+  aerie?: Flex__<typeof Polaroid>;
+  aerieCoverPhoto?: Flex__<typeof PlasmicImg__>;
+  sugarVer2?: Flex__<typeof Polaroid>;
+  sugarCoverPhoto?: Flex__<typeof PlasmicImg__>;
+  queenie?: Flex__<typeof Polaroid>;
+  queenieCoverPhoto?: Flex__<typeof PlasmicImg__>;
+  sugarVer1?: Flex__<typeof Polaroid>;
+  sugarVer1CoverPhoto?: Flex__<typeof PlasmicImg__>;
+  bee?: Flex__<typeof Polaroid>;
+  beeCoverPhoto?: Flex__<typeof PlasmicImg__>;
 };
 
 export interface DefaultPinboardProps {
@@ -145,6 +157,7 @@ function PlasmicPinboard__RenderFunc(props: {
   };
 
   const __nextRouter = useNextRouter();
+
   const $ctx = useDataEnv?.() || {};
   const refsRef = React.useRef({});
   const $refs = refsRef.current;
@@ -588,6 +601,79 @@ function PlasmicPinboard__RenderFunc(props: {
           )
         })}
       >
+        <div className={classNames(projectcss.all, sty.column__iL8EE)}>
+          <Polaroid
+            data-plasmic-name={"bugTaxi"}
+            data-plasmic-override={overrides.bugTaxi}
+            backHeader1={"Skills Used:"}
+            className={classNames("__wab_instance", sty.bugTaxi)}
+            projectTitle={"Bug Taxi!"}
+            slot={
+              <React.Fragment>
+                <li
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.li,
+                    projectcss.__wab_text,
+                    sty.li__qcdAf
+                  )}
+                >
+                  {"Unity"}
+                </li>
+                <li
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.li,
+                    projectcss.__wab_text,
+                    sty.li__ho5Hs
+                  )}
+                >
+                  {"Blender"}
+                </li>
+                <li
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.li,
+                    projectcss.__wab_text,
+                    sty.li__bRi2X
+                  )}
+                >
+                  {"Arduino"}
+                </li>
+                <li
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.li,
+                    projectcss.__wab_text,
+                    sty.li__yXRhy
+                  )}
+                >
+                  {"C#"}
+                </li>
+              </React.Fragment>
+            }
+          >
+            <PlasmicImg__
+              data-plasmic-name={"mochaccinoCoverPhoto"}
+              data-plasmic-override={overrides.mochaccinoCoverPhoto}
+              alt={""}
+              className={classNames(sty.mochaccinoCoverPhoto)}
+              displayHeight={"100%"}
+              displayMaxHeight={"none"}
+              displayMaxWidth={"100%"}
+              displayMinHeight={"0"}
+              displayMinWidth={"0"}
+              displayWidth={"100%"}
+              loading={"lazy"}
+              src={{
+                src: "/plasmic/liz_website/images/bugTaxiPosterJpg.jpg",
+                fullWidth: 2550,
+                fullHeight: 3300,
+                aspectRatio: undefined
+              }}
+            />
+          </Polaroid>
+        </div>
         <div className={classNames(projectcss.all, sty.column__ikohT)}>
           <VhsTape
             background={
@@ -696,26 +782,26 @@ function PlasmicPinboard__RenderFunc(props: {
         </div>
         <div className={classNames(projectcss.all, sty.column__oWo6K)}>
           <Polaroid
-            data-plasmic-name={"polaroid10"}
-            data-plasmic-override={overrides.polaroid10}
-            backHeader1={"Software Used"}
-            className={classNames("__wab_instance", sty.polaroid10, {
-              [sty.polaroid10projectType_blender]: hasVariant(
+            data-plasmic-name={"theHoneysong"}
+            data-plasmic-override={overrides.theHoneysong}
+            backHeader1={"Skills Used:"}
+            className={classNames("__wab_instance", sty.theHoneysong, {
+              [sty.theHoneysongprojectType_blender]: hasVariant(
                 $state,
                 "projectType",
                 "blender"
               ),
-              [sty.polaroid10projectType_fIlm]: hasVariant(
+              [sty.theHoneysongprojectType_fIlm]: hasVariant(
                 $state,
                 "projectType",
                 "fIlm"
               ),
-              [sty.polaroid10projectType_unity]: hasVariant(
+              [sty.theHoneysongprojectType_unity]: hasVariant(
                 $state,
                 "projectType",
                 "unity"
               ),
-              [sty.polaroid10projectType_vrChat]: hasVariant(
+              [sty.theHoneysongprojectType_vrChat]: hasVariant(
                 $state,
                 "projectType",
                 "vrChat"
@@ -783,8 +869,10 @@ function PlasmicPinboard__RenderFunc(props: {
           >
             <div className={classNames(projectcss.all, sty.freeBox___72AvA)}>
               <PlasmicImg__
+                data-plasmic-name={"honeysongCoverPhoto"}
+                data-plasmic-override={overrides.honeysongCoverPhoto}
                 alt={""}
-                className={classNames(sty.img__u9SdO)}
+                className={classNames(sty.honeysongCoverPhoto)}
                 displayHeight={"100%"}
                 displayMaxHeight={"none"}
                 displayMaxWidth={"100%"}
@@ -814,38 +902,75 @@ function PlasmicPinboard__RenderFunc(props: {
       >
         <div className={classNames(projectcss.all, sty.column__zYcru)}>
           <Polaroid
-            data-plasmic-name={"polaroid"}
-            data-plasmic-override={overrides.polaroid}
-            backHeader1={``}
-            className={classNames("__wab_instance", sty.polaroid, {
-              [sty.polaroidprojectType_blender]: hasVariant(
+            data-plasmic-name={"pieceAShit"}
+            data-plasmic-override={overrides.pieceAShit}
+            backHeader1={"Skills Used:"}
+            className={classNames("__wab_instance", sty.pieceAShit, {
+              [sty.pieceAShitprojectType_blender]: hasVariant(
                 $state,
                 "projectType",
                 "blender"
               ),
-              [sty.polaroidprojectType_fIlm]: hasVariant(
+              [sty.pieceAShitprojectType_fIlm]: hasVariant(
                 $state,
                 "projectType",
                 "fIlm"
               ),
-              [sty.polaroidprojectType_unity]: hasVariant(
+              [sty.pieceAShitprojectType_unity]: hasVariant(
                 $state,
                 "projectType",
                 "unity"
               ),
-              [sty.polaroidprojectType_vrChat]: hasVariant(
+              [sty.pieceAShitprojectType_vrChat]: hasVariant(
                 $state,
                 "projectType",
                 "vrChat"
               )
             })}
             date2={"2024"}
+            infoPage={`/BugTaxi`}
             projectTitle={"Piece a Shit"}
+            slot={
+              <React.Fragment>
+                <li
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.li,
+                    projectcss.__wab_text,
+                    sty.li___62Fnl
+                  )}
+                >
+                  {"Unity"}
+                </li>
+                <li
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.li,
+                    projectcss.__wab_text,
+                    sty.li__b3Rkc
+                  )}
+                >
+                  {"Blender"}
+                </li>
+                <li
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.li,
+                    projectcss.__wab_text,
+                    sty.li___8RjW
+                  )}
+                >
+                  {"Meta XR SDK"}
+                </li>
+              </React.Fragment>
+            }
           >
             <PlasmicImg__
+              data-plasmic-name={"pieceAShitCoverPhoto"}
+              data-plasmic-override={overrides.pieceAShitCoverPhoto}
               alt={""}
-              className={classNames(sty.img__nS554, {
-                [sty.imgprojectType_unity__nS554NjRr]: hasVariant(
+              className={classNames(sty.pieceAShitCoverPhoto, {
+                [sty.pieceAShitCoverPhotoprojectType_unity]: hasVariant(
                   $state,
                   "projectType",
                   "unity"
@@ -869,37 +994,52 @@ function PlasmicPinboard__RenderFunc(props: {
         </div>
         <div className={classNames(projectcss.all, sty.column__fP0Bd)}>
           <Polaroid
-            data-plasmic-name={"polaroid12"}
-            data-plasmic-override={overrides.polaroid12}
-            backHeader1={"Software Used"}
-            className={classNames("__wab_instance", sty.polaroid12, {
-              [sty.polaroid12projectType_blender]: hasVariant(
+            data-plasmic-name={"drinkRender"}
+            data-plasmic-override={overrides.drinkRender}
+            backHeader1={"Skills Used:"}
+            className={classNames("__wab_instance", sty.drinkRender, {
+              [sty.drinkRenderprojectType_blender]: hasVariant(
                 $state,
                 "projectType",
                 "blender"
               ),
-              [sty.polaroid12projectType_fIlm]: hasVariant(
+              [sty.drinkRenderprojectType_fIlm]: hasVariant(
                 $state,
                 "projectType",
                 "fIlm"
               ),
-              [sty.polaroid12projectType_unity]: hasVariant(
+              [sty.drinkRenderprojectType_unity]: hasVariant(
                 $state,
                 "projectType",
                 "unity"
               ),
-              [sty.polaroid12projectType_vrChat]: hasVariant(
+              [sty.drinkRenderprojectType_vrChat]: hasVariant(
                 $state,
                 "projectType",
                 "vrChat"
               )
             })}
             date2={"2024"}
+            infoPage={`/DrinkRender`}
             projectTitle={"Drink Render"}
+            slot={
+              <li
+                className={classNames(
+                  projectcss.all,
+                  projectcss.li,
+                  projectcss.__wab_text,
+                  sty.li__gFZ
+                )}
+              >
+                {"Blender"}
+              </li>
+            }
           >
             <PlasmicImg__
+              data-plasmic-name={"drinkRenderCoverPhoto"}
+              data-plasmic-override={overrides.drinkRenderCoverPhoto}
               alt={""}
-              className={classNames(sty.img___6XPdf)}
+              className={classNames(sty.drinkRenderCoverPhoto)}
               displayHeight={"100%"}
               displayMaxHeight={"none"}
               displayMaxWidth={"100%"}
@@ -918,32 +1058,79 @@ function PlasmicPinboard__RenderFunc(props: {
         </div>
         <div className={classNames(projectcss.all, sty.column__jvz88)}>
           <Polaroid
-            data-plasmic-name={"polaroid11"}
-            data-plasmic-override={overrides.polaroid11}
-            backHeader1={``}
-            className={classNames("__wab_instance", sty.polaroid11, {
-              [sty.polaroid11projectType_blender]: hasVariant(
+            data-plasmic-name={"mochaccino"}
+            data-plasmic-override={overrides.mochaccino}
+            backHeader1={"Skills Used:"}
+            className={classNames("__wab_instance", sty.mochaccino, {
+              [sty.mochaccinoprojectType_blender]: hasVariant(
                 $state,
                 "projectType",
                 "blender"
               ),
-              [sty.polaroid11projectType_fIlm]: hasVariant(
+              [sty.mochaccinoprojectType_fIlm]: hasVariant(
                 $state,
                 "projectType",
                 "fIlm"
               ),
-              [sty.polaroid11projectType_unity]: hasVariant(
+              [sty.mochaccinoprojectType_unity]: hasVariant(
                 $state,
                 "projectType",
                 "unity"
               )
             })}
             date2={"2024"}
+            infoPage={`/Mochaccino`}
             projectTitle={"Mochaccino"}
+            slot={
+              <React.Fragment>
+                <li
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.li,
+                    projectcss.__wab_text,
+                    sty.li__dvun7
+                  )}
+                >
+                  {"Unity"}
+                </li>
+                <li
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.li,
+                    projectcss.__wab_text,
+                    sty.li__t0MkD
+                  )}
+                >
+                  {"Blender"}
+                </li>
+                <li
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.li,
+                    projectcss.__wab_text,
+                    sty.li__dlVb1
+                  )}
+                >
+                  {"Substance Painter"}
+                </li>
+                <li
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.li,
+                    projectcss.__wab_text,
+                    sty.li__xrHWz
+                  )}
+                >
+                  {"VRChat SDK"}
+                </li>
+              </React.Fragment>
+            }
           >
             <PlasmicImg__
+              data-plasmic-name={"mochaccinoCoverPhoto2"}
+              data-plasmic-override={overrides.mochaccinoCoverPhoto2}
               alt={""}
-              className={classNames(sty.img__jxQce)}
+              className={classNames(sty.mochaccinoCoverPhoto2)}
               displayHeight={"100%"}
               displayMaxHeight={"none"}
               displayMaxWidth={"100%"}
@@ -964,28 +1151,75 @@ function PlasmicPinboard__RenderFunc(props: {
       <div className={classNames(projectcss.all, sty.columns__wwKzh)}>
         <div className={classNames(projectcss.all, sty.column__gCyR)}>
           <Polaroid
-            data-plasmic-name={"polaroid2"}
-            data-plasmic-override={overrides.polaroid2}
-            backHeader1={"Credits:"}
-            className={classNames("__wab_instance", sty.polaroid2, {
-              [sty.polaroid2projectType_blender]: hasVariant(
+            data-plasmic-name={"astro"}
+            data-plasmic-override={overrides.astro}
+            backHeader1={"Skills Used:"}
+            className={classNames("__wab_instance", sty.astro, {
+              [sty.astroprojectType_blender]: hasVariant(
                 $state,
                 "projectType",
                 "blender"
               ),
-              [sty.polaroid2projectType_fIlm]: hasVariant(
+              [sty.astroprojectType_fIlm]: hasVariant(
                 $state,
                 "projectType",
                 "fIlm"
               )
             })}
             date2={"2023"}
+            infoPage={`/Astro`}
             projectTitle={"Astro"}
+            slot={
+              <React.Fragment>
+                <li
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.li,
+                    projectcss.__wab_text,
+                    sty.li__pA3AG
+                  )}
+                >
+                  {"Unity"}
+                </li>
+                <li
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.li,
+                    projectcss.__wab_text,
+                    sty.li__kt7DB
+                  )}
+                >
+                  {"Blender"}
+                </li>
+                <li
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.li,
+                    projectcss.__wab_text,
+                    sty.li__zKwC5
+                  )}
+                >
+                  {"Substance Painter"}
+                </li>
+                <li
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.li,
+                    projectcss.__wab_text,
+                    sty.li__l0RTb
+                  )}
+                >
+                  {"VRChat SDK"}
+                </li>
+              </React.Fragment>
+            }
           >
             <PlasmicImg__
+              data-plasmic-name={"astroCoverPhoto"}
+              data-plasmic-override={overrides.astroCoverPhoto}
               alt={""}
-              className={classNames(sty.img__gguFg, {
-                [sty.imgprojectType_blender__gguFGgS4Vu]: hasVariant(
+              className={classNames(sty.astroCoverPhoto, {
+                [sty.astroCoverPhotoprojectType_blender]: hasVariant(
                   $state,
                   "projectType",
                   "blender"
@@ -1009,16 +1243,16 @@ function PlasmicPinboard__RenderFunc(props: {
         </div>
         <div className={classNames(projectcss.all, sty.column__gtFj)}>
           <Polaroid
-            data-plasmic-name={"polaroid5"}
-            data-plasmic-override={overrides.polaroid5}
-            backHeader1={"Credits:"}
-            className={classNames("__wab_instance", sty.polaroid5, {
-              [sty.polaroid5projectType_blender]: hasVariant(
+            data-plasmic-name={"aerie"}
+            data-plasmic-override={overrides.aerie}
+            backHeader1={"Skills Used:"}
+            className={classNames("__wab_instance", sty.aerie, {
+              [sty.aerieprojectType_blender]: hasVariant(
                 $state,
                 "projectType",
                 "blender"
               ),
-              [sty.polaroid5projectType_fIlm]: hasVariant(
+              [sty.aerieprojectType_fIlm]: hasVariant(
                 $state,
                 "projectType",
                 "fIlm"
@@ -1026,11 +1260,57 @@ function PlasmicPinboard__RenderFunc(props: {
             })}
             date2={"2023"}
             projectTitle={"Aerie"}
+            slot={
+              <React.Fragment>
+                <li
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.li,
+                    projectcss.__wab_text,
+                    sty.li__jhZrb
+                  )}
+                >
+                  {"Unity"}
+                </li>
+                <li
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.li,
+                    projectcss.__wab_text,
+                    sty.li__cGqcF
+                  )}
+                >
+                  {"Blender"}
+                </li>
+                <li
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.li,
+                    projectcss.__wab_text,
+                    sty.li__giRqZ
+                  )}
+                >
+                  {"Substance Painter"}
+                </li>
+                <li
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.li,
+                    projectcss.__wab_text,
+                    sty.li__lg55X
+                  )}
+                >
+                  {"VRChat SDK"}
+                </li>
+              </React.Fragment>
+            }
           >
             <PlasmicImg__
+              data-plasmic-name={"aerieCoverPhoto"}
+              data-plasmic-override={overrides.aerieCoverPhoto}
               alt={""}
-              className={classNames(sty.img__fEbIo, {
-                [sty.imgprojectType_blender__fEbIogS4Vu]: hasVariant(
+              className={classNames(sty.aerieCoverPhoto, {
+                [sty.aerieCoverPhotoprojectType_blender]: hasVariant(
                   $state,
                   "projectType",
                   "blender"
@@ -1054,64 +1334,69 @@ function PlasmicPinboard__RenderFunc(props: {
         </div>
         <div className={classNames(projectcss.all, sty.column___6LLa)}>
           <Polaroid
-            data-plasmic-name={"polaroid9"}
-            data-plasmic-override={overrides.polaroid9}
-            backHeader1={"Software Used:"}
-            className={classNames("__wab_instance", sty.polaroid9, {
-              [sty.polaroid9projectType_blender]: hasVariant(
+            data-plasmic-name={"sugarVer2"}
+            data-plasmic-override={overrides.sugarVer2}
+            backHeader1={"Skills Used:"}
+            className={classNames("__wab_instance", sty.sugarVer2, {
+              [sty.sugarVer2projectType_blender]: hasVariant(
                 $state,
                 "projectType",
                 "blender"
               ),
-              [sty.polaroid9projectType_fIlm]: hasVariant(
+              [sty.sugarVer2projectType_fIlm]: hasVariant(
                 $state,
                 "projectType",
                 "fIlm"
               ),
-              [sty.polaroid9projectType_unity]: hasVariant(
+              [sty.sugarVer2projectType_unity]: hasVariant(
                 $state,
                 "projectType",
                 "unity"
               )
             })}
             date2={"2023"}
-            infoPage={`/Sugar V1-2`}
+            infoPage={`/SugarV2`}
             projectTitle={"Sugar Ver. 2"}
             slot={
               <React.Fragment>
-                <div
+                <li
                   className={classNames(
                     projectcss.all,
+                    projectcss.li,
                     projectcss.__wab_text,
-                    sty.text__p5Tdr
-                  )}
-                >
-                  {"Substance Painter"}
-                </div>
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__xN4Re
-                  )}
-                >
-                  {"Blender"}
-                </div>
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__x3Reu
+                    sty.li__eQs4R
                   )}
                 >
                   {"Unity"}
-                </div>
+                </li>
+                <li
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.li,
+                    projectcss.__wab_text,
+                    sty.li__rwqOg
+                  )}
+                >
+                  {"Substance Painter"}
+                </li>
+                <li
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.li,
+                    projectcss.__wab_text,
+                    sty.li__vuwde
+                  )}
+                >
+                  {"VRChat SDK"}
+                </li>
               </React.Fragment>
             }
           >
             <PlasmicImg__
+              data-plasmic-name={"sugarCoverPhoto"}
+              data-plasmic-override={overrides.sugarCoverPhoto}
               alt={""}
-              className={classNames(sty.img__tiY81)}
+              className={classNames(sty.sugarCoverPhoto)}
               displayHeight={"100%"}
               displayMaxHeight={"none"}
               displayMaxWidth={"100%"}
@@ -1140,21 +1425,21 @@ function PlasmicPinboard__RenderFunc(props: {
       >
         <div className={classNames(projectcss.all, sty.column__glc00)}>
           <Polaroid
-            data-plasmic-name={"polaroid7"}
-            data-plasmic-override={overrides.polaroid7}
-            backHeader1={"Software Used:"}
-            className={classNames("__wab_instance", sty.polaroid7, {
-              [sty.polaroid7projectType_blender]: hasVariant(
+            data-plasmic-name={"queenie"}
+            data-plasmic-override={overrides.queenie}
+            backHeader1={"Skills Used:"}
+            className={classNames("__wab_instance", sty.queenie, {
+              [sty.queenieprojectType_blender]: hasVariant(
                 $state,
                 "projectType",
                 "blender"
               ),
-              [sty.polaroid7projectType_fIlm]: hasVariant(
+              [sty.queenieprojectType_fIlm]: hasVariant(
                 $state,
                 "projectType",
                 "fIlm"
               ),
-              [sty.polaroid7projectType_unity]: hasVariant(
+              [sty.queenieprojectType_unity]: hasVariant(
                 $state,
                 "projectType",
                 "unity"
@@ -1165,30 +1450,44 @@ function PlasmicPinboard__RenderFunc(props: {
             projectTitle={"Queenie"}
             slot={
               <React.Fragment>
-                <div
+                <li
                   className={classNames(
                     projectcss.all,
+                    projectcss.li,
                     projectcss.__wab_text,
-                    sty.text__yziqS
-                  )}
-                >
-                  {"Substance Painter"}
-                </div>
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__bahAo
+                    sty.li__ghEo
                   )}
                 >
                   {"Unity"}
-                </div>
+                </li>
+                <li
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.li,
+                    projectcss.__wab_text,
+                    sty.li__wdEsg
+                  )}
+                >
+                  {"Substance Painter"}
+                </li>
+                <li
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.li,
+                    projectcss.__wab_text,
+                    sty.li__m7Nqh
+                  )}
+                >
+                  {"VRChat SDK"}
+                </li>
               </React.Fragment>
             }
           >
             <PlasmicImg__
+              data-plasmic-name={"queenieCoverPhoto"}
+              data-plasmic-override={overrides.queenieCoverPhoto}
               alt={""}
-              className={classNames(sty.img__hJgkh)}
+              className={classNames(sty.queenieCoverPhoto)}
               displayHeight={"100%"}
               displayMaxHeight={"none"}
               displayMaxWidth={"100%"}
@@ -1207,56 +1506,70 @@ function PlasmicPinboard__RenderFunc(props: {
         </div>
         <div className={classNames(projectcss.all, sty.column__ymYep)}>
           <Polaroid
-            data-plasmic-name={"polaroid8"}
-            data-plasmic-override={overrides.polaroid8}
-            backHeader1={"Software Used:"}
-            className={classNames("__wab_instance", sty.polaroid8, {
-              [sty.polaroid8projectType_blender]: hasVariant(
+            data-plasmic-name={"sugarVer1"}
+            data-plasmic-override={overrides.sugarVer1}
+            backHeader1={"Skills Used:"}
+            className={classNames("__wab_instance", sty.sugarVer1, {
+              [sty.sugarVer1projectType_blender]: hasVariant(
                 $state,
                 "projectType",
                 "blender"
               ),
-              [sty.polaroid8projectType_fIlm]: hasVariant(
+              [sty.sugarVer1projectType_fIlm]: hasVariant(
                 $state,
                 "projectType",
                 "fIlm"
               ),
-              [sty.polaroid8projectType_unity]: hasVariant(
+              [sty.sugarVer1projectType_unity]: hasVariant(
                 $state,
                 "projectType",
                 "unity"
               )
             })}
             date2={"2022"}
-            infoPage={`/Sugar V1`}
+            infoPage={`/SugarV1`}
             projectTitle={"Sugar Ver. 1"}
             slot={
               <React.Fragment>
-                <div
+                <li
                   className={classNames(
                     projectcss.all,
+                    projectcss.li,
                     projectcss.__wab_text,
-                    sty.text__gw6KD
-                  )}
-                >
-                  {"Substance Painter"}
-                </div>
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__wqzRo
+                    sty.li__qapZt
                   )}
                 >
                   {"Unity"}
-                </div>
+                </li>
+                <li
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.li,
+                    projectcss.__wab_text,
+                    sty.li__p2H1N
+                  )}
+                >
+                  {"Substance Painter"}
+                </li>
+                <li
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.li,
+                    projectcss.__wab_text,
+                    sty.li__arex
+                  )}
+                >
+                  {"VRChat SDK"}
+                </li>
               </React.Fragment>
             }
           >
             <PlasmicImg__
+              data-plasmic-name={"sugarVer1CoverPhoto"}
+              data-plasmic-override={overrides.sugarVer1CoverPhoto}
               alt={""}
-              className={classNames(sty.img__sShEc, {
-                [sty.imgprojectType_fIlm__sShEc8ATfY]: hasVariant(
+              className={classNames(sty.sugarVer1CoverPhoto, {
+                [sty.sugarVer1CoverPhotoprojectType_fIlm]: hasVariant(
                   $state,
                   "projectType",
                   "fIlm"
@@ -1280,21 +1593,21 @@ function PlasmicPinboard__RenderFunc(props: {
         </div>
         <div className={classNames(projectcss.all, sty.column__qJlyj)}>
           <Polaroid
-            data-plasmic-name={"polaroid6"}
-            data-plasmic-override={overrides.polaroid6}
-            backHeader1={"Software Used:"}
-            className={classNames("__wab_instance", sty.polaroid6, {
-              [sty.polaroid6projectType_blender]: hasVariant(
+            data-plasmic-name={"bee"}
+            data-plasmic-override={overrides.bee}
+            backHeader1={"Skills Used:"}
+            className={classNames("__wab_instance", sty.bee, {
+              [sty.beeprojectType_blender]: hasVariant(
                 $state,
                 "projectType",
                 "blender"
               ),
-              [sty.polaroid6projectType_fIlm]: hasVariant(
+              [sty.beeprojectType_fIlm]: hasVariant(
                 $state,
                 "projectType",
                 "fIlm"
               ),
-              [sty.polaroid6projectType_unity]: hasVariant(
+              [sty.beeprojectType_unity]: hasVariant(
                 $state,
                 "projectType",
                 "unity"
@@ -1310,7 +1623,17 @@ function PlasmicPinboard__RenderFunc(props: {
                     projectcss.all,
                     projectcss.li,
                     projectcss.__wab_text,
-                    sty.li__lsi8A
+                    sty.li__gv5Y1
+                  )}
+                >
+                  {"Unity"}
+                </li>
+                <li
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.li,
+                    projectcss.__wab_text,
+                    sty.li__rcWdg
                   )}
                 >
                   {"Substance Painter"}
@@ -1320,18 +1643,20 @@ function PlasmicPinboard__RenderFunc(props: {
                     projectcss.all,
                     projectcss.li,
                     projectcss.__wab_text,
-                    sty.li__m7G9D
+                    sty.li__dtQrv
                   )}
                 >
-                  {"Unity"}
+                  {"VRChat SDK"}
                 </li>
               </React.Fragment>
             }
           >
             <PlasmicImg__
+              data-plasmic-name={"beeCoverPhoto"}
+              data-plasmic-override={overrides.beeCoverPhoto}
               alt={""}
-              className={classNames(sty.img__vLIK, {
-                [sty.imgprojectType_fIlm__vLIK8ATfY]: hasVariant(
+              className={classNames(sty.beeCoverPhoto, {
+                [sty.beeCoverPhotoprojectType_fIlm]: hasVariant(
                   $state,
                   "projectType",
                   "fIlm"
@@ -1366,34 +1691,58 @@ const PlasmicDescendants = {
     "option2",
     "option3",
     "option4",
-    "polaroid10",
+    "bugTaxi",
+    "mochaccinoCoverPhoto",
+    "theHoneysong",
+    "honeysongCoverPhoto",
     "ul",
-    "polaroid",
-    "polaroid12",
-    "polaroid11",
-    "polaroid2",
-    "polaroid5",
-    "polaroid9",
-    "polaroid7",
-    "polaroid8",
-    "polaroid6"
+    "pieceAShit",
+    "pieceAShitCoverPhoto",
+    "drinkRender",
+    "drinkRenderCoverPhoto",
+    "mochaccino",
+    "mochaccinoCoverPhoto2",
+    "astro",
+    "astroCoverPhoto",
+    "aerie",
+    "aerieCoverPhoto",
+    "sugarVer2",
+    "sugarCoverPhoto",
+    "queenie",
+    "queenieCoverPhoto",
+    "sugarVer1",
+    "sugarVer1CoverPhoto",
+    "bee",
+    "beeCoverPhoto"
   ],
   checkboxGroup: ["checkboxGroup", "option1", "option2", "option3", "option4"],
   option1: ["option1"],
   option2: ["option2"],
   option3: ["option3"],
   option4: ["option4"],
-  polaroid10: ["polaroid10", "ul"],
+  bugTaxi: ["bugTaxi", "mochaccinoCoverPhoto"],
+  mochaccinoCoverPhoto: ["mochaccinoCoverPhoto"],
+  theHoneysong: ["theHoneysong", "honeysongCoverPhoto", "ul"],
+  honeysongCoverPhoto: ["honeysongCoverPhoto"],
   ul: ["ul"],
-  polaroid: ["polaroid"],
-  polaroid12: ["polaroid12"],
-  polaroid11: ["polaroid11"],
-  polaroid2: ["polaroid2"],
-  polaroid5: ["polaroid5"],
-  polaroid9: ["polaroid9"],
-  polaroid7: ["polaroid7"],
-  polaroid8: ["polaroid8"],
-  polaroid6: ["polaroid6"]
+  pieceAShit: ["pieceAShit", "pieceAShitCoverPhoto"],
+  pieceAShitCoverPhoto: ["pieceAShitCoverPhoto"],
+  drinkRender: ["drinkRender", "drinkRenderCoverPhoto"],
+  drinkRenderCoverPhoto: ["drinkRenderCoverPhoto"],
+  mochaccino: ["mochaccino", "mochaccinoCoverPhoto2"],
+  mochaccinoCoverPhoto2: ["mochaccinoCoverPhoto2"],
+  astro: ["astro", "astroCoverPhoto"],
+  astroCoverPhoto: ["astroCoverPhoto"],
+  aerie: ["aerie", "aerieCoverPhoto"],
+  aerieCoverPhoto: ["aerieCoverPhoto"],
+  sugarVer2: ["sugarVer2", "sugarCoverPhoto"],
+  sugarCoverPhoto: ["sugarCoverPhoto"],
+  queenie: ["queenie", "queenieCoverPhoto"],
+  queenieCoverPhoto: ["queenieCoverPhoto"],
+  sugarVer1: ["sugarVer1", "sugarVer1CoverPhoto"],
+  sugarVer1CoverPhoto: ["sugarVer1CoverPhoto"],
+  bee: ["bee", "beeCoverPhoto"],
+  beeCoverPhoto: ["beeCoverPhoto"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -1405,17 +1754,29 @@ type NodeDefaultElementType = {
   option2: typeof Checkbox;
   option3: typeof Checkbox;
   option4: typeof Checkbox;
-  polaroid10: typeof Polaroid;
+  bugTaxi: typeof Polaroid;
+  mochaccinoCoverPhoto: typeof PlasmicImg__;
+  theHoneysong: typeof Polaroid;
+  honeysongCoverPhoto: typeof PlasmicImg__;
   ul: "ul";
-  polaroid: typeof Polaroid;
-  polaroid12: typeof Polaroid;
-  polaroid11: typeof Polaroid;
-  polaroid2: typeof Polaroid;
-  polaroid5: typeof Polaroid;
-  polaroid9: typeof Polaroid;
-  polaroid7: typeof Polaroid;
-  polaroid8: typeof Polaroid;
-  polaroid6: typeof Polaroid;
+  pieceAShit: typeof Polaroid;
+  pieceAShitCoverPhoto: typeof PlasmicImg__;
+  drinkRender: typeof Polaroid;
+  drinkRenderCoverPhoto: typeof PlasmicImg__;
+  mochaccino: typeof Polaroid;
+  mochaccinoCoverPhoto2: typeof PlasmicImg__;
+  astro: typeof Polaroid;
+  astroCoverPhoto: typeof PlasmicImg__;
+  aerie: typeof Polaroid;
+  aerieCoverPhoto: typeof PlasmicImg__;
+  sugarVer2: typeof Polaroid;
+  sugarCoverPhoto: typeof PlasmicImg__;
+  queenie: typeof Polaroid;
+  queenieCoverPhoto: typeof PlasmicImg__;
+  sugarVer1: typeof Polaroid;
+  sugarVer1CoverPhoto: typeof PlasmicImg__;
+  bee: typeof Polaroid;
+  beeCoverPhoto: typeof PlasmicImg__;
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -1483,17 +1844,29 @@ export const PlasmicPinboard = Object.assign(
     option2: makeNodeComponent("option2"),
     option3: makeNodeComponent("option3"),
     option4: makeNodeComponent("option4"),
-    polaroid10: makeNodeComponent("polaroid10"),
+    bugTaxi: makeNodeComponent("bugTaxi"),
+    mochaccinoCoverPhoto: makeNodeComponent("mochaccinoCoverPhoto"),
+    theHoneysong: makeNodeComponent("theHoneysong"),
+    honeysongCoverPhoto: makeNodeComponent("honeysongCoverPhoto"),
     ul: makeNodeComponent("ul"),
-    polaroid: makeNodeComponent("polaroid"),
-    polaroid12: makeNodeComponent("polaroid12"),
-    polaroid11: makeNodeComponent("polaroid11"),
-    polaroid2: makeNodeComponent("polaroid2"),
-    polaroid5: makeNodeComponent("polaroid5"),
-    polaroid9: makeNodeComponent("polaroid9"),
-    polaroid7: makeNodeComponent("polaroid7"),
-    polaroid8: makeNodeComponent("polaroid8"),
-    polaroid6: makeNodeComponent("polaroid6"),
+    pieceAShit: makeNodeComponent("pieceAShit"),
+    pieceAShitCoverPhoto: makeNodeComponent("pieceAShitCoverPhoto"),
+    drinkRender: makeNodeComponent("drinkRender"),
+    drinkRenderCoverPhoto: makeNodeComponent("drinkRenderCoverPhoto"),
+    mochaccino: makeNodeComponent("mochaccino"),
+    mochaccinoCoverPhoto2: makeNodeComponent("mochaccinoCoverPhoto2"),
+    astro: makeNodeComponent("astro"),
+    astroCoverPhoto: makeNodeComponent("astroCoverPhoto"),
+    aerie: makeNodeComponent("aerie"),
+    aerieCoverPhoto: makeNodeComponent("aerieCoverPhoto"),
+    sugarVer2: makeNodeComponent("sugarVer2"),
+    sugarCoverPhoto: makeNodeComponent("sugarCoverPhoto"),
+    queenie: makeNodeComponent("queenie"),
+    queenieCoverPhoto: makeNodeComponent("queenieCoverPhoto"),
+    sugarVer1: makeNodeComponent("sugarVer1"),
+    sugarVer1CoverPhoto: makeNodeComponent("sugarVer1CoverPhoto"),
+    bee: makeNodeComponent("bee"),
+    beeCoverPhoto: makeNodeComponent("beeCoverPhoto"),
 
     // Metadata about props expected for PlasmicPinboard
     internalVariantProps: PlasmicPinboard__VariantProps,

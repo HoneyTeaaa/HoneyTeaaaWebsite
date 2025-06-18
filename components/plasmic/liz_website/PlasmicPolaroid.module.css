@@ -127,7 +127,7 @@
   max-width: 100%;
   justify-content: center;
   align-items: center;
-  backface-visibility: visible;
+  backface-visibility: hidden;
   flex-shrink: 0;
   padding: 0px;
 }

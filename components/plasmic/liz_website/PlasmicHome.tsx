@@ -133,6 +133,7 @@ function PlasmicHome__RenderFunc(props: {
   };
 
   const __nextRouter = useNextRouter();
+
   const $ctx = useDataEnv?.() || {};
   const refsRef = React.useRef({});
   const $refs = refsRef.current;
@@ -249,7 +250,7 @@ function PlasmicHome__RenderFunc(props: {
                     )}
                   >
                     <React.Fragment>
-                      <React.Fragment>{"1/8/2025\n"}</React.Fragment>
+                      <React.Fragment>{"6/18/2025\n"}</React.Fragment>
                       {
                         <ul
                           data-plasmic-name={"ul"}
@@ -270,7 +271,7 @@ function PlasmicHome__RenderFunc(props: {
                               sty.li
                             )}
                           >
-                            {"New site layout!"}
+                            {"Updating portfolio"}
                           </li>
                         </ul>
                       }
@@ -374,9 +375,9 @@ function PlasmicHome__RenderFunc(props: {
                     displayWidth={"100%"}
                     loading={"lazy"}
                     src={{
-                      src: "/plasmic/liz_website/images/render2Png.png",
-                      fullWidth: 1920,
-                      fullHeight: 1080,
+                      src: "/plasmic/liz_website/images/_77C50091D0B141C5B1F515Da202Ecab7Png.jpg",
+                      fullWidth: 1217,
+                      fullHeight: 975,
                       aspectRatio: undefined
                     }}
                   />
@@ -388,7 +389,7 @@ function PlasmicHome__RenderFunc(props: {
                       sty.text___01SXj
                     )}
                   >
-                    {"The Honeysong"}
+                    {"Protogen Head!"}
                   </div>
                 </Stack__>
               </Stack__>

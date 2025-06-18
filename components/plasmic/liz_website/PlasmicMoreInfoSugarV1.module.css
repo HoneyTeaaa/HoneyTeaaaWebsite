@@ -81,6 +81,7 @@
 }
 .link__zfxLv {
   font-family: "Roboto Mono";
+  margin-bottom: 0px;
 }
 .link__siRhl {
   padding-bottom: 0px;
@@ -90,6 +91,10 @@
 }
 .link__em2V7 {
   font-family: "Roboto Mono";
+  margin-bottom: 0px;
+}
+.link__zjRk0 {
+  padding-bottom: 0px;
 }
 .freeBox__amOnw {
   background: var(--token-z5IKgHokHwfh);

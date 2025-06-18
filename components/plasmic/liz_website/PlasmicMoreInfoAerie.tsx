@@ -123,6 +123,7 @@ function PlasmicMoreInfoAerie__RenderFunc(props: {
   };
 
   const __nextRouter = useNextRouter();
+
   const $ctx = useDataEnv?.() || {};
   const refsRef = React.useRef({});
   const $refs = refsRef.current;
@@ -223,6 +224,7 @@ function PlasmicMoreInfoAerie__RenderFunc(props: {
                   component={Link}
                   href={"https://www.artbyneffertity.com/store"}
                   platform={"nextjs"}
+                  target={"_blank"}
                 >
                   {"Feathered Ampwave Base (No longer for sale) - Neffertity"}
                 </PlasmicLink__>
@@ -252,14 +254,29 @@ function PlasmicMoreInfoAerie__RenderFunc(props: {
                     sty.link__nPBkQ
                   )}
                   component={Link}
-                  href={"https://www.artbyneffertity.com/store"}
+                  href={"furality.online"}
                   platform={"nextjs"}
+                  target={"_blank"}
                 >
-                  {"Feathered Ampwave Base (No longer for sale) - Neffertity"}
+                  {"Horns & Furality Shader - Furality Team"}
                 </PlasmicLink__>
               }
               <React.Fragment>{""}</React.Fragment>
             </React.Fragment>
+          </PlasmicLink__>
+          <PlasmicLink__
+            className={classNames(
+              projectcss.all,
+              projectcss.a,
+              projectcss.__wab_text,
+              sty.link___2XUXo
+            )}
+            component={Link}
+            href={"https://www.poiyomi.com"}
+            platform={"nextjs"}
+            target={"_blank"}
+          >
+            {"Poiyomi Shaders - Poiyomi"}
           </PlasmicLink__>
         </Stack__>
         <Stack__
@@ -303,7 +320,7 @@ function PlasmicMoreInfoAerie__RenderFunc(props: {
                 displayMinWidth={"0"}
                 displayWidth={"33%"}
                 src={{
-                  src: "/plasmic/liz_website/images/vrChat20240114151258Png.png",
+                  src: "/plasmic/liz_website/images/vrChat20240114151040Png.png",
                   fullWidth: 338,
                   fullHeight: 601,
                   aspectRatio: undefined
@@ -320,49 +337,13 @@ function PlasmicMoreInfoAerie__RenderFunc(props: {
                 displayMinWidth={"0"}
                 displayWidth={"33%"}
                 src={{
-                  src: "/plasmic/liz_website/images/vrChat20240114151320Png.png",
+                  src: "/plasmic/liz_website/images/vrChat20240114151125Png.png",
                   fullWidth: 338,
                   fullHeight: 601,
                   aspectRatio: undefined
                 }}
               />
             </Stack__>
-            <div className={classNames(projectcss.all, sty.freeBox___8QO7D)}>
-              <PlasmicImg__
-                alt={""}
-                className={classNames(sty.img__hUf0O)}
-                displayHeight={"100%"}
-                displayMaxHeight={"none"}
-                displayMaxWidth={"100%"}
-                displayMinHeight={"0"}
-                displayMinWidth={"0"}
-                displayWidth={"100%"}
-                src={{
-                  src: "/plasmic/liz_website/images/vrChat202308041057051947680X4320Png.png",
-                  fullWidth: 7680,
-                  fullHeight: 4320,
-                  aspectRatio: undefined
-                }}
-              />
-            </div>
-            <div className={classNames(projectcss.all, sty.freeBox__uMrJr)}>
-              <PlasmicImg__
-                alt={""}
-                className={classNames(sty.img__dmUB)}
-                displayHeight={"100%"}
-                displayMaxHeight={"none"}
-                displayMaxWidth={"100%"}
-                displayMinHeight={"0"}
-                displayMinWidth={"0"}
-                displayWidth={"100%"}
-                src={{
-                  src: "/plasmic/liz_website/images/vrChat20230808225430Png.png",
-                  fullWidth: 719,
-                  fullHeight: 404,
-                  aspectRatio: undefined
-                }}
-              />
-            </div>
             <div
               data-plasmic-name={"columns"}
               data-plasmic-override={overrides.columns}

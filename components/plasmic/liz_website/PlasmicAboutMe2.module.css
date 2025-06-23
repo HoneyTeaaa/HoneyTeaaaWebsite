@@ -220,6 +220,7 @@
   user-select: text;
   text-decoration-line: none;
   text-overflow: clip;
+  padding-bottom: 0px;
 }
 .columns__zMPf {
   display: flex;

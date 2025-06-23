@@ -224,9 +224,19 @@ function PlasmicHome__RenderFunc(props: {
                     sty.text__qycoY
                   )}
                 >
-                  {
-                    "I'm Tea, a multidisciplinary digital artist and full time college student. I make art in Blender, VRChat avatars, games in Unity Engine, and love to learn new software.\n\nExpand/reword this?"
-                  }
+                  <React.Fragment>
+                    <React.Fragment>
+                      {
+                        "I'm Tea, a multidisciplinary digital artist and full time college student. I make art in Blender, VRChat avatars, games in Unity Engine, and love to learn new software.\n\n"
+                      }
+                    </React.Fragment>
+                    <span
+                      className={"plasmic_default__all plasmic_default__span"}
+                      style={{ fontStyle: "italic" }}
+                    >
+                      {"Expand/reword this?"}
+                    </span>
+                  </React.Fragment>
                 </div>
               </Stack__>
             </div>
@@ -258,7 +268,11 @@ function PlasmicHome__RenderFunc(props: {
                     )}
                   >
                     <React.Fragment>
-                      <React.Fragment>{"6/23/2025\n"}</React.Fragment>
+                      <React.Fragment>
+                        {
+                          "6/23/2025\n\nMany pages are under construction, please pardon the mess :3\n\n"
+                        }
+                      </React.Fragment>
                       {
                         <ul
                           data-plasmic-name={"ul"}
@@ -288,6 +302,16 @@ function PlasmicHome__RenderFunc(props: {
                             )}
                           >
                             {"Updating About Me page"}
+                          </li>
+                          <li
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.li,
+                              projectcss.__wab_text,
+                              sty.li__wKlnp
+                            )}
+                          >
+                            {"Adding Sticker Archive"}
                           </li>
                         </ul>
                       }

@@ -209,7 +209,7 @@ function PlasmicStickerArchive__RenderFunc(props: {
                 )}
               >
                 {
-                  "Any logo or sticker design I've ever had can be found here! Feel free to print them out and make your own HoneyTeaaa branded stickers :3\n\nAll of my branding is made in collaboration with Disuko!"
+                  "Any logo or sticker design I've ever had can be found here. Feel free to print them out and make your own HoneyTeaaa stickers, just don't modify them please! :3\n\nAll of my branding is made in collaboration with Disuko!"
                 }
               </div>
             </div>
@@ -281,7 +281,7 @@ function PlasmicStickerArchive__RenderFunc(props: {
                     className={classNames(sty.img__rmooP)}
                     displayHeight={"auto"}
                     displayMaxHeight={"none"}
-                    displayMaxWidth={"50%"}
+                    displayMaxWidth={"55%"}
                     displayMinHeight={"0"}
                     displayMinWidth={"0"}
                     displayWidth={"auto"}

@@ -219,9 +219,19 @@ function PlasmicAboutMe2__RenderFunc(props: {
                       sty.text__h2TOh
                     )}
                   >
-                    {
-                      "I'm Tea, a multidisciplinary digital artist and full time college student. I make art in Blender, VRChat Avatars, games in Unity Engine, and love to learn new software.\n\nExpand this"
-                    }
+                    <React.Fragment>
+                      <React.Fragment>
+                        {
+                          "I'm Tea, a multidisciplinary digital artist and full time college student. I make art in Blender, VRChat Avatars, games in Unity Engine, and love to learn new software.\n\n"
+                        }
+                      </React.Fragment>
+                      <span
+                        className={"plasmic_default__all plasmic_default__span"}
+                        style={{ fontStyle: "italic" }}
+                      >
+                        {"Expand this"}
+                      </span>
+                    </React.Fragment>
                   </div>
                 </Stack__>
               </div>
@@ -253,9 +263,26 @@ function PlasmicAboutMe2__RenderFunc(props: {
                       sty.text___2TG2
                     )}
                   >
-                    {
-                      "Idk talk about what art i do and what hobbies i have\n\nBalisong Photo by ang?"
-                    }
+                    <React.Fragment>
+                      <React.Fragment>
+                        {
+                          "Idk talk about what art i do and what hobbies i have\n"
+                        }
+                      </React.Fragment>
+                      <span
+                        className={"plasmic_default__all plasmic_default__span"}
+                        style={{ fontStyle: "italic" }}
+                      >
+                        {""}
+                      </span>
+                      <React.Fragment>{"\n"}</React.Fragment>
+                      <span
+                        className={"plasmic_default__all plasmic_default__span"}
+                        style={{ fontStyle: "italic" }}
+                      >
+                        {"Balisong Photo by ang?"}
+                      </span>
+                    </React.Fragment>
                   </div>
                 </Stack__>
               </div>
@@ -343,9 +370,32 @@ function PlasmicAboutMe2__RenderFunc(props: {
                       sty.text__pRxVa
                     )}
                   >
-                    {
-                      "Fun facts about me or something idk, threes look better than two blocks D:\n\nMaybe talk about how i started as a VRChat creator or somethin?"
-                    }
+                    <React.Fragment>
+                      <span
+                        className={"plasmic_default__all plasmic_default__span"}
+                        style={{ fontStyle: "italic" }}
+                      >
+                        {
+                          "Fun facts about me or something idk, threes look better than two blocks D:"
+                        }
+                      </span>
+                      <React.Fragment>{"\n"}</React.Fragment>
+                      <span
+                        className={"plasmic_default__all plasmic_default__span"}
+                        style={{ fontStyle: "italic" }}
+                      >
+                        {""}
+                      </span>
+                      <React.Fragment>{"\n"}</React.Fragment>
+                      <span
+                        className={"plasmic_default__all plasmic_default__span"}
+                        style={{ fontStyle: "italic" }}
+                      >
+                        {
+                          "Maybe talk about how i started as a VRChat creator or somethin?"
+                        }
+                      </span>
+                    </React.Fragment>
                   </div>
                 </Stack__>
               </div>

@@ -119,6 +119,8 @@
   --plasmic-token-destructive-destructive-soft-foreground: var(
     --token-j6uLGFnlNE5F
   );
+  --token-Rcg2FFYcZLzr: 20px;
+  --plasmic-token-unnamed-style-token: var(--token-Rcg2FFYcZLzr);
 }
 
 .plasmic_tokens {

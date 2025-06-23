@@ -225,618 +225,601 @@ function PlasmicStickerArchive__RenderFunc(props: {
         <Stack__
           as={"div"}
           hasGap={true}
-          className={classNames(projectcss.all, sty.freeBox__xhFK)}
+          className={classNames(projectcss.all, sty.freeBox__mj6ON)}
         >
-          <Stack__
-            as={"div"}
-            hasGap={true}
-            className={classNames(projectcss.all, sty.freeBox__mj6ON)}
+          <div
+            className={classNames(
+              projectcss.all,
+              projectcss.__wab_text,
+              sty.text__rQvu5
+            )}
           >
-            <div
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text__rQvu5
-              )}
+            <React.Fragment>
+              <span
+                className={"plasmic_default__all plasmic_default__span"}
+                style={{ fontWeight: 700 }}
+              >
+                {"Stickers"}
+              </span>
+            </React.Fragment>
+          </div>
+          <div className={classNames(projectcss.all, sty.columns___1A6E0)}>
+            <Stack__
+              as={"div"}
+              hasGap={true}
+              className={classNames(projectcss.all, sty.column__ltgqP)}
             >
-              <React.Fragment>
-                <span
-                  className={"plasmic_default__all plasmic_default__span"}
-                  style={{ fontWeight: 700 }}
+              <div className={classNames(projectcss.all, sty.freeBox__aWVow)}>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text___60Bng
+                  )}
                 >
-                  {"Stickers"}
-                </span>
-              </React.Fragment>
-            </div>
-            <div className={classNames(projectcss.all, sty.columns___1A6E0)}>
-              <Stack__
-                as={"div"}
-                hasGap={true}
-                className={classNames(projectcss.all, sty.column__ltgqP)}
-              >
-                <div className={classNames(projectcss.all, sty.freeBox__aWVow)}>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text___60Bng
-                    )}
-                  >
-                    <React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ fontWeight: 700 }}
-                      >
-                        {"HoneyTeaaa Cup Logo"}
-                      </span>
-                    </React.Fragment>
-                  </div>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__nnnP3
-                    )}
-                  >
-                    {"Cut out the cup of my logo and made it into a sticker"}
-                  </div>
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__ubm5Z)}
-                  >
-                    <PlasmicImg__
-                      alt={""}
-                      className={classNames(sty.img__rmooP)}
-                      displayHeight={"auto"}
-                      displayMaxHeight={"none"}
-                      displayMaxWidth={"50%"}
-                      displayMinHeight={"0"}
-                      displayMinWidth={"0"}
-                      displayWidth={"auto"}
-                      loading={"lazy"}
-                      src={{
-                        src: "/plasmic/liz_website/images/bigCupPng.png",
-                        fullWidth: 1984,
-                        fullHeight: 1508,
-                        aspectRatio: undefined
-                      }}
-                    />
-
-                    <PlasmicImg__
-                      alt={""}
-                      className={classNames(sty.img___1KwDz)}
-                      displayHeight={"auto"}
-                      displayMaxHeight={"none"}
-                      displayMaxWidth={"50%"}
-                      displayMinHeight={"0"}
-                      displayMinWidth={"0"}
-                      displayWidth={"auto"}
-                      loading={"lazy"}
-                      src={{
-                        src: "/plasmic/liz_website/images/bigCupStickerNoWebsitePng.png",
-                        fullWidth: 2149,
-                        fullHeight: 1671,
-                        aspectRatio: undefined
-                      }}
-                    />
-                  </div>
+                  <React.Fragment>
+                    <span
+                      className={"plasmic_default__all plasmic_default__span"}
+                      style={{ fontWeight: 700 }}
+                    >
+                      {"HoneyTeaaa Cup Logo"}
+                    </span>
+                  </React.Fragment>
                 </div>
-                <div className={classNames(projectcss.all, sty.freeBox__kmZ2Q)}>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__vhUa
-                    )}
-                  >
-                    <React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ fontWeight: 700 }}
-                      >
-                        {"HoneyTeaaa Logo V. 2 with Background"}
-                      </span>
-                    </React.Fragment>
-                  </div>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__re9T8
-                    )}
-                  >
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__nnnP3
+                  )}
+                >
+                  {"Cut out the cup of my logo and made it into a sticker"}
+                </div>
+                <div className={classNames(projectcss.all, sty.freeBox__ubm5Z)}>
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img__rmooP)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"50%"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"auto"}
+                    loading={"lazy"}
+                    src={{
+                      src: "/plasmic/liz_website/images/bigCupPng.png",
+                      fullWidth: 1984,
+                      fullHeight: 1508,
+                      aspectRatio: undefined
+                    }}
+                  />
+
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img___1KwDz)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"50%"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"auto"}
+                    loading={"lazy"}
+                    src={{
+                      src: "/plasmic/liz_website/images/bigCupStickerNoWebsitePng.png",
+                      fullWidth: 2149,
+                      fullHeight: 1671,
+                      aspectRatio: undefined
+                    }}
+                  />
+                </div>
+              </div>
+              <div className={classNames(projectcss.all, sty.freeBox__kmZ2Q)}>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__vhUa
+                  )}
+                >
+                  <React.Fragment>
+                    <span
+                      className={"plasmic_default__all plasmic_default__span"}
+                      style={{ fontWeight: 700 }}
+                    >
+                      {"HoneyTeaaa Logo V. 2 with Background"}
+                    </span>
+                  </React.Fragment>
+                </div>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__re9T8
+                  )}
+                >
+                  {
+                    "Added a background to make it easier to cut out for stickers"
+                  }
+                </div>
+                <PlasmicImg__
+                  alt={""}
+                  className={classNames(sty.img__qFMqn)}
+                  displayHeight={"auto"}
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"90%"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={"auto"}
+                  loading={"lazy"}
+                  src={{
+                    src: "/plasmic/liz_website/images/honeyTeaaaSticker2Png.png",
+                    fullWidth: 767,
+                    fullHeight: 314,
+                    aspectRatio: undefined
+                  }}
+                />
+              </div>
+              <div className={classNames(projectcss.all, sty.freeBox___82UV9)}>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__yb2Zw
+                  )}
+                >
+                  <React.Fragment>
+                    <span
+                      className={"plasmic_default__all plasmic_default__span"}
+                      style={{ fontWeight: 700 }}
+                    >
+                      {"HoneyTeaaa Logo V. 2"}
+                    </span>
+                  </React.Fragment>
+                </div>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__bzUzn
+                  )}
+                >
+                  {"We adjusted the y to sit against the hexagon"}
+                </div>
+                <PlasmicImg__
+                  alt={""}
+                  className={classNames(sty.img__cgex0)}
+                  displayHeight={"auto"}
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"100%"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={"auto"}
+                  loading={"lazy"}
+                  src={{
+                    src: "/plasmic/liz_website/images/honeyTeaaaLogoV2Black4KPng.png",
+                    fullWidth: 4096,
+                    fullHeight: 1394,
+                    aspectRatio: undefined
+                  }}
+                />
+              </div>
+              <div className={classNames(projectcss.all, sty.freeBox__bwmR1)}>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__as82P
+                  )}
+                >
+                  <React.Fragment>
+                    <span
+                      className={"plasmic_default__all plasmic_default__span"}
+                      style={{ fontWeight: 700 }}
+                    >
+                      {"HoneyTeaaa Logo V. 1"}
+                    </span>
+                  </React.Fragment>
+                </div>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__ky5MX
+                  )}
+                >
+                  {"My very first logo design, made in 2024."}
+                </div>
+                <PlasmicImg__
+                  alt={""}
+                  className={classNames(sty.img__wyB0P)}
+                  displayHeight={"auto"}
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"100%"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={"auto"}
+                  loading={"lazy"}
+                  src={{
+                    src: "/plasmic/liz_website/images/image20.png",
+                    fullWidth: 1920,
+                    fullHeight: 768,
+                    aspectRatio: undefined
+                  }}
+                />
+              </div>
+            </Stack__>
+            <Stack__
+              as={"div"}
+              hasGap={true}
+              className={classNames(projectcss.all, sty.column__ol5Xy)}
+            >
+              <div className={classNames(projectcss.all, sty.freeBox__qOgkA)}>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__tdMi0
+                  )}
+                >
+                  <React.Fragment>
+                    <span
+                      className={"plasmic_default__all plasmic_default__span"}
+                      style={{ fontWeight: 700 }}
+                    >
+                      {"HoneyTeaaa Bladeshow 2025"}
+                    </span>
+                  </React.Fragment>
+                </div>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__k37Tk
+                  )}
+                >
+                  {"A sticker we made for Blade Show 2025"}
+                </div>
+                <PlasmicImg__
+                  alt={""}
+                  className={classNames(sty.img__mOLkp)}
+                  displayHeight={"auto"}
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"90%"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={"auto"}
+                  loading={"lazy"}
+                  src={{
+                    src: "/plasmic/liz_website/images/honeyTeaaaBladeShowEastPng.png",
+                    fullWidth: 4020,
+                    fullHeight: 1929,
+                    aspectRatio: undefined
+                  }}
+                />
+              </div>
+              <div className={classNames(projectcss.all, sty.freeBox__dTeSk)}>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__oKGeL
+                  )}
+                >
+                  <React.Fragment>
+                    <span
+                      className={"plasmic_default__all plasmic_default__span"}
+                      style={{ fontWeight: 700 }}
+                    >
+                      {"HoneyTeaaa Logo Hex V. 1 with Background"}
+                    </span>
+                  </React.Fragment>
+                </div>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__ac0R
+                  )}
+                >
+                  {"Added the same swirl pattern to my hex logo"}
+                </div>
+                <div className={classNames(projectcss.all, sty.freeBox__ga3VF)}>
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img__ootlp)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"50%"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"auto"}
+                    loading={"lazy"}
+                    src={{
+                      src: "/plasmic/liz_website/images/honeyTeaaaStickerCoffeeOverlay1KPng.png",
+                      fullWidth: 1024,
+                      fullHeight: 832,
+                      aspectRatio: undefined
+                    }}
+                  />
+                </div>
+              </div>
+              <div className={classNames(projectcss.all, sty.freeBox___0JWjk)}>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__zgK7
+                  )}
+                >
+                  <React.Fragment>
+                    <span
+                      className={"plasmic_default__all plasmic_default__span"}
+                      style={{ fontWeight: 700 }}
+                    >
+                      {"HoneyTeaaa Logo Hex V. 1"}
+                    </span>
+                  </React.Fragment>
+                </div>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__k9F4T
+                  )}
+                >
+                  {"My first hexagon design"}
+                </div>
+                <div
+                  className={classNames(projectcss.all, sty.freeBox___0Dbmv)}
+                >
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img___5ODhc)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"50%"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"auto"}
+                    loading={"lazy"}
+                    src={{
+                      src: "/plasmic/liz_website/images/stickerThingDark4KPng.png",
+                      fullWidth: 4096,
+                      fullHeight: 3325,
+                      aspectRatio: undefined
+                    }}
+                  />
+
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img__jeMtm)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"50%"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"auto"}
+                    loading={"lazy"}
+                    src={{
+                      src: "/plasmic/liz_website/images/stickerThing4KPng.png",
+                      fullWidth: 4096,
+                      fullHeight: 3325,
+                      aspectRatio: undefined
+                    }}
+                  />
+                </div>
+              </div>
+              <div className={classNames(projectcss.all, sty.freeBox__ncWcc)}>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__b0Bp0
+                  )}
+                >
+                  <React.Fragment>
+                    <span
+                      className={"plasmic_default__all plasmic_default__span"}
+                      style={{ fontWeight: 700 }}
+                    >
+                      {"HoneyTeaaa Logo V. 1.5"}
+                    </span>
+                  </React.Fragment>
+                </div>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__c22Jo
+                  )}
+                >
+                  {"A small change to the V. 1 logo"}
+                </div>
+                <PlasmicImg__
+                  alt={""}
+                  className={classNames(sty.img__dVYbZ)}
+                  displayHeight={"auto"}
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"100%"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={"auto"}
+                  loading={"lazy"}
+                  src={{
+                    src: "/plasmic/liz_website/images/honeyTeaaaLogoV154KPng.png",
+                    fullWidth: 4096,
+                    fullHeight: 1463,
+                    aspectRatio: undefined
+                  }}
+                />
+              </div>
+            </Stack__>
+          </div>
+          <div className={classNames(projectcss.all, sty.columns__iBhkz)}>
+            <div className={classNames(projectcss.all, sty.column___2ZXhO)}>
+              <div
+                className={classNames(projectcss.all, sty.freeBox__hkJB)}
+                onClick={async event => {
+                  const $steps = {};
+
+                  $steps["updateSliderCarouselCurrentSlide"] = true
+                    ? (() => {
+                        const actionArgs = {
+                          variable: {
+                            objRoot: $state,
+                            variablePath: ["sliderCarousel2", "currentSlide"]
+                          },
+                          operation: 3
+                        };
+                        return (({
+                          variable,
+                          value,
+                          startIndex,
+                          deleteCount
+                        }) => {
+                          if (!variable) {
+                            return;
+                          }
+                          const { objRoot, variablePath } = variable;
+
+                          const oldValue = $stateGet(objRoot, variablePath);
+                          $stateSet(objRoot, variablePath, oldValue - 1);
+                          return oldValue - 1;
+                        })?.apply(null, [actionArgs]);
+                      })()
+                    : undefined;
+                  if (
+                    $steps["updateSliderCarouselCurrentSlide"] != null &&
+                    typeof $steps["updateSliderCarouselCurrentSlide"] ===
+                      "object" &&
+                    typeof $steps["updateSliderCarouselCurrentSlide"].then ===
+                      "function"
+                  ) {
+                    $steps["updateSliderCarouselCurrentSlide"] = await $steps[
+                      "updateSliderCarouselCurrentSlide"
+                    ];
+                  }
+                }}
+              >
+                <ChunkyButton
+                  className={classNames(
+                    "__wab_instance",
+                    sty.chunkyButton__xx2Dp
+                  )}
+                  text={"<"}
+                />
+              </div>
+            </div>
+            <div className={classNames(projectcss.all, sty.column__j3YYd)}>
+              {(() => {
+                const child$Props = {
+                  arrowColor: true ? "#331009" : undefined,
+                  arrows: false,
+                  autoplay: false,
+                  autoplaySpeed: 0,
+                  beforeChange: async (...eventArgs: any) => {
+                    generateStateOnChangePropForCodeComponents(
+                      $state,
+                      "currentSlide",
+                      ["sliderCarousel2", "currentSlide"],
+                      SliderWrapper_Helpers
+                    ).apply(null, eventArgs);
+                  },
+                  centerMode: false,
+                  children: null,
+                  className: classNames("__wab_instance", sty.sliderCarousel2),
+                  cssEase: "ease-in-out",
+                  dots: false,
+                  fade: true,
+                  initialSlide: generateStateValueProp($state, [
+                    "sliderCarousel2",
+                    "currentSlide"
+                  ]),
+                  ref: ref => {
+                    $refs["sliderCarousel2"] = ref;
+                  },
+                  sliderScopeClassName: sty["sliderCarousel2__slider"],
+                  speed: 250,
+                  useCSS: true,
+                  vertical: false
+                };
+                initializeCodeComponentStates(
+                  $state,
+                  [
                     {
-                      "Added a background to make it easier to cut out for stickers"
+                      name: "currentSlide",
+                      plasmicStateName: "sliderCarousel2.currentSlide"
                     }
-                  </div>
-                  <PlasmicImg__
-                    alt={""}
-                    className={classNames(sty.img__qFMqn)}
-                    displayHeight={"auto"}
-                    displayMaxHeight={"none"}
-                    displayMaxWidth={"90%"}
-                    displayMinHeight={"0"}
-                    displayMinWidth={"0"}
-                    displayWidth={"auto"}
-                    loading={"lazy"}
-                    src={{
-                      src: "/plasmic/liz_website/images/honeyTeaaaSticker2Png.png",
-                      fullWidth: 767,
-                      fullHeight: 314,
-                      aspectRatio: undefined
-                    }}
+                  ],
+                  [],
+                  SliderWrapper_Helpers ?? {},
+                  child$Props
+                );
+
+                return (
+                  <SliderWrapper
+                    data-plasmic-name={"sliderCarousel2"}
+                    data-plasmic-override={overrides.sliderCarousel2}
+                    {...child$Props}
                   />
-                </div>
-                <div
-                  className={classNames(projectcss.all, sty.freeBox___82UV9)}
-                >
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__yb2Zw
-                    )}
-                  >
-                    <React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ fontWeight: 700 }}
-                      >
-                        {"HoneyTeaaa Logo V. 2"}
-                      </span>
-                    </React.Fragment>
-                  </div>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__bzUzn
-                    )}
-                  >
-                    {"We adjusted the y to sit against the hexagon"}
-                  </div>
-                  <PlasmicImg__
-                    alt={""}
-                    className={classNames(sty.img__cgex0)}
-                    displayHeight={"auto"}
-                    displayMaxHeight={"none"}
-                    displayMaxWidth={"100%"}
-                    displayMinHeight={"0"}
-                    displayMinWidth={"0"}
-                    displayWidth={"auto"}
-                    loading={"lazy"}
-                    src={{
-                      src: "/plasmic/liz_website/images/honeyTeaaaLogoV2Black4KPng.png",
-                      fullWidth: 4096,
-                      fullHeight: 1394,
-                      aspectRatio: undefined
-                    }}
-                  />
-                </div>
-                <div className={classNames(projectcss.all, sty.freeBox__bwmR1)}>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__as82P
-                    )}
-                  >
-                    <React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ fontWeight: 700 }}
-                      >
-                        {"HoneyTeaaa Logo V. 1"}
-                      </span>
-                    </React.Fragment>
-                  </div>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__ky5MX
-                    )}
-                  >
-                    {"My very first logo design, made in 2024."}
-                  </div>
-                  <PlasmicImg__
-                    alt={""}
-                    className={classNames(sty.img__wyB0P)}
-                    displayHeight={"auto"}
-                    displayMaxHeight={"none"}
-                    displayMaxWidth={"100%"}
-                    displayMinHeight={"0"}
-                    displayMinWidth={"0"}
-                    displayWidth={"auto"}
-                    loading={"lazy"}
-                    src={{
-                      src: "/plasmic/liz_website/images/image20.png",
-                      fullWidth: 1920,
-                      fullHeight: 768,
-                      aspectRatio: undefined
-                    }}
-                  />
-                </div>
-              </Stack__>
-              <Stack__
-                as={"div"}
-                hasGap={true}
-                className={classNames(projectcss.all, sty.column__ol5Xy)}
+                );
+              })()}
+            </div>
+            <div className={classNames(projectcss.all, sty.column___1Iq2S)}>
+              <div
+                className={classNames(projectcss.all, sty.freeBox___6T5ZR)}
+                onClick={async event => {
+                  const $steps = {};
+
+                  $steps["updateSliderCarouselCurrentSlide"] = true
+                    ? (() => {
+                        const actionArgs = {
+                          variable: {
+                            objRoot: $state,
+                            variablePath: ["sliderCarousel2", "currentSlide"]
+                          },
+                          operation: 2
+                        };
+                        return (({
+                          variable,
+                          value,
+                          startIndex,
+                          deleteCount
+                        }) => {
+                          if (!variable) {
+                            return;
+                          }
+                          const { objRoot, variablePath } = variable;
+
+                          const oldValue = $stateGet(objRoot, variablePath);
+                          $stateSet(objRoot, variablePath, oldValue + 1);
+                          return oldValue + 1;
+                        })?.apply(null, [actionArgs]);
+                      })()
+                    : undefined;
+                  if (
+                    $steps["updateSliderCarouselCurrentSlide"] != null &&
+                    typeof $steps["updateSliderCarouselCurrentSlide"] ===
+                      "object" &&
+                    typeof $steps["updateSliderCarouselCurrentSlide"].then ===
+                      "function"
+                  ) {
+                    $steps["updateSliderCarouselCurrentSlide"] = await $steps[
+                      "updateSliderCarouselCurrentSlide"
+                    ];
+                  }
+                }}
               >
-                <div className={classNames(projectcss.all, sty.freeBox__qOgkA)}>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__tdMi0
-                    )}
-                  >
-                    <React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ fontWeight: 700 }}
-                      >
-                        {"HoneyTeaaa Bladeshow 2025"}
-                      </span>
-                    </React.Fragment>
-                  </div>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__k37Tk
-                    )}
-                  >
-                    {"A sticker we made for Blade Show 2025"}
-                  </div>
-                  <PlasmicImg__
-                    alt={""}
-                    className={classNames(sty.img__mOLkp)}
-                    displayHeight={"auto"}
-                    displayMaxHeight={"none"}
-                    displayMaxWidth={"90%"}
-                    displayMinHeight={"0"}
-                    displayMinWidth={"0"}
-                    displayWidth={"auto"}
-                    loading={"lazy"}
-                    src={{
-                      src: "/plasmic/liz_website/images/honeyTeaaaBladeShowEastPng.png",
-                      fullWidth: 4020,
-                      fullHeight: 1929,
-                      aspectRatio: undefined
-                    }}
-                  />
-                </div>
-                <div className={classNames(projectcss.all, sty.freeBox__dTeSk)}>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__oKGeL
-                    )}
-                  >
-                    <React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ fontWeight: 700 }}
-                      >
-                        {"HoneyTeaaa Logo Hex V. 1 with Background"}
-                      </span>
-                    </React.Fragment>
-                  </div>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__ac0R
-                    )}
-                  >
-                    {"Added the same swirl pattern to my hex logo"}
-                  </div>
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__ga3VF)}
-                  >
-                    <PlasmicImg__
-                      alt={""}
-                      className={classNames(sty.img__ootlp)}
-                      displayHeight={"auto"}
-                      displayMaxHeight={"none"}
-                      displayMaxWidth={"50%"}
-                      displayMinHeight={"0"}
-                      displayMinWidth={"0"}
-                      displayWidth={"auto"}
-                      loading={"lazy"}
-                      src={{
-                        src: "/plasmic/liz_website/images/honeyTeaaaStickerCoffeeOverlay1KPng.png",
-                        fullWidth: 1024,
-                        fullHeight: 832,
-                        aspectRatio: undefined
-                      }}
-                    />
-                  </div>
-                </div>
-                <div
-                  className={classNames(projectcss.all, sty.freeBox___0JWjk)}
-                >
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__zgK7
-                    )}
-                  >
-                    <React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ fontWeight: 700 }}
-                      >
-                        {"HoneyTeaaa Logo Hex V. 1"}
-                      </span>
-                    </React.Fragment>
-                  </div>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__k9F4T
-                    )}
-                  >
-                    {"My first hexagon design"}
-                  </div>
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox___0Dbmv)}
-                  >
-                    <PlasmicImg__
-                      alt={""}
-                      className={classNames(sty.img___5ODhc)}
-                      displayHeight={"auto"}
-                      displayMaxHeight={"none"}
-                      displayMaxWidth={"50%"}
-                      displayMinHeight={"0"}
-                      displayMinWidth={"0"}
-                      displayWidth={"auto"}
-                      loading={"lazy"}
-                      src={{
-                        src: "/plasmic/liz_website/images/stickerThingDark4KPng.png",
-                        fullWidth: 4096,
-                        fullHeight: 3325,
-                        aspectRatio: undefined
-                      }}
-                    />
-
-                    <PlasmicImg__
-                      alt={""}
-                      className={classNames(sty.img__jeMtm)}
-                      displayHeight={"auto"}
-                      displayMaxHeight={"none"}
-                      displayMaxWidth={"50%"}
-                      displayMinHeight={"0"}
-                      displayMinWidth={"0"}
-                      displayWidth={"auto"}
-                      loading={"lazy"}
-                      src={{
-                        src: "/plasmic/liz_website/images/stickerThing4KPng.png",
-                        fullWidth: 4096,
-                        fullHeight: 3325,
-                        aspectRatio: undefined
-                      }}
-                    />
-                  </div>
-                </div>
-                <div className={classNames(projectcss.all, sty.freeBox__ncWcc)}>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__b0Bp0
-                    )}
-                  >
-                    <React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ fontWeight: 700 }}
-                      >
-                        {"HoneyTeaaa Logo V. 1.5"}
-                      </span>
-                    </React.Fragment>
-                  </div>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__c22Jo
-                    )}
-                  >
-                    {"A small change to the V. 1 logo"}
-                  </div>
-                  <PlasmicImg__
-                    alt={""}
-                    className={classNames(sty.img__dVYbZ)}
-                    displayHeight={"auto"}
-                    displayMaxHeight={"none"}
-                    displayMaxWidth={"100%"}
-                    displayMinHeight={"0"}
-                    displayMinWidth={"0"}
-                    displayWidth={"auto"}
-                    loading={"lazy"}
-                    src={{
-                      src: "/plasmic/liz_website/images/honeyTeaaaLogoV154KPng.png",
-                      fullWidth: 4096,
-                      fullHeight: 1463,
-                      aspectRatio: undefined
-                    }}
-                  />
-                </div>
-              </Stack__>
-            </div>
-            <div className={classNames(projectcss.all, sty.columns__iBhkz)}>
-              <div className={classNames(projectcss.all, sty.column___2ZXhO)}>
-                <div
-                  className={classNames(projectcss.all, sty.freeBox__hkJB)}
-                  onClick={async event => {
-                    const $steps = {};
-
-                    $steps["updateSliderCarouselCurrentSlide"] = true
-                      ? (() => {
-                          const actionArgs = {
-                            variable: {
-                              objRoot: $state,
-                              variablePath: ["sliderCarousel2", "currentSlide"]
-                            },
-                            operation: 3
-                          };
-                          return (({
-                            variable,
-                            value,
-                            startIndex,
-                            deleteCount
-                          }) => {
-                            if (!variable) {
-                              return;
-                            }
-                            const { objRoot, variablePath } = variable;
-
-                            const oldValue = $stateGet(objRoot, variablePath);
-                            $stateSet(objRoot, variablePath, oldValue - 1);
-                            return oldValue - 1;
-                          })?.apply(null, [actionArgs]);
-                        })()
-                      : undefined;
-                    if (
-                      $steps["updateSliderCarouselCurrentSlide"] != null &&
-                      typeof $steps["updateSliderCarouselCurrentSlide"] ===
-                        "object" &&
-                      typeof $steps["updateSliderCarouselCurrentSlide"].then ===
-                        "function"
-                    ) {
-                      $steps["updateSliderCarouselCurrentSlide"] = await $steps[
-                        "updateSliderCarouselCurrentSlide"
-                      ];
-                    }
-                  }}
-                >
-                  <ChunkyButton
-                    className={classNames(
-                      "__wab_instance",
-                      sty.chunkyButton__xx2Dp
-                    )}
-                    text={"<"}
-                  />
-                </div>
-              </div>
-              <div className={classNames(projectcss.all, sty.column__j3YYd)}>
-                {(() => {
-                  const child$Props = {
-                    arrowColor: true ? "#331009" : undefined,
-                    arrows: false,
-                    autoplay: false,
-                    autoplaySpeed: 0,
-                    beforeChange: async (...eventArgs: any) => {
-                      generateStateOnChangePropForCodeComponents(
-                        $state,
-                        "currentSlide",
-                        ["sliderCarousel2", "currentSlide"],
-                        SliderWrapper_Helpers
-                      ).apply(null, eventArgs);
-                    },
-                    centerMode: false,
-                    children: null,
-                    className: classNames(
-                      "__wab_instance",
-                      sty.sliderCarousel2
-                    ),
-                    cssEase: "ease-in-out",
-                    dots: false,
-                    fade: true,
-                    initialSlide: generateStateValueProp($state, [
-                      "sliderCarousel2",
-                      "currentSlide"
-                    ]),
-                    ref: ref => {
-                      $refs["sliderCarousel2"] = ref;
-                    },
-                    sliderScopeClassName: sty["sliderCarousel2__slider"],
-                    speed: 250,
-                    useCSS: true,
-                    vertical: false
-                  };
-                  initializeCodeComponentStates(
-                    $state,
-                    [
-                      {
-                        name: "currentSlide",
-                        plasmicStateName: "sliderCarousel2.currentSlide"
-                      }
-                    ],
-                    [],
-                    SliderWrapper_Helpers ?? {},
-                    child$Props
-                  );
-
-                  return (
-                    <SliderWrapper
-                      data-plasmic-name={"sliderCarousel2"}
-                      data-plasmic-override={overrides.sliderCarousel2}
-                      {...child$Props}
-                    />
-                  );
-                })()}
-              </div>
-              <div className={classNames(projectcss.all, sty.column___1Iq2S)}>
-                <div
-                  className={classNames(projectcss.all, sty.freeBox___6T5ZR)}
-                  onClick={async event => {
-                    const $steps = {};
-
-                    $steps["updateSliderCarouselCurrentSlide"] = true
-                      ? (() => {
-                          const actionArgs = {
-                            variable: {
-                              objRoot: $state,
-                              variablePath: ["sliderCarousel2", "currentSlide"]
-                            },
-                            operation: 2
-                          };
-                          return (({
-                            variable,
-                            value,
-                            startIndex,
-                            deleteCount
-                          }) => {
-                            if (!variable) {
-                              return;
-                            }
-                            const { objRoot, variablePath } = variable;
-
-                            const oldValue = $stateGet(objRoot, variablePath);
-                            $stateSet(objRoot, variablePath, oldValue + 1);
-                            return oldValue + 1;
-                          })?.apply(null, [actionArgs]);
-                        })()
-                      : undefined;
-                    if (
-                      $steps["updateSliderCarouselCurrentSlide"] != null &&
-                      typeof $steps["updateSliderCarouselCurrentSlide"] ===
-                        "object" &&
-                      typeof $steps["updateSliderCarouselCurrentSlide"].then ===
-                        "function"
-                    ) {
-                      $steps["updateSliderCarouselCurrentSlide"] = await $steps[
-                        "updateSliderCarouselCurrentSlide"
-                      ];
-                    }
-                  }}
-                >
-                  <ChunkyButton
-                    className={classNames(
-                      "__wab_instance",
-                      sty.chunkyButton__xKPy
-                    )}
-                    text={">"}
-                  />
-                </div>
+                <ChunkyButton
+                  className={classNames(
+                    "__wab_instance",
+                    sty.chunkyButton__xKPy
+                  )}
+                  text={">"}
+                />
               </div>
             </div>
-          </Stack__>
+          </div>
         </Stack__>
       </div>
     </React.Fragment>

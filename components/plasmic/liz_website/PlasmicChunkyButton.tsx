@@ -177,21 +177,7 @@ function PlasmicChunkyButton__RenderFunc(props: {
         { [sty.rootback2]: hasVariant($state, "back2", "back2") }
       )}
     >
-      <React.Fragment>
-        {(() => {
-          try {
-            return $props.text;
-          } catch (e) {
-            if (
-              e instanceof TypeError ||
-              e?.plasmicType === "PlasmicUndefinedDataError"
-            ) {
-              return "Button";
-            }
-            throw e;
-          }
-        })()}
-      </React.Fragment>
+      <React.Fragment>{$props.text}</React.Fragment>
     </button>
   ) as React.ReactElement | null;
 }

@@ -421,6 +421,7 @@ function PlasmicPolaroid__RenderFunc(props: {
                     throw e;
                   }
                 })()}
+                text={"More Info"}
               />
             </div>
           </div>

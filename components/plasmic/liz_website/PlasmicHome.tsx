@@ -93,7 +93,6 @@ export type PlasmicHome__OverridesType = {
   navbar?: Flex__<typeof Navbar>;
   reveal?: Flex__<typeof Reveal>;
   ul?: Flex__<"ul">;
-  li?: Flex__<"li">;
   youTube?: Flex__<typeof YouTube>;
 };
 
@@ -216,8 +215,17 @@ function PlasmicHome__RenderFunc(props: {
                     sty.text__lLnm
                   )}
                 >
+                  {"\n"}
+                </div>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__qycoY
+                  )}
+                >
                   {
-                    "I'm Tea, a multidisciplinary digital artist and full time college student. I make art in Blender, VRChat Avatars and games in Unity Engine, and love to learn new software."
+                    "I'm Tea, a multidisciplinary digital artist and full time college student. I make art in Blender, VRChat avatars, games in Unity Engine, and love to learn new software.\n\nExpand/reword this?"
                   }
                 </div>
               </Stack__>
@@ -250,7 +258,7 @@ function PlasmicHome__RenderFunc(props: {
                     )}
                   >
                     <React.Fragment>
-                      <React.Fragment>{"6/18/2025\n"}</React.Fragment>
+                      <React.Fragment>{"6/23/2025\n"}</React.Fragment>
                       {
                         <ul
                           data-plasmic-name={"ul"}
@@ -262,16 +270,24 @@ function PlasmicHome__RenderFunc(props: {
                           )}
                         >
                           <li
-                            data-plasmic-name={"li"}
-                            data-plasmic-override={overrides.li}
                             className={classNames(
                               projectcss.all,
                               projectcss.li,
                               projectcss.__wab_text,
-                              sty.li
+                              sty.li__iZfy
                             )}
                           >
-                            {"Updating portfolio"}
+                            {"Updating Portfolio page"}
+                          </li>
+                          <li
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.li,
+                              projectcss.__wab_text,
+                              sty.li__gdnZu
+                            )}
+                          >
+                            {"Updating About Me page"}
                           </li>
                         </ul>
                       }
@@ -433,6 +449,25 @@ function PlasmicHome__RenderFunc(props: {
                     '<script src="https://disuko.neocities.org/ring.js"></script>'
                   }
                 />
+
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text___1WxpE
+                  )}
+                >
+                  {""}
+                </div>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__hbUu
+                  )}
+                >
+                  {"Use this Webring to find my friends at Red Panda Studios!"}
+                </div>
               </Stack__>
             </div>
             <div className={classNames(projectcss.all, sty.column__ds9NL)}>
@@ -472,11 +507,10 @@ function PlasmicHome__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "navbar", "reveal", "ul", "li", "youTube"],
+  root: ["root", "navbar", "reveal", "ul", "youTube"],
   navbar: ["navbar"],
-  reveal: ["reveal", "ul", "li", "youTube"],
-  ul: ["ul", "li"],
-  li: ["li"],
+  reveal: ["reveal", "ul", "youTube"],
+  ul: ["ul"],
   youTube: ["youTube"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
@@ -487,7 +521,6 @@ type NodeDefaultElementType = {
   navbar: typeof Navbar;
   reveal: typeof Reveal;
   ul: "ul";
-  li: "li";
   youTube: typeof YouTube;
 };
 
@@ -554,7 +587,6 @@ export const PlasmicHome = Object.assign(
     navbar: makeNodeComponent("navbar"),
     reveal: makeNodeComponent("reveal"),
     ul: makeNodeComponent("ul"),
-    li: makeNodeComponent("li"),
     youTube: makeNodeComponent("youTube"),
 
     // Metadata about props expected for PlasmicHome

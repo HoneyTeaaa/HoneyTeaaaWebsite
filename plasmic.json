@@ -643,6 +643,34 @@
           "scheme": "blackbox",
           "componentType": "page",
           "path": "/PieceAShit"
+        },
+        {
+          "id": "UbQJeS6FBfv3",
+          "name": "AboutMe2",
+          "type": "managed",
+          "projectId": "pqbSBZb9VG36A9gA4GgWPg",
+          "renderModuleFilePath": "plasmic/liz_website/PlasmicAboutMe2.tsx",
+          "importSpec": {
+            "modulePath": "../pages/about-me-2.tsx"
+          },
+          "cssFilePath": "plasmic/liz_website/PlasmicAboutMe2.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/about-me-2"
+        },
+        {
+          "id": "3v9SLLLuotfV",
+          "name": "StickerArchive",
+          "type": "managed",
+          "projectId": "pqbSBZb9VG36A9gA4GgWPg",
+          "renderModuleFilePath": "plasmic/liz_website/PlasmicStickerArchive.tsx",
+          "importSpec": {
+            "modulePath": "../pages/Queenie-2.tsx"
+          },
+          "cssFilePath": "plasmic/liz_website/PlasmicStickerArchive.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/Queenie-2"
         }
       ],
       "icons": [
@@ -1092,6 +1120,21 @@
           "id": "z_JfVTFN-6Nr",
           "name": "77c50091-d0b1-41c5-b1f5-15da202ecab7.png",
           "filePath": "../public/plasmic/liz_website/images/_77C50091D0B141C5B1F515Da202Ecab7Png.jpg"
+        },
+        {
+          "id": "Q2ic1w3qfK9-",
+          "name": "Liz_Manz_IMMHeadshots_002.jpg",
+          "filePath": "../public/plasmic/liz_website/images/lizManzImmHeadshots002Jpg.jpg"
+        },
+        {
+          "id": "oGX_UrBmtxFq",
+          "name": "IMG_1583.jpg",
+          "filePath": "../public/plasmic/liz_website/images/img1583Jpg.jpg"
+        },
+        {
+          "id": "gaNHidmXNAZK",
+          "name": "VRChat_2024-12-19_23-39-31.455_1920x1080.png",
+          "filePath": "../public/plasmic/liz_website/images/vrChat202412192339314551920X1080Png.png"
         }
       ],
       "indirect": false,
@@ -1319,8 +1362,7 @@
           "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerDialog"
         }
       ],
-      "customFunctions": [],
-      "jsBundleThemes": []
+      "customFunctions": []
     },
     {
       "projectId": "5dGW8Awro3qq8Hh5MveXLP",

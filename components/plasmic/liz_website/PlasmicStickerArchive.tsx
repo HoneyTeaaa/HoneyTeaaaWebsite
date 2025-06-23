@@ -83,6 +83,7 @@ export const PlasmicStickerArchive__ArgProps = new Array<ArgPropType>();
 export type PlasmicStickerArchive__OverridesType = {
   root?: Flex__<"div">;
   navbar?: Flex__<typeof Navbar>;
+  link?: Flex__<"a"> & Partial<LinkProps>;
   sliderCarousel2?: Flex__<typeof SliderWrapper>;
 };
 
@@ -208,9 +209,41 @@ function PlasmicStickerArchive__RenderFunc(props: {
                   sty.text___6LfmO
                 )}
               >
-                {
-                  "Any logo or sticker design I've ever had can be found here. Feel free to print them out and make your own HoneyTeaaa stickers, just don't modify them please! :3\n\nAll of my branding is made in collaboration with Disuko!"
-                }
+                <React.Fragment>
+                  <React.Fragment>
+                    {
+                      "Any logo or sticker design I've ever had can be found here. Feel free to print them out and make your own HoneyTeaaa stickers, just don't modify them please! :3\n\nAll of my branding is made in collaboration with "
+                    }
+                  </React.Fragment>
+                  {
+                    <PlasmicLink__
+                      data-plasmic-name={"link"}
+                      data-plasmic-override={overrides.link}
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.a,
+                        projectcss.__wab_text,
+                        projectcss.plasmic_default__inline,
+                        sty.link
+                      )}
+                      component={Link}
+                      href={"https://www.disuko.gay"}
+                      platform={"nextjs"}
+                    >
+                      <React.Fragment>
+                        <span
+                          className={
+                            "plasmic_default__all plasmic_default__span"
+                          }
+                          style={{ textDecorationLine: "underline" }}
+                        >
+                          {"Disuko"}
+                        </span>
+                      </React.Fragment>
+                    </PlasmicLink__>
+                  }
+                  <React.Fragment>{"!"}</React.Fragment>
+                </React.Fragment>
               </div>
             </div>
           </div>
@@ -827,8 +860,9 @@ function PlasmicStickerArchive__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "navbar", "sliderCarousel2"],
+  root: ["root", "navbar", "link", "sliderCarousel2"],
   navbar: ["navbar"],
+  link: ["link"],
   sliderCarousel2: ["sliderCarousel2"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
@@ -837,6 +871,7 @@ type DescendantsType<T extends NodeNameType> =
 type NodeDefaultElementType = {
   root: "div";
   navbar: typeof Navbar;
+  link: "a";
   sliderCarousel2: typeof SliderWrapper;
 };
 
@@ -901,6 +936,7 @@ export const PlasmicStickerArchive = Object.assign(
   {
     // Helper components rendering sub-elements
     navbar: makeNodeComponent("navbar"),
+    link: makeNodeComponent("link"),
     sliderCarousel2: makeNodeComponent("sliderCarousel2"),
 
     // Metadata about props expected for PlasmicStickerArchive

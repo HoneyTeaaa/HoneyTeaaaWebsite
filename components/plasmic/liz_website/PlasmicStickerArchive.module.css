@@ -118,15 +118,12 @@
   text-decoration-line: none;
   text-overflow: clip;
 }
-.chunkyButton___4ZnVg:global(.__wab_instance) {
+.chunkyButton__dQlJm:global(.__wab_instance) {
   max-width: 100%;
   align-self: flex-end;
-  position: relative;
-  left: auto;
-  top: auto;
-  z-index: 1;
-  margin-right: 34px;
-  margin-bottom: 17px;
+  margin-bottom: 10px;
+  margin-top: calc(15px + 10px) !important;
+  margin-right: 16px;
 }
 .freeBox__xhFK {
   background: var(--token-z5IKgHokHwfh);

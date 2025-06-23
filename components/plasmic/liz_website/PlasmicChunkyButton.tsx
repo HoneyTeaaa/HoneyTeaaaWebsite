@@ -176,6 +176,48 @@ function PlasmicChunkyButton__RenderFunc(props: {
         sty.root,
         { [sty.rootback2]: hasVariant($state, "back2", "back2") }
       )}
+      onClick={async event => {
+        const $steps = {};
+
+        $steps["goToPage"] = true
+          ? (() => {
+              const actionArgs = {
+                destination: (() => {
+                  try {
+                    return $props.infoPage;
+                  } catch (e) {
+                    if (
+                      e instanceof TypeError ||
+                      e?.plasmicType === "PlasmicUndefinedDataError"
+                    ) {
+                      return undefined;
+                    }
+                    throw e;
+                  }
+                })()
+              };
+              return (({ destination }) => {
+                if (
+                  typeof destination === "string" &&
+                  destination.startsWith("#")
+                ) {
+                  document
+                    .getElementById(destination.substr(1))
+                    .scrollIntoView({ behavior: "smooth" });
+                } else {
+                  __nextRouter?.push(destination);
+                }
+              })?.apply(null, [actionArgs]);
+            })()
+          : undefined;
+        if (
+          $steps["goToPage"] != null &&
+          typeof $steps["goToPage"] === "object" &&
+          typeof $steps["goToPage"].then === "function"
+        ) {
+          $steps["goToPage"] = await $steps["goToPage"];
+        }
+      }}
     >
       <React.Fragment>{$props.text}</React.Fragment>
     </button>

@@ -215,9 +215,9 @@ function PlasmicStickerArchive__RenderFunc(props: {
             </div>
           </div>
           <ChunkyButton
-            className={classNames("__wab_instance", sty.chunkyButton___4ZnVg)}
+            className={classNames("__wab_instance", sty.chunkyButton__dQlJm)}
             infoPage={
-              "https://www.amazon.com/hz/wishlist/ls/31DC0Y4S6EVV7/ref=nav_wishlist_lists_2"
+              "https://www.amazon.com/hz/wishlist/ls/31DC0Y4S6EVV7?ref_=wl_share"
             }
             text={"Sticker Stuff Amazon List"}
           />

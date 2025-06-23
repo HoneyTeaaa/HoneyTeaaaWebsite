@@ -665,7 +665,7 @@
           "projectId": "pqbSBZb9VG36A9gA4GgWPg",
           "renderModuleFilePath": "plasmic/liz_website/PlasmicStickerArchive.tsx",
           "importSpec": {
-            "modulePath": "../pages/Queenie-2.tsx"
+            "modulePath": "../pages/stickerarchive.tsx"
           },
           "cssFilePath": "plasmic/liz_website/PlasmicStickerArchive.module.css",
           "scheme": "blackbox",
@@ -1362,7 +1362,8 @@
           "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerDialog"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "5dGW8Awro3qq8Hh5MveXLP",

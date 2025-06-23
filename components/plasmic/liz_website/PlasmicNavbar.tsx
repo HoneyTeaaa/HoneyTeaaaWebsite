@@ -232,7 +232,7 @@ function PlasmicNavbar__RenderFunc(props: {
           sty.link__hsgvS
         )}
         component={Link}
-        href={`/portfolio`}
+        href={`/stickerarchive`}
         platform={"nextjs"}
       >
         {"Sticker Archive.*"}

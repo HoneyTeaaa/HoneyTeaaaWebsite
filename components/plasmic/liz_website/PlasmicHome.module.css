@@ -296,6 +296,7 @@
   object-fit: cover;
   text-align: left;
   align-self: flex-start;
+  width: auto;
 }
 .text__tbG8D {
   position: relative;

@@ -516,7 +516,7 @@ export const PlasmicGuestbook = Object.assign(
 
     // Page metadata
     pageMetadata: {
-      title: "Bee More Info",
+      title: "Guestbook",
       description: "",
       ogImageSrc: "",
       canonical: ""

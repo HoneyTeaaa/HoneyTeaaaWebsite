@@ -405,7 +405,7 @@ function PlasmicHome__RenderFunc(props: {
           <Embed
             className={classNames("__wab_instance", sty.embedHtml__vY2RR)}
             code={
-              '<iframe src="//incr.easrng.net/badge?key=changeme" style="background: url(//incr.easrng.net/bg.gif)" title="increment badge" width="88" height="31" frameborder="0"></iframe>'
+              '<iframe src="//incr.easrng.net/badge?key=TeaKey" style="background: url(//incr.easrng.net/bg.gif)" title="increment badge" width="88" height="31" frameborder="0"></iframe>'
             }
           />
 

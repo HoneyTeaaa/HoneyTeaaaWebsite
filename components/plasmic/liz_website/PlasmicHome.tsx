@@ -63,6 +63,7 @@ import Navbar from "../../Navbar"; // plasmic-import: tGuDlEY_p2-T/component
 import { Reveal } from "@plasmicpkgs/react-awesome-reveal";
 import { Embed } from "@plasmicpkgs/plasmic-basic-components";
 import YouTube from "@plasmicpkgs/react-youtube";
+import _88X31Button from "../../_88X31Button"; // plasmic-import: Fx6jkwQxAebM/component
 
 import { useScreenVariants as useScreenVariants_2JO3KfG3GnTq } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: 2jO3kfG3gnTq/globalVariant
 
@@ -400,6 +401,103 @@ function PlasmicHome__RenderFunc(props: {
             </div>
           </Stack__>
         </Reveal>
+        <div className={classNames(projectcss.all, sty.freeBox___70Ay)}>
+          <Embed
+            className={classNames("__wab_instance", sty.embedHtml__vY2RR)}
+            code={
+              '<iframe src="//incr.easrng.net/badge?key=changeme" style="background: url(//incr.easrng.net/bg.gif)" title="increment badge" width="88" height="31" frameborder="0"></iframe>'
+            }
+          />
+
+          <_88X31Button
+            className={classNames("__wab_instance", sty._88X31Button__sfXos)}
+            link={"https://www.redpandastudios.net"}
+          >
+            <PlasmicImg__
+              alt={""}
+              className={classNames(sty.img__dTnHd)}
+              displayHeight={"auto"}
+              displayMaxHeight={"none"}
+              displayMaxWidth={"100%"}
+              displayMinHeight={"0"}
+              displayMinWidth={"0"}
+              displayWidth={"auto"}
+              loading={"lazy"}
+              src={{
+                src: "/plasmic/honey_teaaa_art/images/image21.gif",
+                fullWidth: 88,
+                fullHeight: 31,
+                aspectRatio: undefined
+              }}
+            />
+          </_88X31Button>
+          <_88X31Button
+            className={classNames("__wab_instance", sty._88X31Button__qKbkz)}
+            link={"https://disuko.neocities.org"}
+          >
+            <PlasmicImg__
+              alt={""}
+              className={classNames(sty.img__pdyH9)}
+              displayHeight={"auto"}
+              displayMaxHeight={"none"}
+              displayMaxWidth={"100%"}
+              displayMinHeight={"0"}
+              displayMinWidth={"0"}
+              displayWidth={"auto"}
+              loading={"lazy"}
+              src={{
+                src: "/plasmic/honey_teaaa_art/images/disukoButtonGif.gif",
+                fullWidth: 88,
+                fullHeight: 62,
+                aspectRatio: undefined
+              }}
+            />
+          </_88X31Button>
+          <_88X31Button
+            className={classNames("__wab_instance", sty._88X31Button___1Cm6K)}
+            link={"https://rat.pics"}
+          >
+            <PlasmicImg__
+              alt={""}
+              className={classNames(sty.img__h6OAj)}
+              displayHeight={"auto"}
+              displayMaxHeight={"none"}
+              displayMaxWidth={"100%"}
+              displayMinHeight={"0"}
+              displayMinWidth={"0"}
+              displayWidth={"auto"}
+              loading={"lazy"}
+              src={{
+                src: "/plasmic/honey_teaaa_art/images/ratPicsBadgeGif.gif",
+                fullWidth: 88,
+                fullHeight: 62,
+                aspectRatio: undefined
+              }}
+            />
+          </_88X31Button>
+          <_88X31Button
+            className={classNames("__wab_instance", sty._88X31Button__x0Bua)}
+            link={"https://www.youtube.com/watch?v=VXWT5MXRs_8"}
+          >
+            <PlasmicImg__
+              alt={""}
+              className={classNames(sty.img__yB2P)}
+              displayHeight={"auto"}
+              displayMaxHeight={"none"}
+              displayMaxWidth={"100%"}
+              displayMinHeight={"0"}
+              displayMinWidth={"0"}
+              displayWidth={"auto"}
+              loading={"lazy"}
+              src={{
+                src: "/plasmic/honey_teaaa_art/images/korbiespaghettiPng.png",
+                fullWidth: 88,
+                fullHeight: 31,
+                aspectRatio: undefined
+              }}
+            />
+          </_88X31Button>
+        </div>
       </div>
     </React.Fragment>
   ) as React.ReactElement | null;

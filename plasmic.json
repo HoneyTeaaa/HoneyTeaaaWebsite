@@ -671,6 +671,19 @@
           "scheme": "blackbox",
           "componentType": "page",
           "path": "/Socials"
+        },
+        {
+          "id": "Fx6jkwQxAebM",
+          "name": "_88X31Button",
+          "type": "managed",
+          "projectId": "pqbSBZb9VG36A9gA4GgWPg",
+          "renderModuleFilePath": "plasmic/honey_teaaa_art/Plasmic_88X31Button.tsx",
+          "importSpec": {
+            "modulePath": "_88X31Button.tsx"
+          },
+          "cssFilePath": "plasmic/honey_teaaa_art/Plasmic_88X31Button.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [
@@ -1185,6 +1198,26 @@
           "id": "N5m2h_3ZBp0X",
           "name": "VRChat_2024-02-23_20-57-44.897_3840x2160.png",
           "filePath": "../public/plasmic/liz_website/images/vrChat202402232057448973840X2160Png.png"
+        },
+        {
+          "id": "PMK7caY3vVGC",
+          "name": "image 21",
+          "filePath": "../public/plasmic/honey_teaaa_art/images/image21.gif"
+        },
+        {
+          "id": "_LwuYjwx-4f9",
+          "name": "disuko-button.gif",
+          "filePath": "../public/plasmic/honey_teaaa_art/images/disukoButtonGif.gif"
+        },
+        {
+          "id": "M6KTAbtJMKut",
+          "name": "RatPicsBadge.gif",
+          "filePath": "../public/plasmic/honey_teaaa_art/images/ratPicsBadgeGif.gif"
+        },
+        {
+          "id": "IFwDjJ3DcK8X",
+          "name": "korbiespaghetti.png",
+          "filePath": "../public/plasmic/honey_teaaa_art/images/korbiespaghettiPng.png"
         }
       ],
       "indirect": false,

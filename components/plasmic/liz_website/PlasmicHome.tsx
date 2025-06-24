@@ -61,8 +61,8 @@ import {
 
 import Navbar from "../../Navbar"; // plasmic-import: tGuDlEY_p2-T/component
 import { Reveal } from "@plasmicpkgs/react-awesome-reveal";
-import YouTube from "@plasmicpkgs/react-youtube";
 import { Embed } from "@plasmicpkgs/plasmic-basic-components";
+import YouTube from "@plasmicpkgs/react-youtube";
 
 import { useScreenVariants as useScreenVariants_2JO3KfG3GnTq } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: 2jO3kfG3gnTq/globalVariant
 
@@ -86,7 +86,6 @@ export type PlasmicHome__OverridesType = {
   root?: Flex__<"div">;
   navbar?: Flex__<typeof Navbar>;
   reveal?: Flex__<typeof Reveal>;
-  ul?: Flex__<"ul">;
   youTube?: Flex__<typeof YouTube>;
 };
 
@@ -244,6 +243,16 @@ function PlasmicHome__RenderFunc(props: {
                   >
                     {"Latest Update"}
                   </div>
+                  <Embed
+                    className={classNames(
+                      "__wab_instance",
+                      sty.embedHtml__gEiHn
+                    )}
+                    code={
+                      " <div id=\"latest-commit\"></div>\r\n\r\n    <script>\r\n        const owner = 'HoneyTeaaa';\r\n        const repo = 'HoneyTeaaaWebsite';\r\n        const branch = 'main';\r\n        const container = document.getElementById('latest-commit');\r\n\r\n        async function fetchLatestCommit() {\r\n            const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/commits?sha=${branch}&per_page=1`);\r\n            const data = await response.json();\r\n\r\n            if (!data.length) {\r\n                container.innerHTML = '<p>No commits found.</p>';\r\n                return;\r\n            }\r\n\r\n            const commit = data[0];\r\n            const date = new Date(commit.commit.author.date);\r\n            const formattedDate = `${date.getMonth() + 1}/${date.getDate()}/${date.getFullYear()}`;\r\n            const message = commit.commit.message.split('\\n')[0];\r\n\r\n            container.innerHTML = `\r\n    <strong>${formattedDate}</strong>\r\n    <ul><li>${message}</li></ul>\r\n`;\r\n        }\r\n\r\n        fetchLatestCommit().catch(err => {\r\n            container.innerHTML = `<p>Error fetching commit: ${err.message}</p>`;\r\n        });\r\n    </script>"
+                    }
+                  />
+
                   <div
                     className={classNames(
                       projectcss.all,
@@ -251,66 +260,9 @@ function PlasmicHome__RenderFunc(props: {
                       sty.text__tbG8D
                     )}
                   >
-                    <React.Fragment>
-                      <React.Fragment>
-                        {
-                          "6/23/2025\n\nMany pages are under construction, please pardon the mess \u0d26\u0d4d\u0d26\u0d3f( ;\u00b4 - `;)\n\n"
-                        }
-                      </React.Fragment>
-                      {
-                        <ul
-                          data-plasmic-name={"ul"}
-                          data-plasmic-override={overrides.ul}
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.ul,
-                            sty.ul
-                          )}
-                        >
-                          <li
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.li,
-                              projectcss.__wab_text,
-                              sty.li__iZfy
-                            )}
-                          >
-                            {"Updating Portfolio page"}
-                          </li>
-                          <li
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.li,
-                              projectcss.__wab_text,
-                              sty.li__gdnZu
-                            )}
-                          >
-                            {"Updating About Me page"}
-                          </li>
-                          <li
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.li,
-                              projectcss.__wab_text,
-                              sty.li__wKlnp
-                            )}
-                          >
-                            {"Adding Sticker Archive"}
-                          </li>
-                          <li
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.li,
-                              projectcss.__wab_text,
-                              sty.li__osObu
-                            )}
-                          >
-                            {"Adding Socials page"}
-                          </li>
-                        </ul>
-                      }
-                      <React.Fragment>{""}</React.Fragment>
-                    </React.Fragment>
+                    {
+                      "Many pages are under construction, please pardon the mess \u0d26\u0d4d\u0d26\u0d3f( ;\u00b4 - `;)\n"
+                    }
                   </div>
                 </Stack__>
                 <Stack__
@@ -454,10 +406,9 @@ function PlasmicHome__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "navbar", "reveal", "ul", "youTube"],
+  root: ["root", "navbar", "reveal", "youTube"],
   navbar: ["navbar"],
-  reveal: ["reveal", "ul", "youTube"],
-  ul: ["ul"],
+  reveal: ["reveal", "youTube"],
   youTube: ["youTube"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
@@ -467,7 +418,6 @@ type NodeDefaultElementType = {
   root: "div";
   navbar: typeof Navbar;
   reveal: typeof Reveal;
-  ul: "ul";
   youTube: typeof YouTube;
 };
 
@@ -533,7 +483,6 @@ export const PlasmicHome = Object.assign(
     // Helper components rendering sub-elements
     navbar: makeNodeComponent("navbar"),
     reveal: makeNodeComponent("reveal"),
-    ul: makeNodeComponent("ul"),
     youTube: makeNodeComponent("youTube"),
 
     // Metadata about props expected for PlasmicHome

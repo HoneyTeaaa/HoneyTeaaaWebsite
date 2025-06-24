@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter%3Aital%2Cwght%400%2C400%3B0%2C600%3B0%2C700&family=Inconsolata%3Aital%2Cwght%400%2C400%3B0%2C600%3B0%2C700&family=Roboto+Mono%3Aital%2Cwght%400%2C400%3B0%2C600%3B0%2C700%3B1%2C400%3B1%2C600%3B1%2C700&family=Gochi+Hand%3Aital%2Cwght%400%2C400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono%3Aital%2Cwght%400%2C400%3B0%2C600%3B0%2C700%3B1%2C400%3B1%2C600%3B1%2C700&family=Inconsolata%3Aital%2Cwght%400%2C400%3B0%2C600%3B0%2C700&family=Gochi+Hand%3Aital%2Cwght%400%2C400&family=Inter%3Aital%2Cwght%400%2C400%3B0%2C600%3B0%2C700&display=swap");
 
 .plasmic_tokens {
   --token-wm5TQEsc-4q4: #331009;
@@ -134,11 +134,11 @@
 }
 
 .plasmic_default_styles {
-  --mixin-5-s7Y9Z73y8E_font-family: "Inter", sans-serif;
+  --mixin-5-s7Y9Z73y8E_font-family: "Roboto Mono";
   --mixin-5-s7Y9Z73y8E_font-size: 16px;
-  --mixin-5-s7Y9Z73y8E_font-weight: 400;
+  --mixin-5-s7Y9Z73y8E_font-weight: 700;
   --mixin-5-s7Y9Z73y8E_font-style: normal;
-  --mixin-5-s7Y9Z73y8E_color: #535353;
+  --mixin-5-s7Y9Z73y8E_color: var(--token-wm5TQEsc-4q4);
   --mixin-5-s7Y9Z73y8E_text-align: left;
   --mixin-5-s7Y9Z73y8E_text-transform: none;
   --mixin-5-s7Y9Z73y8E_line-height: 1.5;
@@ -147,11 +147,13 @@
   --mixin-5-s7Y9Z73y8E_user-select: text;
   --mixin-5-s7Y9Z73y8E_text-decoration-line: none;
   --mixin-5-s7Y9Z73y8E_text-overflow: clip;
-  --mixin-CZClqFLaovys_color: #000000;
+  --mixin-CZClqFLaovys_color: var(--token-VHKbq1Ltfo9Q);
   --mixin-CZClqFLaovys_font-weight: 700;
-  --mixin-CZClqFLaovys_font-size: 64px;
+  --mixin-CZClqFLaovys_font-size: 16px;
   --mixin-CZClqFLaovys_line-height: 1;
   --mixin-CZClqFLaovys_letter-spacing: -1px;
+  --mixin-CZClqFLaovys_font-family: "Roboto Mono";
+  --mixin-CZClqFLaovys_text-align: left;
   --mixin-CZClqFLaovys_white-space: pre-wrap;
   --mixin-zCKLwdlHbept_color: #000000;
   --mixin-zCKLwdlHbept_font-size: 48px;
@@ -600,6 +602,8 @@ h1:where(.root_reset_tags) {
   font-size: var(--mixin-CZClqFLaovys_font-size);
   line-height: var(--mixin-CZClqFLaovys_line-height);
   letter-spacing: var(--mixin-CZClqFLaovys_letter-spacing);
+  font-family: var(--mixin-CZClqFLaovys_font-family);
+  text-align: var(--mixin-CZClqFLaovys_text-align);
 }
 
 :where(.root_reset) h2:where(.h2),

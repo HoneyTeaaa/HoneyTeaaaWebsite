@@ -245,7 +245,7 @@ function PlasmicNavbar__RenderFunc(props: {
           sty.link__bpkrw
         )}
         component={Link}
-        href={`/stickerarchive`}
+        href={`/Guestbook`}
         platform={"nextjs"}
       >
         {"Guestbook.*"}

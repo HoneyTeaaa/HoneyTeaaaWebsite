@@ -294,7 +294,6 @@ function PlasmicStartPage__RenderFunc(props: {
               sty.link__watvw
             )}
             component={Link}
-            href={`/socials`}
             platform={"nextjs"}
           >
             {">Socials.*"}

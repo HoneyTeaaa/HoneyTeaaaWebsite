@@ -227,20 +227,6 @@
           "path": "/"
         },
         {
-          "id": "7Syv14BwsT8H",
-          "name": "Socials",
-          "type": "managed",
-          "projectId": "pqbSBZb9VG36A9gA4GgWPg",
-          "renderModuleFilePath": "plasmic/liz_website/PlasmicSocials.tsx",
-          "importSpec": {
-            "modulePath": "../pages/socials.tsx"
-          },
-          "cssFilePath": "plasmic/liz_website/PlasmicSocials.module.css",
-          "scheme": "blackbox",
-          "componentType": "page",
-          "path": "/socials"
-        },
-        {
           "id": "jIq4Q7LVWtnB",
           "name": "EnterButton",
           "type": "managed",
@@ -266,20 +252,6 @@
           "scheme": "blackbox",
           "componentType": "page",
           "path": "/home"
-        },
-        {
-          "id": "sylimI_bcIFo",
-          "name": "AboutMe",
-          "type": "managed",
-          "projectId": "pqbSBZb9VG36A9gA4GgWPg",
-          "renderModuleFilePath": "plasmic/liz_website/PlasmicAboutMe.tsx",
-          "importSpec": {
-            "modulePath": "../pages/about-me.tsx"
-          },
-          "cssFilePath": "plasmic/liz_website/PlasmicAboutMe.module.css",
-          "scheme": "blackbox",
-          "componentType": "page",
-          "path": "/about-me"
         },
         {
           "id": "mVglz-2PPnwm",
@@ -645,20 +617,6 @@
           "path": "/PieceAShit"
         },
         {
-          "id": "UbQJeS6FBfv3",
-          "name": "AboutMe2",
-          "type": "managed",
-          "projectId": "pqbSBZb9VG36A9gA4GgWPg",
-          "renderModuleFilePath": "plasmic/liz_website/PlasmicAboutMe2.tsx",
-          "importSpec": {
-            "modulePath": "../pages/about-me-2.tsx"
-          },
-          "cssFilePath": "plasmic/liz_website/PlasmicAboutMe2.module.css",
-          "scheme": "blackbox",
-          "componentType": "page",
-          "path": "/about-me-2"
-        },
-        {
           "id": "3v9SLLLuotfV",
           "name": "StickerArchive",
           "type": "managed",
@@ -671,6 +629,48 @@
           "scheme": "blackbox",
           "componentType": "page",
           "path": "/Queenie-2"
+        },
+        {
+          "id": "sylimI_bcIFo",
+          "name": "AboutMeOld",
+          "type": "managed",
+          "projectId": "pqbSBZb9VG36A9gA4GgWPg",
+          "renderModuleFilePath": "plasmic/liz_website/PlasmicAboutMeOld.tsx",
+          "importSpec": {
+            "modulePath": "../pages/new-page.tsx"
+          },
+          "cssFilePath": "plasmic/liz_website/PlasmicAboutMeOld.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/new-page"
+        },
+        {
+          "id": "UbQJeS6FBfv3",
+          "name": "AboutMe",
+          "type": "managed",
+          "projectId": "pqbSBZb9VG36A9gA4GgWPg",
+          "renderModuleFilePath": "plasmic/liz_website/PlasmicAboutMe.tsx",
+          "importSpec": {
+            "modulePath": "../pages/AboutMe.tsx"
+          },
+          "cssFilePath": "plasmic/liz_website/PlasmicAboutMe.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/AboutMe"
+        },
+        {
+          "id": "K7mQOjwyQOCq",
+          "name": "Socials",
+          "type": "managed",
+          "projectId": "pqbSBZb9VG36A9gA4GgWPg",
+          "renderModuleFilePath": "plasmic/liz_website/PlasmicSocials.tsx",
+          "importSpec": {
+            "modulePath": "../pages/Socials.tsx"
+          },
+          "cssFilePath": "plasmic/liz_website/PlasmicSocials.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/Socials"
         }
       ],
       "icons": [
@@ -1180,6 +1180,11 @@
           "id": "M531q0KNYuCr",
           "name": "HoneyTeaaaBladeShowEast.png",
           "filePath": "../public/plasmic/liz_website/images/honeyTeaaaBladeShowEastPng.png"
+        },
+        {
+          "id": "N5m2h_3ZBp0X",
+          "name": "VRChat_2024-02-23_20-57-44.897_3840x2160.png",
+          "filePath": "../public/plasmic/liz_website/images/vrChat202402232057448973840X2160Png.png"
         }
       ],
       "indirect": false,

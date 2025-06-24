@@ -83,7 +83,6 @@ export const PlasmicStickerArchive__ArgProps = new Array<ArgPropType>();
 export type PlasmicStickerArchive__OverridesType = {
   root?: Flex__<"div">;
   navbar?: Flex__<typeof Navbar>;
-  link?: Flex__<"a"> & Partial<LinkProps>;
   sliderCarousel2?: Flex__<typeof SliderWrapper>;
 };
 
@@ -217,14 +216,12 @@ function PlasmicStickerArchive__RenderFunc(props: {
                   </React.Fragment>
                   {
                     <PlasmicLink__
-                      data-plasmic-name={"link"}
-                      data-plasmic-override={overrides.link}
                       className={classNames(
                         projectcss.all,
                         projectcss.a,
                         projectcss.__wab_text,
                         projectcss.plasmic_default__inline,
-                        sty.link
+                        sty.link___9Q1Vx
                       )}
                       component={Link}
                       href={"https://www.disuko.gay"}
@@ -247,13 +244,25 @@ function PlasmicStickerArchive__RenderFunc(props: {
               </div>
             </div>
           </div>
-          <ChunkyButton
-            className={classNames("__wab_instance", sty.chunkyButton__dQlJm)}
-            infoPage={
+          <PlasmicLink__
+            className={classNames(
+              projectcss.all,
+              projectcss.a,
+              sty.link__aiG9J
+            )}
+            component={Link}
+            href={
               "https://www.amazon.com/hz/wishlist/ls/31DC0Y4S6EVV7?ref_=wl_share"
             }
-            text={"Sticker Stuff Amazon List"}
-          />
+            platform={"nextjs"}
+            target={"_blank"}
+          >
+            <ChunkyButton
+              className={classNames("__wab_instance", sty.chunkyButton__dQlJm)}
+              infoPage={""}
+              text={"Sticker Stuff Amazon List"}
+            />
+          </PlasmicLink__>
         </Stack__>
         <Stack__
           as={"div"}
@@ -860,9 +869,8 @@ function PlasmicStickerArchive__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "navbar", "link", "sliderCarousel2"],
+  root: ["root", "navbar", "sliderCarousel2"],
   navbar: ["navbar"],
-  link: ["link"],
   sliderCarousel2: ["sliderCarousel2"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
@@ -871,7 +879,6 @@ type DescendantsType<T extends NodeNameType> =
 type NodeDefaultElementType = {
   root: "div";
   navbar: typeof Navbar;
-  link: "a";
   sliderCarousel2: typeof SliderWrapper;
 };
 
@@ -936,7 +943,6 @@ export const PlasmicStickerArchive = Object.assign(
   {
     // Helper components rendering sub-elements
     navbar: makeNodeComponent("navbar"),
-    link: makeNodeComponent("link"),
     sliderCarousel2: makeNodeComponent("sliderCarousel2"),
 
     // Metadata about props expected for PlasmicStickerArchive

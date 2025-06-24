@@ -193,7 +193,7 @@ function PlasmicNavbar__RenderFunc(props: {
           sty.about
         )}
         component={Link}
-        href={`/about-me-2`}
+        href={`/AboutMe`}
         platform={"nextjs"}
       >
         {"About Me.*"}
@@ -223,6 +223,19 @@ function PlasmicNavbar__RenderFunc(props: {
         platform={"nextjs"}
       >
         {"Portfolio.*"}
+      </PlasmicLink__>
+      <PlasmicLink__
+        className={classNames(
+          projectcss.all,
+          projectcss.a,
+          projectcss.__wab_text,
+          sty.link__hR4Fq
+        )}
+        component={Link}
+        href={`/Socials`}
+        platform={"nextjs"}
+      >
+        {"Socials.*"}
       </PlasmicLink__>
       <PlasmicLink__
         className={classNames(

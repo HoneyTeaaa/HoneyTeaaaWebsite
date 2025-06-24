@@ -118,12 +118,15 @@
   text-decoration-line: none;
   text-overflow: clip;
 }
+.link__aiG9J {
+  align-self: flex-end;
+  margin-top: calc(15px + 10px) !important;
+  margin-bottom: 10px;
+  margin-right: 16px;
+  display: flex;
+}
 .chunkyButton__dQlJm:global(.__wab_instance) {
   max-width: 100%;
-  align-self: flex-end;
-  margin-bottom: 10px;
-  margin-top: calc(15px + 10px) !important;
-  margin-right: 16px;
 }
 .freeBox__mj6ON {
   background: var(--token-z5IKgHokHwfh);

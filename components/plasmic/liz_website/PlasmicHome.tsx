@@ -61,7 +61,6 @@ import {
 
 import Navbar from "../../Navbar"; // plasmic-import: tGuDlEY_p2-T/component
 import { Reveal } from "@plasmicpkgs/react-awesome-reveal";
-import SocialButton from "../../SocialButton"; // plasmic-import: mVglz-2PPnwm/component
 import YouTube from "@plasmicpkgs/react-youtube";
 import { Embed } from "@plasmicpkgs/plasmic-basic-components";
 
@@ -71,11 +70,6 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 
 import projectcss from "./plasmic.module.css"; // plasmic-import: pqbSBZb9VG36A9gA4GgWPg/projectcss
 import sty from "./PlasmicHome.module.css"; // plasmic-import: YZNtPwXJ6VsS/css
-
-import BlueskyLogoSvgIcon from "./icons/PlasmicIcon__BlueskyLogoSvg"; // plasmic-import: FOXR5d_qZeG1/icon
-import STikTok18ND2XSvgIcon from "./icons/PlasmicIcon__STikTok18ND2XSvg"; // plasmic-import: etfjn81rVY-k/icon
-import YoutubeSvgIcon from "./icons/PlasmicIcon__YoutubeSvg"; // plasmic-import: o3oTJJ1QlA-2/icon
-import Asset1VrcSvgIcon from "./icons/PlasmicIcon__Asset1VrcSvg"; // plasmic-import: B9HQ4rVr7o7_/icon
 
 createPlasmicElementProxy;
 
@@ -224,19 +218,9 @@ function PlasmicHome__RenderFunc(props: {
                     sty.text__qycoY
                   )}
                 >
-                  <React.Fragment>
-                    <React.Fragment>
-                      {
-                        "I'm Tea, a multidisciplinary digital artist and full time college student. I make art in Blender, VRChat avatars, games in Unity Engine, and love to learn new software.\n\n"
-                      }
-                    </React.Fragment>
-                    <span
-                      className={"plasmic_default__all plasmic_default__span"}
-                      style={{ fontStyle: "italic" }}
-                    >
-                      {"Expand/reword this?"}
-                    </span>
-                  </React.Fragment>
+                  {
+                    "I'm Tea, a multidisciplinary digital artist and full time college student. I make art in Blender, VRChat avatars, games in Unity Engine, and love to learn new software."
+                  }
                 </div>
               </Stack__>
             </div>
@@ -270,7 +254,7 @@ function PlasmicHome__RenderFunc(props: {
                     <React.Fragment>
                       <React.Fragment>
                         {
-                          "6/23/2025\n\nMany pages are under construction, please pardon the mess :3\n\n"
+                          "6/23/2025\n\nMany pages are under construction, please pardon the mess \u0d26\u0d4d\u0d26\u0d3f( ;\u00b4 - `;)\n\n"
                         }
                       </React.Fragment>
                       {
@@ -313,82 +297,21 @@ function PlasmicHome__RenderFunc(props: {
                           >
                             {"Adding Sticker Archive"}
                           </li>
+                          <li
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.li,
+                              projectcss.__wab_text,
+                              sty.li__osObu
+                            )}
+                          >
+                            {"Adding Socials page"}
+                          </li>
                         </ul>
                       }
                       <React.Fragment>{""}</React.Fragment>
                     </React.Fragment>
                   </div>
-                </Stack__>
-                <Stack__
-                  as={"div"}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.freeBox__rUvu3)}
-                >
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__lprA3
-                    )}
-                  >
-                    {"Socials"}
-                  </div>
-                  <Stack__
-                    as={"div"}
-                    hasGap={true}
-                    className={classNames(projectcss.all, sty.freeBox___7I8Uj)}
-                  >
-                    <SocialButton
-                      className={classNames(
-                        "__wab_instance",
-                        sty.socialButton__tYaJ
-                      )}
-                      linkUrl={"https://bsky.app/profile/honeyteaaa.art"}
-                    >
-                      <BlueskyLogoSvgIcon
-                        className={classNames(projectcss.all, sty.svg__a53Wt)}
-                        role={"img"}
-                      />
-                    </SocialButton>
-                    <SocialButton
-                      className={classNames(
-                        "__wab_instance",
-                        sty.socialButton__nqBwO
-                      )}
-                      linkUrl={"https://www.tiktok.com/@honey.teaaa_"}
-                    >
-                      <STikTok18ND2XSvgIcon
-                        className={classNames(projectcss.all, sty.svg___1AonZ)}
-                        role={"img"}
-                      />
-                    </SocialButton>
-                    <SocialButton
-                      className={classNames(
-                        "__wab_instance",
-                        sty.socialButton__lnVc5
-                      )}
-                      linkUrl={"https://www.youtube.com/@honeyteaaaa"}
-                    >
-                      <YoutubeSvgIcon
-                        className={classNames(projectcss.all, sty.svg__uv1W)}
-                        role={"img"}
-                      />
-                    </SocialButton>
-                    <SocialButton
-                      className={classNames(
-                        "__wab_instance",
-                        sty.socialButton__ooR1
-                      )}
-                      linkUrl={
-                        "https://vrchat.com/home/group/grp_50eb80e9-8899-423e-b6e5-d18b6669e73e"
-                      }
-                    >
-                      <Asset1VrcSvgIcon
-                        className={classNames(projectcss.all, sty.svg__ttBmh)}
-                        role={"img"}
-                      />
-                    </SocialButton>
-                  </Stack__>
                 </Stack__>
                 <Stack__
                   as={"div"}

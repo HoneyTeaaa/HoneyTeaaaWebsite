@@ -684,6 +684,20 @@
           "cssFilePath": "plasmic/honey_teaaa_art/Plasmic_88X31Button.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "ceoSk4_Tn_gI",
+          "name": "Guestbook",
+          "type": "managed",
+          "projectId": "pqbSBZb9VG36A9gA4GgWPg",
+          "renderModuleFilePath": "plasmic/honey_teaaa_art/PlasmicGuestbook.tsx",
+          "importSpec": {
+            "modulePath": "../pages/Guestbook.tsx"
+          },
+          "cssFilePath": "plasmic/honey_teaaa_art/PlasmicGuestbook.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/Guestbook"
         }
       ],
       "icons": [

@@ -203,19 +203,6 @@ function PlasmicNavbar__RenderFunc(props: {
           projectcss.all,
           projectcss.a,
           projectcss.__wab_text,
-          sty.link__wCi2X
-        )}
-        component={Link}
-        href={"linktr.ee/honeyteaaa"}
-        platform={"nextjs"}
-      >
-        {"Socials.*"}
-      </PlasmicLink__>
-      <PlasmicLink__
-        className={classNames(
-          projectcss.all,
-          projectcss.a,
-          projectcss.__wab_text,
           sty.link__y68OF
         )}
         component={Link}
@@ -249,6 +236,19 @@ function PlasmicNavbar__RenderFunc(props: {
         platform={"nextjs"}
       >
         {"Sticker Archive.*"}
+      </PlasmicLink__>
+      <PlasmicLink__
+        className={classNames(
+          projectcss.all,
+          projectcss.a,
+          projectcss.__wab_text,
+          sty.link__bpkrw
+        )}
+        component={Link}
+        href={`/stickerarchive`}
+        platform={"nextjs"}
+      >
+        {"Guestbook.*"}
       </PlasmicLink__>
     </Stack__>
   ) as React.ReactElement | null;

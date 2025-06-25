@@ -204,7 +204,7 @@ function PlasmicPortfolio__RenderFunc(props: {
                     )}
                   >
                     {
-                      "This is my professional portfolio! All of my finished work can be found here, any unfinished projects I have are archived on my discord as well."
+                      "This is my portfolio! My newest work is at the top of the page, the projects get older the farther down you go. All of my finished work can be found here, any unfinished projects I have are archived on my discord as well. "
                     }
                   </div>
                 </Stack__>

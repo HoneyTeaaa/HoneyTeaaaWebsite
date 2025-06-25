@@ -519,7 +519,7 @@ function PlasmicHome__RenderFunc(props: {
           </_88X31Button>
           <_88X31Button
             className={classNames("__wab_instance", sty._88X31Button__x0Bua)}
-            link={"https://www.youtube.com/watch?v=VXWT5MXRs_8"}
+            link={"https://korbinnevius.com"}
           >
             <PlasmicImg__
               alt={""}

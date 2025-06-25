@@ -191,14 +191,9 @@ function PlasmicSocials__RenderFunc(props: {
                       sty.text___06DOr
                     )}
                   >
-                    <React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ fontStyle: "italic" }}
-                      >
-                        {"Idk i have social media man... "}
-                      </span>
-                    </React.Fragment>
+                    {
+                      "I have socials :D\n\n\nYeahhhhh\n\n\n\n\n\n\n\n\n\n\nI post things sometimes :O"
+                    }
                   </div>
                 </Stack__>
               </div>
@@ -286,14 +281,9 @@ function PlasmicSocials__RenderFunc(props: {
                       sty.text__kKLsO
                     )}
                   >
-                    <React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ fontStyle: "italic" }}
-                      >
-                        {"Post photos here"}
-                      </span>
-                    </React.Fragment>
+                    {
+                      "Wowee I have a Bluesky!\n\n\n\n\n\n:3\n\n\n\n\n\n\n\nI post photos and slideshows here"
+                    }
                   </div>
                 </Stack__>
               </div>
@@ -307,70 +297,31 @@ function PlasmicSocials__RenderFunc(props: {
                 <Stack__
                   as={"div"}
                   hasGap={true}
-                  className={classNames(projectcss.all, sty.freeBox__pw3Kl)}
+                  className={classNames(projectcss.all, sty.freeBox__fDniv)}
                 >
                   <div
                     className={classNames(
                       projectcss.all,
                       projectcss.__wab_text,
-                      sty.text__cu7X0
+                      sty.text__zlOv
                     )}
                   >
-                    {"Bluesky.*"}
+                    {"TikTok.*"}
                   </div>
                   <div
                     className={classNames(
                       projectcss.all,
                       projectcss.__wab_text,
-                      sty.text___9L14Y
+                      sty.text___93TMr
                     )}
                   >
-                    <React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ fontStyle: "italic" }}
-                      >
-                        {"Post photos here"}
-                      </span>
-                    </React.Fragment>
+                    {
+                      "I post short form content here\n\n\n\n\n\n\n\n\n\n\n\n\n\nWowee there it is!"
+                    }
                   </div>
                 </Stack__>
               </div>
               <div className={classNames(projectcss.all, sty.column__scHtM)}>
-                <Polaroid
-                  backHeader1={"Photo By:"}
-                  className={classNames("__wab_instance", sty.polaroid__b0GbJ)}
-                  date2={``}
-                  infoPage={"https://www.disuko.gay"}
-                  projectTitle={``}
-                  slot={"Disuko"}
-                >
-                  <PlasmicImg__
-                    alt={""}
-                    className={classNames(sty.img__gAjab)}
-                    displayHeight={"100%"}
-                    displayMaxHeight={"none"}
-                    displayMaxWidth={"100%"}
-                    displayMinHeight={"0"}
-                    displayMinWidth={"0"}
-                    displayWidth={"100%"}
-                    loading={"lazy"}
-                    src={{
-                      src: "/plasmic/liz_website/images/image2.png",
-                      fullWidth: 1800,
-                      fullHeight: 1200,
-                      aspectRatio: undefined
-                    }}
-                  />
-                </Polaroid>
-              </div>
-            </Stack__>
-            <Stack__
-              as={"div"}
-              hasGap={true}
-              className={classNames(projectcss.all, sty.columns___8CJ6)}
-            >
-              <div className={classNames(projectcss.all, sty.column__qepar)}>
                 <Polaroid
                   backHeader1={"Photo By:"}
                   className={classNames("__wab_instance", sty.polaroid___1F1Fc)}
@@ -398,39 +349,6 @@ function PlasmicSocials__RenderFunc(props: {
                   />
                 </Polaroid>
               </div>
-              <div className={classNames(projectcss.all, sty.column__ohfhE)}>
-                <Stack__
-                  as={"div"}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.freeBox__fDniv)}
-                >
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__zlOv
-                    )}
-                  >
-                    {"TikTok.*"}
-                  </div>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text___93TMr
-                    )}
-                  >
-                    <React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ fontStyle: "italic" }}
-                      >
-                        {"Short Form Content here"}
-                      </span>
-                    </React.Fragment>
-                  </div>
-                </Stack__>
-              </div>
             </Stack__>
             <Stack__
               as={"div"}
@@ -438,39 +356,6 @@ function PlasmicSocials__RenderFunc(props: {
               className={classNames(projectcss.all, sty.columns__z1Fs)}
             >
               <div className={classNames(projectcss.all, sty.column__rZtc4)}>
-                <Stack__
-                  as={"div"}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.freeBox___9MmeW)}
-                >
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text___4XuDx
-                    )}
-                  >
-                    {"YouTube.*"}
-                  </div>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__odxFj
-                    )}
-                  >
-                    <React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ fontStyle: "italic" }}
-                      >
-                        {"Long form content goes here"}
-                      </span>
-                    </React.Fragment>
-                  </div>
-                </Stack__>
-              </div>
-              <div className={classNames(projectcss.all, sty.column__a37Cx)}>
                 <Polaroid
                   backHeader1={"Photo By:"}
                   className={classNames("__wab_instance", sty.polaroid___3SpTu)}
@@ -498,6 +383,34 @@ function PlasmicSocials__RenderFunc(props: {
                   />
                 </Polaroid>
               </div>
+              <div className={classNames(projectcss.all, sty.column__a37Cx)}>
+                <Stack__
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox___9MmeW)}
+                >
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text___4XuDx
+                    )}
+                  >
+                    {"YouTube.*"}
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__odxFj
+                    )}
+                  >
+                    {
+                      "My youtube does not get posts often\n\n\n\n\n\n\n\nLong form content goes here\n\n\n\n\n\n:O"
+                    }
+                  </div>
+                </Stack__>
+              </div>
             </Stack__>
             <Stack__
               as={"div"}
@@ -505,6 +418,34 @@ function PlasmicSocials__RenderFunc(props: {
               className={classNames(projectcss.all, sty.columns__aitht)}
             >
               <div className={classNames(projectcss.all, sty.column__mUo6E)}>
+                <Stack__
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox__f6U6P)}
+                >
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__uHf2S
+                    )}
+                  >
+                    {"Instagram.*"}
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__yibWh
+                    )}
+                  >
+                    {
+                      "My instagram is almost exclusively balisong stuff\n\n\n\n\n\n\n\n\n\n\n\n\n\nYippee wahoo!"
+                    }
+                  </div>
+                </Stack__>
+              </div>
+              <div className={classNames(projectcss.all, sty.column__tbEp1)}>
                 <Polaroid
                   backHeader1={"Photo By:"}
                   className={classNames("__wab_instance", sty.polaroid__mdNI)}
@@ -532,39 +473,6 @@ function PlasmicSocials__RenderFunc(props: {
                   />
                 </Polaroid>
               </div>
-              <div className={classNames(projectcss.all, sty.column__tbEp1)}>
-                <Stack__
-                  as={"div"}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.freeBox__f6U6P)}
-                >
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__uHf2S
-                    )}
-                  >
-                    {"Instagram.*"}
-                  </div>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__yibWh
-                    )}
-                  >
-                    <React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ fontStyle: "italic" }}
-                      >
-                        {"Balisong stuff goes here"}
-                      </span>
-                    </React.Fragment>
-                  </div>
-                </Stack__>
-              </div>
             </Stack__>
             <Stack__
               as={"div"}
@@ -572,39 +480,6 @@ function PlasmicSocials__RenderFunc(props: {
               className={classNames(projectcss.all, sty.columns__ere48)}
             >
               <div className={classNames(projectcss.all, sty.column__ptjwZ)}>
-                <Stack__
-                  as={"div"}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.freeBox__tdQvg)}
-                >
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__f62K6
-                    )}
-                  >
-                    {"VRChat Group.*"}
-                  </div>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text___64HzO
-                    )}
-                  >
-                    <React.Fragment>
-                      <span
-                        className={"plasmic_default__all plasmic_default__span"}
-                        style={{ fontStyle: "italic" }}
-                      >
-                        {"Pretty much inactive, but here it is :O"}
-                      </span>
-                    </React.Fragment>
-                  </div>
-                </Stack__>
-              </div>
-              <div className={classNames(projectcss.all, sty.column___2Xy3A)}>
                 <Polaroid
                   backHeader1={"Photo By:"}
                   className={classNames("__wab_instance", sty.polaroid__dEksw)}
@@ -631,6 +506,34 @@ function PlasmicSocials__RenderFunc(props: {
                     }}
                   />
                 </Polaroid>
+              </div>
+              <div className={classNames(projectcss.all, sty.column___2Xy3A)}>
+                <Stack__
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox__tdQvg)}
+                >
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__f62K6
+                    )}
+                  >
+                    {"VRChat Group.*"}
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text___64HzO
+                    )}
+                  >
+                    {
+                      "My VRChat group is pretty much inactive\n\n\n\n\n\n\nhere it is :O\n\n\n\n\n\n\nYou can put my swirl pattern in your banner if you want wowee :O"
+                    }
+                  </div>
+                </Stack__>
               </div>
             </Stack__>
           </Reveal>

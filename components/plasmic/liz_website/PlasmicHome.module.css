@@ -743,10 +743,12 @@
   border-radius: 0px;
   padding: 10px;
 }
-.embedHtml__vY2RR:global(.__wab_instance) {
-  max-width: 100%;
+.img___6OBaM {
   object-fit: cover;
-  margin-bottom: 0px;
+  max-width: 100%;
+}
+.img___6OBaM > picture > img {
+  object-fit: cover;
 }
 ._88X31Button__sfXos:global(.__wab_instance) {
   position: relative;

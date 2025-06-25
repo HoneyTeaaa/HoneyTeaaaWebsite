@@ -226,6 +226,7 @@ function PlasmicStickerArchive__RenderFunc(props: {
                       component={Link}
                       href={"https://www.disuko.gay"}
                       platform={"nextjs"}
+                      target={"_blank"}
                     >
                       <React.Fragment>
                         <span

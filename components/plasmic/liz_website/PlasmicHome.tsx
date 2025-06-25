@@ -253,7 +253,9 @@ function PlasmicHome__RenderFunc(props: {
                     )}
                   >
                     <React.Fragment>
-                      <React.Fragment>{"\n"}</React.Fragment>
+                      <React.Fragment>
+                        {"Last Update: 6/25/25\n\n"}
+                      </React.Fragment>
                       {
                         <ul
                           data-plasmic-name={"ul"}
@@ -432,11 +434,21 @@ function PlasmicHome__RenderFunc(props: {
           </Stack__>
         </Reveal>
         <div className={classNames(projectcss.all, sty.freeBox___70Ay)}>
-          <Embed
-            className={classNames("__wab_instance", sty.embedHtml__vY2RR)}
-            code={
-              '<iframe src="//incr.easrng.net/badge?key=TeaKey" style="background: url(//incr.easrng.net/bg.gif)" title="increment badge" width="88" height="31" frameborder="0"></iframe>'
+          <PlasmicImg__
+            alt={""}
+            className={classNames(sty.img___6OBaM)}
+            displayHeight={"auto"}
+            displayMaxHeight={"none"}
+            displayMaxWidth={"100%"}
+            displayMinHeight={"0"}
+            displayMinWidth={"0"}
+            displayWidth={"auto"}
+            height={"31px"}
+            loading={"lazy"}
+            src={
+              "https://viii-underlying-mother-convert.trycloudflare.com/counter.png?page=honeyteaaa"
             }
+            width={``}
           />
 
           <_88X31Button

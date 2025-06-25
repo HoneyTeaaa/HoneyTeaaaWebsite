@@ -298,6 +298,9 @@
   align-self: center;
   transform: rotateX(0deg) rotateY(0deg) rotateZ(1deg);
 }
+.text__qcqFu {
+  padding-left: 0px;
+}
 .img__ocHep {
   object-fit: cover;
   max-width: 100%;

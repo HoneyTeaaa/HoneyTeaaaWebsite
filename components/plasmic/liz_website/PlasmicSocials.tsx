@@ -199,12 +199,12 @@ function PlasmicSocials__RenderFunc(props: {
               </div>
               <div className={classNames(projectcss.all, sty.column__j9XN)}>
                 <Polaroid
-                  backHeader1={"Photo By:"}
+                  backHeader1={"Nothing here..."}
                   className={classNames("__wab_instance", sty.polaroid__wPaTs)}
                   date2={``}
-                  infoPage={"https://liamlyonsiv.myportfolio.com"}
-                  projectTitle={``}
-                  slot={"Liam Lyons"}
+                  infoPage={""}
+                  projectTitle={"Yippee!"}
+                  slot={"Flip me back over pls T^T"}
                 >
                   <PlasmicImg__
                     alt={""}
@@ -233,12 +233,22 @@ function PlasmicSocials__RenderFunc(props: {
             >
               <div className={classNames(projectcss.all, sty.column__lwBcZ)}>
                 <Polaroid
-                  backHeader1={"Photo By:"}
+                  backHeader1={"Bluesky"}
                   className={classNames("__wab_instance", sty.polaroid__rYwov)}
                   date2={``}
-                  infoPage={"https://www.disuko.gay"}
+                  infoPage={"https://bsky.app/profile/honeyteaaa.art"}
                   projectTitle={``}
-                  slot={"Disuko"}
+                  slot={
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__qcqFu
+                      )}
+                    >
+                      {"Bluesky Link   \u2193"}
+                    </div>
+                  }
                 >
                   <PlasmicImg__
                     alt={""}
@@ -323,12 +333,12 @@ function PlasmicSocials__RenderFunc(props: {
               </div>
               <div className={classNames(projectcss.all, sty.column__scHtM)}>
                 <Polaroid
-                  backHeader1={"Photo By:"}
+                  backHeader1={"TikTok"}
                   className={classNames("__wab_instance", sty.polaroid___1F1Fc)}
                   date2={``}
-                  infoPage={"https://www.disuko.gay"}
-                  projectTitle={``}
-                  slot={"Disuko"}
+                  infoPage={"https://www.tiktok.com/@honey.teaaa_"}
+                  projectTitle={"TikTok"}
+                  slot={"TikTok Link   \u2193"}
                 >
                   <PlasmicImg__
                     alt={""}
@@ -357,12 +367,12 @@ function PlasmicSocials__RenderFunc(props: {
             >
               <div className={classNames(projectcss.all, sty.column__rZtc4)}>
                 <Polaroid
-                  backHeader1={"Photo By:"}
+                  backHeader1={"Youtube"}
                   className={classNames("__wab_instance", sty.polaroid___3SpTu)}
                   date2={``}
-                  infoPage={"https://www.disuko.gay"}
-                  projectTitle={``}
-                  slot={"Disuko"}
+                  infoPage={"https://www.youtube.com/@honeyteaaaa"}
+                  projectTitle={"Youtube"}
+                  slot={"Youtube Link   \u2193"}
                 >
                   <PlasmicImg__
                     alt={""}
@@ -447,12 +457,12 @@ function PlasmicSocials__RenderFunc(props: {
               </div>
               <div className={classNames(projectcss.all, sty.column__tbEp1)}>
                 <Polaroid
-                  backHeader1={"Photo By:"}
+                  backHeader1={"Instagram"}
                   className={classNames("__wab_instance", sty.polaroid__mdNI)}
                   date2={``}
-                  infoPage={"https://www.disuko.gay"}
-                  projectTitle={``}
-                  slot={"Disuko"}
+                  infoPage={"https://www.instagram.com/honeyteaaaaaaaa/"}
+                  projectTitle={"Instagram"}
+                  slot={"Instagram Link   \u2193"}
                 >
                   <PlasmicImg__
                     alt={""}
@@ -481,12 +491,14 @@ function PlasmicSocials__RenderFunc(props: {
             >
               <div className={classNames(projectcss.all, sty.column__ptjwZ)}>
                 <Polaroid
-                  backHeader1={"Photo By:"}
+                  backHeader1={"VRC Group"}
                   className={classNames("__wab_instance", sty.polaroid__dEksw)}
                   date2={``}
-                  infoPage={"https://www.disuko.gay"}
-                  projectTitle={``}
-                  slot={"Disuko"}
+                  infoPage={
+                    "https://vrchat.com/home/group/grp_50eb80e9-8899-423e-b6e5-d18b6669e73e"
+                  }
+                  projectTitle={"VRC Group"}
+                  slot={"Group Link   \u2193"}
                 >
                   <PlasmicImg__
                     alt={""}

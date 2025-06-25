@@ -162,6 +162,7 @@ function Plasmic_88X31Button__RenderFunc(props: {
         }
       })()}
       platform={"nextjs"}
+      target={"_blank"}
     >
       {renderPlasmicSlot({
         defaultContents: (

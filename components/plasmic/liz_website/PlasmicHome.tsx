@@ -284,7 +284,7 @@ function PlasmicHome__RenderFunc(props: {
                               sty.li__zpvoc
                             )}
                           >
-                            {""}
+                            {"Updating About Me and Portfolio pages"}
                           </li>
                         </ul>
                       }

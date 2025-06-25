@@ -605,7 +605,6 @@ function PlasmicPinboard__RenderFunc(props: {
           <Polaroid
             data-plasmic-name={"bugTaxi"}
             data-plasmic-override={overrides.bugTaxi}
-            back2={true}
             backHeader1={"Skills Used:"}
             className={classNames("__wab_instance", sty.bugTaxi)}
             infoPage={`/BugTaxi`}

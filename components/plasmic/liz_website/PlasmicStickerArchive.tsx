@@ -438,9 +438,9 @@ function PlasmicStickerArchive__RenderFunc(props: {
                   displayWidth={"auto"}
                   loading={"lazy"}
                   src={{
-                    src: "/plasmic/liz_website/images/honeyTeaaaLogoV2Black4KPng.png",
-                    fullWidth: 4096,
-                    fullHeight: 1394,
+                    src: "/plasmic/honey_teaaa_art/images/honeyTeaaaLogoV2Black1KPng.png",
+                    fullWidth: 1024,
+                    fullHeight: 349,
                     aspectRatio: undefined
                   }}
                 />
@@ -625,9 +625,9 @@ function PlasmicStickerArchive__RenderFunc(props: {
                     displayWidth={"auto"}
                     loading={"lazy"}
                     src={{
-                      src: "/plasmic/liz_website/images/stickerThingDark4KPng.png",
-                      fullWidth: 4096,
-                      fullHeight: 3325,
+                      src: "/plasmic/honey_teaaa_art/images/stickerThingDark1KPng.png",
+                      fullWidth: 1024,
+                      fullHeight: 832,
                       aspectRatio: undefined
                     }}
                   />
@@ -643,9 +643,9 @@ function PlasmicStickerArchive__RenderFunc(props: {
                     displayWidth={"auto"}
                     loading={"lazy"}
                     src={{
-                      src: "/plasmic/liz_website/images/stickerThing4KPng.png",
-                      fullWidth: 4096,
-                      fullHeight: 3325,
+                      src: "/plasmic/honey_teaaa_art/images/stickerThing1KPng.png",
+                      fullWidth: 1024,
+                      fullHeight: 832,
                       aspectRatio: undefined
                     }}
                   />
@@ -688,9 +688,9 @@ function PlasmicStickerArchive__RenderFunc(props: {
                   displayWidth={"auto"}
                   loading={"lazy"}
                   src={{
-                    src: "/plasmic/liz_website/images/honeyTeaaaLogoV154KPng.png",
-                    fullWidth: 4096,
-                    fullHeight: 1463,
+                    src: "/plasmic/honey_teaaa_art/images/honeyTeaaaLogoV151KPng.png",
+                    fullWidth: 1024,
+                    fullHeight: 366,
                     aspectRatio: undefined
                   }}
                 />

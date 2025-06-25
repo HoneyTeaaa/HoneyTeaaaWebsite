@@ -1232,6 +1232,26 @@
           "id": "IFwDjJ3DcK8X",
           "name": "korbiespaghetti.png",
           "filePath": "../public/plasmic/honey_teaaa_art/images/korbiespaghettiPng.png"
+        },
+        {
+          "id": "n7oQvdOV-dy4",
+          "name": "HoneyTeaaaLogoV1.5-1K.png",
+          "filePath": "../public/plasmic/honey_teaaa_art/images/honeyTeaaaLogoV151KPng.png"
+        },
+        {
+          "id": "H50Q1MIS2OJ7",
+          "name": "HoneyTeaaaLogoV2 Black-1K.png",
+          "filePath": "../public/plasmic/honey_teaaa_art/images/honeyTeaaaLogoV2Black1KPng.png"
+        },
+        {
+          "id": "eMf1yQ52Sa-u",
+          "name": "StickerThingDark-1K.png",
+          "filePath": "../public/plasmic/honey_teaaa_art/images/stickerThingDark1KPng.png"
+        },
+        {
+          "id": "VCit_V2iFXaK",
+          "name": "StickerThing-1K.png",
+          "filePath": "../public/plasmic/honey_teaaa_art/images/stickerThing1KPng.png"
         }
       ],
       "indirect": false,

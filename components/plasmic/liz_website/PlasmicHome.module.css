@@ -291,13 +291,6 @@
   text-overflow: clip;
   min-width: 0;
 }
-.embedHtml__gEiHn:global(.__wab_instance) {
-  max-width: 100%;
-  object-fit: cover;
-  text-align: left;
-  align-self: flex-start;
-  width: auto;
-}
 .text__tbG8D {
   position: relative;
   width: 100%;
@@ -317,6 +310,10 @@
   text-decoration-line: none;
   text-overflow: clip;
   min-width: 0;
+}
+.ul {
+  display: flex;
+  flex-direction: column;
 }
 .freeBox__hiFz {
   background: var(--token-z5IKgHokHwfh);

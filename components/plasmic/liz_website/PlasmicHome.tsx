@@ -253,7 +253,7 @@ function PlasmicHome__RenderFunc(props: {
                     )}
                   >
                     <React.Fragment>
-                      <React.Fragment>{""}</React.Fragment>
+                      <React.Fragment>{"\n"}</React.Fragment>
                       {
                         <ul
                           data-plasmic-name={"ul"}
@@ -269,7 +269,7 @@ function PlasmicHome__RenderFunc(props: {
                               projectcss.all,
                               projectcss.li,
                               projectcss.__wab_text,
-                              sty.li__aStTo
+                              sty.li__n4IOe
                             )}
                           >
                             {
@@ -281,7 +281,7 @@ function PlasmicHome__RenderFunc(props: {
                               projectcss.all,
                               projectcss.li,
                               projectcss.__wab_text,
-                              sty.li__zpvoc
+                              sty.li__fF8J
                             )}
                           >
                             {"Updating About Me and Portfolio pages"}

@@ -434,27 +434,17 @@ function PlasmicHome__RenderFunc(props: {
           </Stack__>
         </Reveal>
         <div className={classNames(projectcss.all, sty.freeBox___70Ay)}>
-          <PlasmicImg__
-            alt={""}
-            className={classNames(sty.img___6OBaM)}
-            displayHeight={"auto"}
-            displayMaxHeight={"none"}
-            displayMaxWidth={"100%"}
-            displayMinHeight={"0"}
-            displayMinWidth={"0"}
-            displayWidth={"auto"}
-            height={"31px"}
-            loading={"lazy"}
-            src={
-              "https://viii-underlying-mother-convert.trycloudflare.com/counter.png?page=honeyteaaa"
-            }
-            width={``}
-          />
-
           <_88X31Button
             className={classNames("__wab_instance", sty._88X31Button__sfXos)}
             link={"https://www.redpandastudios.net"}
           >
+            <Embed
+              className={classNames("__wab_instance", sty.embedHtml__nM42)}
+              code={
+                '<a href="https://kawaiicounter.com" target="_blank" rel="noopener"><img src="https://kawaiicounter.com/counter.png?page=e9c9b1f41b87&label=Site+Visits&font=Courier+New&bg=%23fde9d1&fontColor=%23fde9d1&border=rounded&borderColor=%23331009&borderWidth=4&layout=default" width="88" height="31" alt="Kawaii Counter"></a>'
+              }
+            />
+
             <PlasmicImg__
               alt={""}
               className={classNames(sty.img__dTnHd)}
@@ -533,6 +523,28 @@ function PlasmicHome__RenderFunc(props: {
               loading={"lazy"}
               src={{
                 src: "/plasmic/honey_teaaa_art/images/korbiespaghettiPng.png",
+                fullWidth: 88,
+                fullHeight: 31,
+                aspectRatio: undefined
+              }}
+            />
+          </_88X31Button>
+          <_88X31Button
+            className={classNames("__wab_instance", sty._88X31Button___45IWv)}
+            link={"https://www.redpandastudios.net"}
+          >
+            <PlasmicImg__
+              alt={""}
+              className={classNames(sty.img__dCuOq)}
+              displayHeight={"auto"}
+              displayMaxHeight={"none"}
+              displayMaxWidth={"100%"}
+              displayMinHeight={"0"}
+              displayMinWidth={"0"}
+              displayWidth={"auto"}
+              loading={"lazy"}
+              src={{
+                src: "/plasmic/honey_teaaa_art/images/image21.gif",
                 fullWidth: 88,
                 fullHeight: 31,
                 aspectRatio: undefined

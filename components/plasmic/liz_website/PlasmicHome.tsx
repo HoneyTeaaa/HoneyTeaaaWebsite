@@ -444,24 +444,6 @@ function PlasmicHome__RenderFunc(props: {
                 '<a href="https://kawaiicounter.com" target="_blank" rel="noopener"><img src="https://kawaiicounter.com/counter.png?page=e9c9b1f41b87&label=Site+Visits&font=Courier+New&bg=%23fde9d1&fontColor=%23fde9d1&border=rounded&borderColor=%23331009&borderWidth=4&layout=default" width="88" height="31" alt="Kawaii Counter"></a>'
               }
             />
-
-            <PlasmicImg__
-              alt={""}
-              className={classNames(sty.img__dTnHd)}
-              displayHeight={"auto"}
-              displayMaxHeight={"none"}
-              displayMaxWidth={"100%"}
-              displayMinHeight={"0"}
-              displayMinWidth={"0"}
-              displayWidth={"auto"}
-              loading={"lazy"}
-              src={{
-                src: "/plasmic/honey_teaaa_art/images/image21.gif",
-                fullWidth: 88,
-                fullHeight: 31,
-                aspectRatio: undefined
-              }}
-            />
           </_88X31Button>
           <_88X31Button
             className={classNames("__wab_instance", sty._88X31Button__qKbkz)}

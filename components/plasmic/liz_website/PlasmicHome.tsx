@@ -275,7 +275,7 @@ function PlasmicHome__RenderFunc(props: {
                             )}
                           >
                             {
-                              "Adding the Socials, Sticker Archive, and Guestbook pages"
+                              "Added the Socials, Sticker Archive, and Guestbook pages"
                             }
                           </li>
                           <li
@@ -286,7 +286,19 @@ function PlasmicHome__RenderFunc(props: {
                               sty.li__fF8J
                             )}
                           >
-                            {"Updating About Me and Portfolio pages"}
+                            {
+                              "Started updating About Me and Portfolio pages (still in progress)"
+                            }
+                          </li>
+                          <li
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.li,
+                              projectcss.__wab_text,
+                              sty.li__iU48
+                            )}
+                          >
+                            {"Adding 88x31s to the home page"}
                           </li>
                         </ul>
                       }
@@ -529,6 +541,116 @@ function PlasmicHome__RenderFunc(props: {
                 src: "/plasmic/honey_teaaa_art/images/image21.gif",
                 fullWidth: 88,
                 fullHeight: 31,
+                aspectRatio: undefined
+              }}
+            />
+          </_88X31Button>
+          <_88X31Button
+            className={classNames("__wab_instance", sty._88X31Button___9NUpP)}
+            link={"https://miku.rat.pics"}
+          >
+            <PlasmicImg__
+              alt={""}
+              className={classNames(sty.img__qrsCt)}
+              displayHeight={"auto"}
+              displayMaxHeight={"none"}
+              displayMaxWidth={"100%"}
+              displayMinHeight={"0"}
+              displayMinWidth={"0"}
+              displayWidth={"auto"}
+              loading={"lazy"}
+              src={{
+                src: "/plasmic/honey_teaaa_art/images/funnydogPng.png",
+                fullWidth: 88,
+                fullHeight: 31,
+                aspectRatio: undefined
+              }}
+            />
+          </_88X31Button>
+          <_88X31Button
+            className={classNames("__wab_instance", sty._88X31Button___1KbFn)}
+            link={"https://on3ko.lol/main"}
+          >
+            <PlasmicImg__
+              alt={""}
+              className={classNames(sty.img__v1V7C)}
+              displayHeight={"auto"}
+              displayMaxHeight={"none"}
+              displayMaxWidth={"100%"}
+              displayMinHeight={"0"}
+              displayMinWidth={"0"}
+              displayWidth={"auto"}
+              loading={"lazy"}
+              src={{
+                src: "/plasmic/honey_teaaa_art/images/on3KobuttonGif.gif",
+                fullWidth: 88,
+                fullHeight: 62,
+                aspectRatio: undefined
+              }}
+            />
+          </_88X31Button>
+          <_88X31Button
+            className={classNames("__wab_instance", sty._88X31Button__xVFz4)}
+            link={"https://voidreddev.neocities.org"}
+          >
+            <PlasmicImg__
+              alt={""}
+              className={classNames(sty.img__u5Yj)}
+              displayHeight={"auto"}
+              displayMaxHeight={"none"}
+              displayMaxWidth={"100%"}
+              displayMinHeight={"0"}
+              displayMinWidth={"0"}
+              displayWidth={"auto"}
+              loading={"lazy"}
+              src={{
+                src: "/plasmic/honey_teaaa_art/images/redStampGif.gif",
+                fullWidth: 88,
+                fullHeight: 186,
+                aspectRatio: undefined
+              }}
+            />
+          </_88X31Button>
+          <_88X31Button
+            className={classNames("__wab_instance", sty._88X31Button__t3N8Q)}
+            link={"https://deltarune.com"}
+          >
+            <PlasmicImg__
+              alt={""}
+              className={classNames(sty.img___3K1QR)}
+              displayHeight={"auto"}
+              displayMaxHeight={"none"}
+              displayMaxWidth={"100%"}
+              displayMinHeight={"0"}
+              displayMinWidth={"0"}
+              displayWidth={"auto"}
+              loading={"lazy"}
+              src={{
+                src: "/plasmic/honey_teaaa_art/images/b14Png.png",
+                fullWidth: 88,
+                fullHeight: 31,
+                aspectRatio: undefined
+              }}
+            />
+          </_88X31Button>
+          <_88X31Button
+            className={classNames("__wab_instance", sty._88X31Button__yEDgY)}
+            link={"https://www.disuko.gay"}
+          >
+            <PlasmicImg__
+              alt={""}
+              className={classNames(sty.img__qU4Df)}
+              displayHeight={"auto"}
+              displayMaxHeight={"none"}
+              displayMaxWidth={"100%"}
+              displayMinHeight={"0"}
+              displayMinWidth={"0"}
+              displayWidth={"auto"}
+              loading={"lazy"}
+              src={{
+                src: "/plasmic/honey_teaaa_art/images/disukoMainGif.gif",
+                fullWidth: 88,
+                fullHeight: 186,
                 aspectRatio: undefined
               }}
             />

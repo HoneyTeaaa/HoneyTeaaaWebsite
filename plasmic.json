@@ -1288,6 +1288,31 @@
           "id": "uHRea6N19yUm",
           "name": "image0.jpg 2",
           "filePath": "../public/plasmic/honey_teaaa_art/images/image0Jpg2.jpg"
+        },
+        {
+          "id": "6rUAH5ev83z7",
+          "name": "funnydog.png",
+          "filePath": "../public/plasmic/honey_teaaa_art/images/funnydogPng.png"
+        },
+        {
+          "id": "fyTRy4tD6yB-",
+          "name": "on3kobutton.gif",
+          "filePath": "../public/plasmic/honey_teaaa_art/images/on3KobuttonGif.gif"
+        },
+        {
+          "id": "_kWlmDJxV587",
+          "name": "b14.png",
+          "filePath": "../public/plasmic/honey_teaaa_art/images/b14Png.png"
+        },
+        {
+          "id": "NefDEsH3GHi8",
+          "name": "Red-Stamp.gif",
+          "filePath": "../public/plasmic/honey_teaaa_art/images/redStampGif.gif"
+        },
+        {
+          "id": "kDbEdCSGCk6Q",
+          "name": "Disuko-Main.gif",
+          "filePath": "../public/plasmic/honey_teaaa_art/images/disukoMainGif.gif"
         }
       ],
       "indirect": false,

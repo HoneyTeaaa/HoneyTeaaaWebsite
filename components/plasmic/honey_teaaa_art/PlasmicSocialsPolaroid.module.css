@@ -220,16 +220,19 @@
 .slotTargetSlotback2 {
   font-size: 18px;
 }
-.polaroidButton:global(.__wab_instance) {
+.link {
+  position: absolute;
   top: auto;
   left: auto;
-  z-index: 1;
-  position: absolute;
-  flex-shrink: 1;
-  flex-grow: 0;
   bottom: 0;
   right: 0;
+  z-index: 1;
   margin-bottom: 10px;
+  display: flex;
+}
+.polaroidButton:global(.__wab_instance) {
+  flex-shrink: 1;
+  flex-grow: 0;
 }
 .polaroidFront {
   display: flex;

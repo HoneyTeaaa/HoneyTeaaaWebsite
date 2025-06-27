@@ -104,6 +104,7 @@ export type PlasmicSocialsPolaroid__OverridesType = {
   projectNameReminder?: Flex__<"div">;
   backTitle?: Flex__<"div">;
   backinfo?: Flex__<"div">;
+  link?: Flex__<"a"> & Partial<LinkProps>;
   polaroidButton?: Flex__<typeof PolaroidButton>;
   polaroidFront?: Flex__<"div">;
   front?: Flex__<"div">;
@@ -397,32 +398,55 @@ function PlasmicSocialsPolaroid__RenderFunc(props: {
                   )
                 })
               })}
-              <PolaroidButton
-                data-plasmic-name={"polaroidButton"}
-                data-plasmic-override={overrides.polaroidButton}
-                back2={true}
-                className={classNames("__wab_instance", sty.polaroidButton, {
-                  [sty.polaroidButtonback2]: hasVariant(
-                    $state,
-                    "back2",
-                    "back2"
-                  )
+              <PlasmicLink__
+                data-plasmic-name={"link"}
+                data-plasmic-override={overrides.link}
+                className={classNames(projectcss.all, projectcss.a, sty.link, {
+                  [sty.linkback2]: hasVariant($state, "back2", "back2")
                 })}
-                infoPage={(() => {
-                  try {
-                    return $props.infoPage;
-                  } catch (e) {
-                    if (
-                      e instanceof TypeError ||
-                      e?.plasmicType === "PlasmicUndefinedDataError"
-                    ) {
-                      return `/portfolio`;
-                    }
-                    throw e;
-                  }
-                })()}
-                text={"Take Me There!"}
-              />
+                component={Link}
+                href={
+                  hasVariant($state, "back2", "back2")
+                    ? (() => {
+                        try {
+                          return $props.infoPage;
+                        } catch (e) {
+                          if (
+                            e instanceof TypeError ||
+                            e?.plasmicType === "PlasmicUndefinedDataError"
+                          ) {
+                            return undefined;
+                          }
+                          throw e;
+                        }
+                      })()
+                    : (() => {
+                        try {
+                          return $props.infoPage;
+                        } catch (e) {
+                          if (
+                            e instanceof TypeError ||
+                            e?.plasmicType === "PlasmicUndefinedDataError"
+                          ) {
+                            return undefined;
+                          }
+                          throw e;
+                        }
+                      })()
+                }
+                platform={"nextjs"}
+                target={
+                  hasVariant($state, "back2", "back2") ? "_blank" : "_blank"
+                }
+              >
+                <PolaroidButton
+                  data-plasmic-name={"polaroidButton"}
+                  data-plasmic-override={overrides.polaroidButton}
+                  back2={true}
+                  infoPage={`/Socials`}
+                  text={"Take Me There!"}
+                />
+              </PlasmicLink__>
             </div>
           </div>
         </div>
@@ -604,6 +628,7 @@ const PlasmicDescendants = {
     "projectNameReminder",
     "backTitle",
     "backinfo",
+    "link",
     "polaroidButton",
     "polaroidFront",
     "front",
@@ -616,6 +641,7 @@ const PlasmicDescendants = {
     "projectNameReminder",
     "backTitle",
     "backinfo",
+    "link",
     "polaroidButton"
   ],
   back: [
@@ -623,11 +649,13 @@ const PlasmicDescendants = {
     "projectNameReminder",
     "backTitle",
     "backinfo",
+    "link",
     "polaroidButton"
   ],
   projectNameReminder: ["projectNameReminder"],
   backTitle: ["backTitle"],
-  backinfo: ["backinfo", "polaroidButton"],
+  backinfo: ["backinfo", "link", "polaroidButton"],
+  link: ["link", "polaroidButton"],
   polaroidButton: ["polaroidButton"],
   polaroidFront: ["polaroidFront", "front", "projectName", "date"],
   front: ["front", "projectName", "date"],
@@ -644,6 +672,7 @@ type NodeDefaultElementType = {
   projectNameReminder: "div";
   backTitle: "div";
   backinfo: "div";
+  link: "a";
   polaroidButton: typeof PolaroidButton;
   polaroidFront: "div";
   front: "div";
@@ -716,6 +745,7 @@ export const PlasmicSocialsPolaroid = Object.assign(
     projectNameReminder: makeNodeComponent("projectNameReminder"),
     backTitle: makeNodeComponent("backTitle"),
     backinfo: makeNodeComponent("backinfo"),
+    link: makeNodeComponent("link"),
     polaroidButton: makeNodeComponent("polaroidButton"),
     polaroidFront: makeNodeComponent("polaroidFront"),
     front: makeNodeComponent("front"),

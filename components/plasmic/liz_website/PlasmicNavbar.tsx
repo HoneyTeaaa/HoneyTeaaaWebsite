@@ -216,6 +216,19 @@ function PlasmicNavbar__RenderFunc(props: {
           projectcss.all,
           projectcss.a,
           projectcss.__wab_text,
+          sty.link__fWg94
+        )}
+        component={Link}
+        href={`/Socials`}
+        platform={"nextjs"}
+      >
+        {"Socials.*"}
+      </PlasmicLink__>
+      <PlasmicLink__
+        className={classNames(
+          projectcss.all,
+          projectcss.a,
+          projectcss.__wab_text,
           sty.link__hsgvS
         )}
         component={Link}

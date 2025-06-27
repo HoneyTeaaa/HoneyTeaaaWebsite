@@ -337,7 +337,7 @@ function PlasmicHome__RenderFunc(props: {
                       sty.text___01SXj
                     )}
                   >
-                    {"Protogen Head!"}
+                    {"Protogen Mask :3"}
                   </div>
                 </Stack__>
               </Stack__>

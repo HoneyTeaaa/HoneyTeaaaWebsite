@@ -61,7 +61,7 @@ import {
 
 import Navbar from "../../Navbar"; // plasmic-import: tGuDlEY_p2-T/component
 import { Reveal } from "@plasmicpkgs/react-awesome-reveal";
-import Polaroid from "../../Polaroid"; // plasmic-import: SGzL5zPyMcua/component
+import Pinboard2 from "../../Pinboard2"; // plasmic-import: My_K85wr1wJ2/component
 
 import "@plasmicapp/react-web/lib/plasmic.css";
 
@@ -83,6 +83,9 @@ export type PlasmicSocials__OverridesType = {
   root?: Flex__<"div">;
   navbar?: Flex__<typeof Navbar>;
   reveal?: Flex__<typeof Reveal>;
+  columns?: Flex__<"div">;
+  column?: Flex__<"div">;
+  pinboard2?: Flex__<typeof Pinboard2>;
 };
 
 export interface DefaultSocialsProps {}
@@ -166,386 +169,27 @@ function PlasmicSocials__RenderFunc(props: {
           >
             <Stack__
               as={"div"}
+              data-plasmic-name={"columns"}
+              data-plasmic-override={overrides.columns}
               hasGap={true}
-              className={classNames(projectcss.all, sty.columns__i2Ip9)}
+              className={classNames(projectcss.all, sty.columns)}
             >
-              <div className={classNames(projectcss.all, sty.column__lfsDj)}>
-                <Stack__
-                  as={"div"}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.freeBox__jfZi2)}
-                >
+              <div
+                data-plasmic-name={"column"}
+                data-plasmic-override={overrides.column}
+                className={classNames(projectcss.all, sty.column)}
+              >
+                <div className={classNames(projectcss.all, sty.freeBox__hsJy)}>
                   <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__aekJa
-                    )}
+                    className={classNames(projectcss.all, sty.freeBox__qn8Jj)}
                   >
-                    {"Social Media.*"}
+                    <Pinboard2
+                      data-plasmic-name={"pinboard2"}
+                      data-plasmic-override={overrides.pinboard2}
+                      className={classNames("__wab_instance", sty.pinboard2)}
+                    />
                   </div>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text___06DOr
-                    )}
-                  >
-                    {
-                      "I have socials :D\n\n\nYeahhhhh\n\n\n\n\n\n\n\n\n\n\nI post things sometimes :O"
-                    }
-                  </div>
-                </Stack__>
-              </div>
-              <div className={classNames(projectcss.all, sty.column__j9XN)}>
-                <Polaroid
-                  backHeader1={"Nothing here..."}
-                  className={classNames("__wab_instance", sty.polaroid__wPaTs)}
-                  date2={``}
-                  infoPage={""}
-                  projectTitle={"Yippee!"}
-                  slot={"Flip me back over pls T^T"}
-                >
-                  <PlasmicImg__
-                    alt={""}
-                    className={classNames(sty.img__zx3Rj)}
-                    displayHeight={"100%"}
-                    displayMaxHeight={"none"}
-                    displayMaxWidth={"100%"}
-                    displayMinHeight={"0"}
-                    displayMinWidth={"0"}
-                    displayWidth={"100%"}
-                    loading={"lazy"}
-                    src={{
-                      src: "/plasmic/liz_website/images/vrChat202402232057448973840X2160Png.png",
-                      fullWidth: 3840,
-                      fullHeight: 2160,
-                      aspectRatio: undefined
-                    }}
-                  />
-                </Polaroid>
-              </div>
-            </Stack__>
-            <Stack__
-              as={"div"}
-              hasGap={true}
-              className={classNames(projectcss.all, sty.columns__vD5O)}
-            >
-              <div className={classNames(projectcss.all, sty.column__lwBcZ)}>
-                <Polaroid
-                  backHeader1={"Bluesky"}
-                  className={classNames("__wab_instance", sty.polaroid__rYwov)}
-                  date2={``}
-                  infoPage={"https://bsky.app/profile/honeyteaaa.art"}
-                  projectTitle={``}
-                  slot={
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__qcqFu
-                      )}
-                    >
-                      {"Bluesky Link   \u2193"}
-                    </div>
-                  }
-                >
-                  <PlasmicImg__
-                    alt={""}
-                    className={classNames(sty.img__ocHep)}
-                    displayHeight={"100%"}
-                    displayMaxHeight={"none"}
-                    displayMaxWidth={"100%"}
-                    displayMinHeight={"0"}
-                    displayMinWidth={"0"}
-                    displayWidth={"100%"}
-                    loading={"lazy"}
-                    src={{
-                      src: "/plasmic/liz_website/images/image2.png",
-                      fullWidth: 1800,
-                      fullHeight: 1200,
-                      aspectRatio: undefined
-                    }}
-                  />
-                </Polaroid>
-              </div>
-              <div className={classNames(projectcss.all, sty.column__gHaVk)}>
-                <Stack__
-                  as={"div"}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.freeBox__yKwy)}
-                >
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__vWdN
-                    )}
-                  >
-                    {"Bluesky.*"}
-                  </div>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__kKLsO
-                    )}
-                  >
-                    {
-                      "Wowee I have a Bluesky!\n\n\n\n\n\n:3\n\n\n\n\n\n\n\nI post photos and slideshows here"
-                    }
-                  </div>
-                </Stack__>
-              </div>
-            </Stack__>
-            <Stack__
-              as={"div"}
-              hasGap={true}
-              className={classNames(projectcss.all, sty.columns__j5M8B)}
-            >
-              <div className={classNames(projectcss.all, sty.column__ytx9T)}>
-                <Stack__
-                  as={"div"}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.freeBox__fDniv)}
-                >
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__zlOv
-                    )}
-                  >
-                    {"TikTok.*"}
-                  </div>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text___93TMr
-                    )}
-                  >
-                    {
-                      "I post short form content here\n\n\n\n\n\n\n\n\n\n\n\n\n\nWowee there it is!"
-                    }
-                  </div>
-                </Stack__>
-              </div>
-              <div className={classNames(projectcss.all, sty.column__scHtM)}>
-                <Polaroid
-                  backHeader1={"TikTok"}
-                  className={classNames("__wab_instance", sty.polaroid___1F1Fc)}
-                  date2={``}
-                  infoPage={"https://www.tiktok.com/@honey.teaaa_"}
-                  projectTitle={"TikTok"}
-                  slot={"TikTok Link   \u2193"}
-                >
-                  <PlasmicImg__
-                    alt={""}
-                    className={classNames(sty.img__xMojG)}
-                    displayHeight={"100%"}
-                    displayMaxHeight={"none"}
-                    displayMaxWidth={"100%"}
-                    displayMinHeight={"0"}
-                    displayMinWidth={"0"}
-                    displayWidth={"100%"}
-                    loading={"lazy"}
-                    src={{
-                      src: "/plasmic/liz_website/images/image4.png",
-                      fullWidth: 1800,
-                      fullHeight: 1200,
-                      aspectRatio: undefined
-                    }}
-                  />
-                </Polaroid>
-              </div>
-            </Stack__>
-            <Stack__
-              as={"div"}
-              hasGap={true}
-              className={classNames(projectcss.all, sty.columns__z1Fs)}
-            >
-              <div className={classNames(projectcss.all, sty.column__rZtc4)}>
-                <Polaroid
-                  backHeader1={"Youtube"}
-                  className={classNames("__wab_instance", sty.polaroid___3SpTu)}
-                  date2={``}
-                  infoPage={"https://www.youtube.com/@honeyteaaaa"}
-                  projectTitle={"Youtube"}
-                  slot={"Youtube Link   \u2193"}
-                >
-                  <PlasmicImg__
-                    alt={""}
-                    className={classNames(sty.img__q44Xk)}
-                    displayHeight={"100%"}
-                    displayMaxHeight={"none"}
-                    displayMaxWidth={"100%"}
-                    displayMinHeight={"0"}
-                    displayMinWidth={"0"}
-                    displayWidth={"100%"}
-                    loading={"lazy"}
-                    src={{
-                      src: "/plasmic/liz_website/images/honeyTeaaaBackgroundPng.png",
-                      fullWidth: 2400,
-                      fullHeight: 1600,
-                      aspectRatio: undefined
-                    }}
-                  />
-                </Polaroid>
-              </div>
-              <div className={classNames(projectcss.all, sty.column__a37Cx)}>
-                <Stack__
-                  as={"div"}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.freeBox___9MmeW)}
-                >
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text___4XuDx
-                    )}
-                  >
-                    {"YouTube.*"}
-                  </div>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__odxFj
-                    )}
-                  >
-                    {
-                      "My youtube does not get posts often\n\n\n\n\n\n\n\nLong form content goes here\n\n\n\n\n\n:O"
-                    }
-                  </div>
-                </Stack__>
-              </div>
-            </Stack__>
-            <Stack__
-              as={"div"}
-              hasGap={true}
-              className={classNames(projectcss.all, sty.columns__aitht)}
-            >
-              <div className={classNames(projectcss.all, sty.column__mUo6E)}>
-                <Stack__
-                  as={"div"}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.freeBox__f6U6P)}
-                >
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__uHf2S
-                    )}
-                  >
-                    {"Instagram.*"}
-                  </div>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__yibWh
-                    )}
-                  >
-                    {
-                      "My instagram is almost exclusively balisong stuff\n\n\n\n\n\n\n\n\n\n\n\n\n\nYippee wahoo!"
-                    }
-                  </div>
-                </Stack__>
-              </div>
-              <div className={classNames(projectcss.all, sty.column__tbEp1)}>
-                <Polaroid
-                  backHeader1={"Instagram"}
-                  className={classNames("__wab_instance", sty.polaroid__mdNI)}
-                  date2={``}
-                  infoPage={"https://www.instagram.com/honeyteaaaaaaaa/"}
-                  projectTitle={"Instagram"}
-                  slot={"Instagram Link   \u2193"}
-                >
-                  <PlasmicImg__
-                    alt={""}
-                    className={classNames(sty.img__mQw3)}
-                    displayHeight={"100%"}
-                    displayMaxHeight={"none"}
-                    displayMaxWidth={"100%"}
-                    displayMinHeight={"0"}
-                    displayMinWidth={"0"}
-                    displayWidth={"100%"}
-                    loading={"lazy"}
-                    src={{
-                      src: "/plasmic/liz_website/images/dc589Be88A545761152E5D2D632B0261Jpg.jpg",
-                      fullWidth: 400,
-                      fullHeight: 600,
-                      aspectRatio: undefined
-                    }}
-                  />
-                </Polaroid>
-              </div>
-            </Stack__>
-            <Stack__
-              as={"div"}
-              hasGap={true}
-              className={classNames(projectcss.all, sty.columns__ere48)}
-            >
-              <div className={classNames(projectcss.all, sty.column__ptjwZ)}>
-                <Polaroid
-                  backHeader1={"VRC Group"}
-                  className={classNames("__wab_instance", sty.polaroid__dEksw)}
-                  date2={``}
-                  infoPage={
-                    "https://vrchat.com/home/group/grp_50eb80e9-8899-423e-b6e5-d18b6669e73e"
-                  }
-                  projectTitle={"VRC Group"}
-                  slot={"Group Link   \u2193"}
-                >
-                  <PlasmicImg__
-                    alt={""}
-                    className={classNames(sty.img__d7ZPw)}
-                    displayHeight={"100%"}
-                    displayMaxHeight={"none"}
-                    displayMaxWidth={"100%"}
-                    displayMinHeight={"0"}
-                    displayMinWidth={"0"}
-                    displayWidth={"100%"}
-                    loading={"lazy"}
-                    src={{
-                      src: "/plasmic/liz_website/images/image6.png",
-                      fullWidth: 1800,
-                      fullHeight: 1200,
-                      aspectRatio: undefined
-                    }}
-                  />
-                </Polaroid>
-              </div>
-              <div className={classNames(projectcss.all, sty.column___2Xy3A)}>
-                <Stack__
-                  as={"div"}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.freeBox__tdQvg)}
-                >
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__f62K6
-                    )}
-                  >
-                    {"VRChat Group.*"}
-                  </div>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text___64HzO
-                    )}
-                  >
-                    {
-                      "My VRChat group is pretty much inactive\n\n\n\n\n\n\nhere it is :O\n\n\n\n\n\n\nYou can put my swirl pattern in your banner if you want wowee :O"
-                    }
-                  </div>
-                </Stack__>
+                </div>
               </div>
             </Stack__>
           </Reveal>
@@ -556,9 +200,12 @@ function PlasmicSocials__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "navbar", "reveal"],
+  root: ["root", "navbar", "reveal", "columns", "column", "pinboard2"],
   navbar: ["navbar"],
-  reveal: ["reveal"]
+  reveal: ["reveal", "columns", "column", "pinboard2"],
+  columns: ["columns", "column", "pinboard2"],
+  column: ["column", "pinboard2"],
+  pinboard2: ["pinboard2"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -567,6 +214,9 @@ type NodeDefaultElementType = {
   root: "div";
   navbar: typeof Navbar;
   reveal: typeof Reveal;
+  columns: "div";
+  column: "div";
+  pinboard2: typeof Pinboard2;
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -631,6 +281,9 @@ export const PlasmicSocials = Object.assign(
     // Helper components rendering sub-elements
     navbar: makeNodeComponent("navbar"),
     reveal: makeNodeComponent("reveal"),
+    columns: makeNodeComponent("columns"),
+    column: makeNodeComponent("column"),
+    pinboard2: makeNodeComponent("pinboard2"),
 
     // Metadata about props expected for PlasmicSocials
     internalVariantProps: PlasmicSocials__VariantProps,

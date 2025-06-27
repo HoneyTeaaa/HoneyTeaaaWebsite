@@ -698,6 +698,32 @@
           "scheme": "blackbox",
           "componentType": "page",
           "path": "/Guestbook"
+        },
+        {
+          "id": "My_K85wr1wJ2",
+          "name": "Pinboard2",
+          "type": "managed",
+          "projectId": "pqbSBZb9VG36A9gA4GgWPg",
+          "renderModuleFilePath": "plasmic/honey_teaaa_art/PlasmicPinboard2.tsx",
+          "importSpec": {
+            "modulePath": "Pinboard2.tsx"
+          },
+          "cssFilePath": "plasmic/honey_teaaa_art/PlasmicPinboard2.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "lhueAMWT6GZY",
+          "name": "SocialsPolaroid",
+          "type": "managed",
+          "projectId": "pqbSBZb9VG36A9gA4GgWPg",
+          "renderModuleFilePath": "plasmic/honey_teaaa_art/PlasmicSocialsPolaroid.tsx",
+          "importSpec": {
+            "modulePath": "SocialsPolaroid.tsx"
+          },
+          "cssFilePath": "plasmic/honey_teaaa_art/PlasmicSocialsPolaroid.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [

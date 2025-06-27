@@ -368,14 +368,14 @@
   min-width: 0;
 }
 .img__rqCxv {
-  object-fit: cover;
+  object-fit: fill;
   max-width: 100%;
   width: 100%;
   margin-bottom: 0px;
   min-width: 0;
 }
 .img__rqCxv > picture > img {
-  object-fit: cover;
+  object-fit: fill;
 }
 .text___01SXj {
   position: relative;

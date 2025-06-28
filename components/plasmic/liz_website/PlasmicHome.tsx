@@ -382,6 +382,15 @@ function PlasmicHome__RenderFunc(props: {
                   className={classNames(
                     projectcss.all,
                     projectcss.__wab_text,
+                    sty.text__zJs0J
+                  )}
+                >
+                  {"Webrings"}
+                </div>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
                     sty.text__p8P4J
                   )}
                 >
@@ -398,7 +407,7 @@ function PlasmicHome__RenderFunc(props: {
                   className={classNames(
                     projectcss.all,
                     projectcss.__wab_text,
-                    sty.text___1WxpE
+                    sty.text___8VTX
                   )}
                 >
                   {""}
@@ -407,11 +416,17 @@ function PlasmicHome__RenderFunc(props: {
                   className={classNames(
                     projectcss.all,
                     projectcss.__wab_text,
-                    sty.text__hbUu
+                    sty.text__lBkHi
                   )}
                 >
-                  {"Use this Webring to find my friends at Red Panda Studios!"}
+                  {"Transing The Internet Webring"}
                 </div>
+                <Embed
+                  className={classNames("__wab_instance", sty.embedHtml__xFyfe)}
+                  code={
+                    '<script src="https://transring.neocities.org/ring.js"></script>'
+                  }
+                />
               </Stack__>
             </div>
             <div className={classNames(projectcss.all, sty.column__ds9NL)}>
@@ -501,6 +516,24 @@ function PlasmicHome__RenderFunc(props: {
               }}
             />
           </_88X31Button>
+          <PlasmicImg__
+            alt={""}
+            className={classNames(sty.img__kWCw)}
+            displayHeight={"31px"}
+            displayMaxHeight={"none"}
+            displayMaxWidth={"88px"}
+            displayMinHeight={"0"}
+            displayMinWidth={"0"}
+            displayWidth={"88px"}
+            loading={"lazy"}
+            src={{
+              src: "/plasmic/honey_teaaa_art/images/button253Gif.gif",
+              fullWidth: 88,
+              fullHeight: 186,
+              aspectRatio: undefined
+            }}
+          />
+
           <_88X31Button
             className={classNames("__wab_instance", sty._88X31Button__x0Bua)}
             link={"https://korbinnevius.com"}
@@ -567,6 +600,24 @@ function PlasmicHome__RenderFunc(props: {
               }}
             />
           </_88X31Button>
+          <PlasmicImg__
+            alt={""}
+            className={classNames(sty.img__p5AH8)}
+            displayHeight={"31px"}
+            displayMaxHeight={"none"}
+            displayMaxWidth={"88px"}
+            displayMinHeight={"0"}
+            displayMinWidth={"0"}
+            displayWidth={"88px"}
+            loading={"lazy"}
+            src={{
+              src: "/plasmic/honey_teaaa_art/images/b14Png.png",
+              fullWidth: 88,
+              fullHeight: 31,
+              aspectRatio: undefined
+            }}
+          />
+
           <_88X31Button
             className={classNames("__wab_instance", sty._88X31Button___1KbFn)}
             link={"https://on3ko.lol/main"}
@@ -611,50 +662,23 @@ function PlasmicHome__RenderFunc(props: {
               }}
             />
           </_88X31Button>
-          <_88X31Button
-            className={classNames("__wab_instance", sty._88X31Button__t3N8Q)}
-            link={"https://deltarune.com"}
-          >
-            <PlasmicImg__
-              alt={""}
-              className={classNames(sty.img___3K1QR)}
-              displayHeight={"auto"}
-              displayMaxHeight={"none"}
-              displayMaxWidth={"100%"}
-              displayMinHeight={"0"}
-              displayMinWidth={"0"}
-              displayWidth={"auto"}
-              loading={"lazy"}
-              src={{
-                src: "/plasmic/honey_teaaa_art/images/b14Png.png",
-                fullWidth: 88,
-                fullHeight: 31,
-                aspectRatio: undefined
-              }}
-            />
-          </_88X31Button>
-          <_88X31Button
-            className={classNames("__wab_instance", sty._88X31Button__yEDgY)}
-            link={"https://www.disuko.gay"}
-          >
-            <PlasmicImg__
-              alt={""}
-              className={classNames(sty.img__qU4Df)}
-              displayHeight={"auto"}
-              displayMaxHeight={"none"}
-              displayMaxWidth={"100%"}
-              displayMinHeight={"0"}
-              displayMinWidth={"0"}
-              displayWidth={"auto"}
-              loading={"lazy"}
-              src={{
-                src: "/plasmic/honey_teaaa_art/images/disukoMainGif.gif",
-                fullWidth: 88,
-                fullHeight: 186,
-                aspectRatio: undefined
-              }}
-            />
-          </_88X31Button>
+          <PlasmicImg__
+            alt={""}
+            className={classNames(sty.img__r1Ahy)}
+            displayHeight={"31px"}
+            displayMaxHeight={"none"}
+            displayMaxWidth={"88px"}
+            displayMinHeight={"0"}
+            displayMinWidth={"0"}
+            displayWidth={"88px"}
+            loading={"lazy"}
+            src={{
+              src: "/plasmic/honey_teaaa_art/images/badappleGif.gif",
+              fullWidth: 88,
+              fullHeight: 31,
+              aspectRatio: undefined
+            }}
+          />
         </div>
       </div>
     </React.Fragment>

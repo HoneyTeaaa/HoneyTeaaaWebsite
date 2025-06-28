@@ -1313,6 +1313,21 @@
           "id": "kDbEdCSGCk6Q",
           "name": "Disuko-Main.gif",
           "filePath": "../public/plasmic/honey_teaaa_art/images/disukoMainGif.gif"
+        },
+        {
+          "id": "7T1noYyEDTUT",
+          "name": "badapple.png",
+          "filePath": "../public/plasmic/honey_teaaa_art/images/badapplePng.png"
+        },
+        {
+          "id": "iCHu0inSvlDS",
+          "name": "button253.gif",
+          "filePath": "../public/plasmic/honey_teaaa_art/images/button253Gif.gif"
+        },
+        {
+          "id": "hzV-Hf3RgCnP",
+          "name": "badapple.gif",
+          "filePath": "../public/plasmic/honey_teaaa_art/images/badappleGif.gif"
         }
       ],
       "indirect": false,

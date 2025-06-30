@@ -542,31 +542,6 @@ function PlasmicHome__RenderFunc(props: {
               <_88X31Button
                 className={classNames(
                   "__wab_instance",
-                  sty._88X31Button__wTi1X
-                )}
-                link={"https://frutigeraeroarchive.org/"}
-              >
-                <PlasmicImg__
-                  alt={""}
-                  className={classNames(sty.img__djJx4)}
-                  displayHeight={"auto"}
-                  displayMaxHeight={"none"}
-                  displayMaxWidth={"100%"}
-                  displayMinHeight={"0"}
-                  displayMinWidth={"0"}
-                  displayWidth={"auto"}
-                  loading={"lazy"}
-                  src={{
-                    src: "/plasmic/honey_teaaa_art/images/frutigeraeroarchiveButtonPng.png",
-                    fullWidth: 88,
-                    fullHeight: 31,
-                    aspectRatio: undefined
-                  }}
-                />
-              </_88X31Button>
-              <_88X31Button
-                className={classNames(
-                  "__wab_instance",
                   sty._88X31Button___1Cm6K
                 )}
                 link={"https://rat.pics"}
@@ -785,6 +760,32 @@ function PlasmicHome__RenderFunc(props: {
                   aspectRatio: undefined
                 }}
               />
+
+              <_88X31Button
+                className={classNames(
+                  "__wab_instance",
+                  sty._88X31Button__wTi1X
+                )}
+                link={"https://frutigeraeroarchive.org/"}
+              >
+                <PlasmicImg__
+                  alt={""}
+                  className={classNames(sty.img__djJx4)}
+                  displayHeight={"auto"}
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"100%"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={"auto"}
+                  loading={"lazy"}
+                  src={{
+                    src: "/plasmic/honey_teaaa_art/images/frutigeraeroarchiveButtonPng.png",
+                    fullWidth: 88,
+                    fullHeight: 31,
+                    aspectRatio: undefined
+                  }}
+                />
+              </_88X31Button>
             </div>
           </div>
           <div className={classNames(projectcss.all, sty.column__fBr8)}>

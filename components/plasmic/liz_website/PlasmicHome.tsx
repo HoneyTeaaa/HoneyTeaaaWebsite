@@ -254,7 +254,7 @@ function PlasmicHome__RenderFunc(props: {
                   >
                     <React.Fragment>
                       <React.Fragment>
-                        {"Last Update: 6/27/25\n\n"}
+                        {"Last Update: 6/30/25\n\n"}
                       </React.Fragment>
                       {
                         <ul
@@ -322,24 +322,45 @@ function PlasmicHome__RenderFunc(props: {
                   >
                     {"Current Project"}
                   </div>
-                  <PlasmicImg__
-                    alt={""}
-                    className={classNames(sty.img__rqCxv)}
-                    displayHeight={"auto"}
-                    displayMaxHeight={"none"}
-                    displayMaxWidth={"100%"}
-                    displayMinHeight={"0"}
-                    displayMinWidth={"0"}
-                    displayWidth={"100%"}
-                    loading={"lazy"}
-                    src={{
-                      src: "/plasmic/honey_teaaa_art/images/image0Jpg2.jpg",
-                      fullWidth: 3024,
-                      fullHeight: 2719,
-                      aspectRatio: undefined
-                    }}
-                  />
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__eaQlV)}
+                  >
+                    <PlasmicImg__
+                      alt={""}
+                      className={classNames(sty.img__jnGj)}
+                      displayHeight={"auto"}
+                      displayMaxHeight={"none"}
+                      displayMaxWidth={"50%"}
+                      displayMinHeight={"0"}
+                      displayMinWidth={"0"}
+                      displayWidth={"auto"}
+                      loading={"lazy"}
+                      src={{
+                        src: "/plasmic/liz_website/images/_77C50091D0B141C5B1F515Da202Ecab7Png.jpg",
+                        fullWidth: 1217,
+                        fullHeight: 975,
+                        aspectRatio: undefined
+                      }}
+                    />
 
+                    <PlasmicImg__
+                      alt={""}
+                      className={classNames(sty.img__rqCxv)}
+                      displayHeight={"auto"}
+                      displayMaxHeight={"none"}
+                      displayMaxWidth={"50%"}
+                      displayMinHeight={"0"}
+                      displayMinWidth={"0"}
+                      displayWidth={"auto"}
+                      loading={"lazy"}
+                      src={{
+                        src: "/plasmic/honey_teaaa_art/images/image0Jpg2.jpg",
+                        fullWidth: 3024,
+                        fullHeight: 2719,
+                        aspectRatio: undefined
+                      }}
+                    />
+                  </div>
                   <div
                     className={classNames(
                       projectcss.all,

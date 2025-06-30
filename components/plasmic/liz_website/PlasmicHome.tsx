@@ -271,18 +271,6 @@ function PlasmicHome__RenderFunc(props: {
                               projectcss.all,
                               projectcss.li,
                               projectcss.__wab_text,
-                              sty.li__n4IOe
-                            )}
-                          >
-                            {
-                              "Added the Socials, Sticker Archive, and Guestbook pages"
-                            }
-                          </li>
-                          <li
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.li,
-                              projectcss.__wab_text,
                               sty.li__fF8J
                             )}
                           >
@@ -299,6 +287,16 @@ function PlasmicHome__RenderFunc(props: {
                             )}
                           >
                             {"Adding 88x31s to the home page"}
+                          </li>
+                          <li
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.li,
+                              projectcss.__wab_text,
+                              sty.li__zsdoM
+                            )}
+                          >
+                            {"Added my own 88x31"}
                           </li>
                         </ul>
                       }
@@ -460,225 +458,352 @@ function PlasmicHome__RenderFunc(props: {
             </div>
           </Stack__>
         </Reveal>
-        <div className={classNames(projectcss.all, sty.freeBox___70Ay)}>
-          <_88X31Button
-            className={classNames("__wab_instance", sty._88X31Button__sfXos)}
-            link={"https://www.redpandastudios.net"}
-          >
-            <Embed
-              className={classNames("__wab_instance", sty.embedHtml__nM42)}
-              code={
-                '<a href="https://kawaiicounter.com" target="_blank" rel="noopener"><img src="https://kawaiicounter.com/counter.png?page=e9c9b1f41b87&label=Site+Visits&font=Courier+New&bg=%23fde9d1&fontColor=%23fde9d1&border=rounded&borderColor=%23331009&borderWidth=4&layout=default" width="88" height="31" alt="Kawaii Counter"></a>'
-              }
-            />
-          </_88X31Button>
-          <_88X31Button
-            className={classNames("__wab_instance", sty._88X31Button__qKbkz)}
-            link={"https://disuko.neocities.org"}
-          >
-            <PlasmicImg__
-              alt={""}
-              className={classNames(sty.img__pdyH9)}
-              displayHeight={"auto"}
-              displayMaxHeight={"none"}
-              displayMaxWidth={"100%"}
-              displayMinHeight={"0"}
-              displayMinWidth={"0"}
-              displayWidth={"auto"}
-              loading={"lazy"}
-              src={{
-                src: "/plasmic/honey_teaaa_art/images/disukoButtonGif.gif",
-                fullWidth: 88,
-                fullHeight: 62,
-                aspectRatio: undefined
-              }}
-            />
-          </_88X31Button>
-          <_88X31Button
-            className={classNames("__wab_instance", sty._88X31Button___1Cm6K)}
-            link={"https://rat.pics"}
-          >
-            <PlasmicImg__
-              alt={""}
-              className={classNames(sty.img__h6OAj)}
-              displayHeight={"auto"}
-              displayMaxHeight={"none"}
-              displayMaxWidth={"100%"}
-              displayMinHeight={"0"}
-              displayMinWidth={"0"}
-              displayWidth={"auto"}
-              loading={"lazy"}
-              src={{
-                src: "/plasmic/honey_teaaa_art/images/ratPicsBadgeGif.gif",
-                fullWidth: 88,
-                fullHeight: 62,
-                aspectRatio: undefined
-              }}
-            />
-          </_88X31Button>
-          <PlasmicImg__
-            alt={""}
-            className={classNames(sty.img__kWCw)}
-            displayHeight={"31px"}
-            displayMaxHeight={"none"}
-            displayMaxWidth={"88px"}
-            displayMinHeight={"0"}
-            displayMinWidth={"0"}
-            displayWidth={"88px"}
-            loading={"lazy"}
-            src={{
-              src: "/plasmic/honey_teaaa_art/images/button253Gif.gif",
-              fullWidth: 88,
-              fullHeight: 186,
-              aspectRatio: undefined
-            }}
-          />
+        <div className={classNames(projectcss.all, sty.columns__gLzAh)}>
+          <div className={classNames(projectcss.all, sty.column___7K71T)}>
+            <div className={classNames(projectcss.all, sty.freeBox___70Ay)}>
+              <_88X31Button
+                className={classNames(
+                  "__wab_instance",
+                  sty._88X31Button__sfXos
+                )}
+                link={"https://www.redpandastudios.net"}
+              >
+                <Embed
+                  className={classNames("__wab_instance", sty.embedHtml__nM42)}
+                  code={
+                    '<a href="https://kawaiicounter.com" target="_blank" rel="noopener"><img src="https://kawaiicounter.com/counter.png?page=e9c9b1f41b87&label=Site+Visits&font=Courier+New&bg=%23fde9d1&fontColor=%23fde9d1&border=rounded&borderColor=%23331009&borderWidth=4&layout=default" width="88" height="31" alt="Kawaii Counter"></a>'
+                  }
+                />
+              </_88X31Button>
+              <PlasmicImg__
+                alt={""}
+                className={classNames(sty.img___3Al4V)}
+                displayHeight={"31px"}
+                displayMaxHeight={"none"}
+                displayMaxWidth={"88px"}
+                displayMinHeight={"0"}
+                displayMinWidth={"0"}
+                displayWidth={"88px"}
+                loading={"lazy"}
+                src={{
+                  src: "/plasmic/honey_teaaa_art/images/poweredbyteaGif.gif",
+                  fullWidth: 88,
+                  fullHeight: 62,
+                  aspectRatio: undefined
+                }}
+              />
 
-          <_88X31Button
-            className={classNames("__wab_instance", sty._88X31Button__x0Bua)}
-            link={"https://korbinnevius.com"}
-          >
-            <PlasmicImg__
-              alt={""}
-              className={classNames(sty.img__yB2P)}
-              displayHeight={"auto"}
-              displayMaxHeight={"none"}
-              displayMaxWidth={"100%"}
-              displayMinHeight={"0"}
-              displayMinWidth={"0"}
-              displayWidth={"auto"}
-              loading={"lazy"}
-              src={{
-                src: "/plasmic/honey_teaaa_art/images/korbiespaghettiPng.png",
-                fullWidth: 88,
-                fullHeight: 31,
-                aspectRatio: undefined
-              }}
-            />
-          </_88X31Button>
-          <_88X31Button
-            className={classNames("__wab_instance", sty._88X31Button___45IWv)}
-            link={"https://www.redpandastudios.net"}
-          >
-            <PlasmicImg__
-              alt={""}
-              className={classNames(sty.img__dCuOq)}
-              displayHeight={"auto"}
-              displayMaxHeight={"none"}
-              displayMaxWidth={"100%"}
-              displayMinHeight={"0"}
-              displayMinWidth={"0"}
-              displayWidth={"auto"}
-              loading={"lazy"}
-              src={{
-                src: "/plasmic/honey_teaaa_art/images/image21.gif",
-                fullWidth: 88,
-                fullHeight: 31,
-                aspectRatio: undefined
-              }}
-            />
-          </_88X31Button>
-          <_88X31Button
-            className={classNames("__wab_instance", sty._88X31Button___9NUpP)}
-            link={"https://miku.rat.pics"}
-          >
-            <PlasmicImg__
-              alt={""}
-              className={classNames(sty.img__qrsCt)}
-              displayHeight={"auto"}
-              displayMaxHeight={"none"}
-              displayMaxWidth={"100%"}
-              displayMinHeight={"0"}
-              displayMinWidth={"0"}
-              displayWidth={"auto"}
-              loading={"lazy"}
-              src={{
-                src: "/plasmic/honey_teaaa_art/images/funnydogPng.png",
-                fullWidth: 88,
-                fullHeight: 31,
-                aspectRatio: undefined
-              }}
-            />
-          </_88X31Button>
-          <PlasmicImg__
-            alt={""}
-            className={classNames(sty.img__p5AH8)}
-            displayHeight={"31px"}
-            displayMaxHeight={"none"}
-            displayMaxWidth={"88px"}
-            displayMinHeight={"0"}
-            displayMinWidth={"0"}
-            displayWidth={"88px"}
-            loading={"lazy"}
-            src={{
-              src: "/plasmic/honey_teaaa_art/images/b14Png.png",
-              fullWidth: 88,
-              fullHeight: 31,
-              aspectRatio: undefined
-            }}
-          />
+              <_88X31Button
+                className={classNames(
+                  "__wab_instance",
+                  sty._88X31Button__qKbkz
+                )}
+                link={"https://disuko.neocities.org"}
+              >
+                <PlasmicImg__
+                  alt={""}
+                  className={classNames(sty.img__pdyH9)}
+                  displayHeight={"auto"}
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"100%"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={"auto"}
+                  loading={"lazy"}
+                  src={{
+                    src: "/plasmic/honey_teaaa_art/images/disukoButtonGif.gif",
+                    fullWidth: 88,
+                    fullHeight: 62,
+                    aspectRatio: undefined
+                  }}
+                />
+              </_88X31Button>
+              <_88X31Button
+                className={classNames(
+                  "__wab_instance",
+                  sty._88X31Button__wTi1X
+                )}
+                link={"https://frutigeraeroarchive.org/"}
+              >
+                <PlasmicImg__
+                  alt={""}
+                  className={classNames(sty.img__djJx4)}
+                  displayHeight={"auto"}
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"100%"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={"auto"}
+                  loading={"lazy"}
+                  src={{
+                    src: "/plasmic/honey_teaaa_art/images/frutigeraeroarchiveButtonPng.png",
+                    fullWidth: 88,
+                    fullHeight: 31,
+                    aspectRatio: undefined
+                  }}
+                />
+              </_88X31Button>
+              <_88X31Button
+                className={classNames(
+                  "__wab_instance",
+                  sty._88X31Button___1Cm6K
+                )}
+                link={"https://rat.pics"}
+              >
+                <PlasmicImg__
+                  alt={""}
+                  className={classNames(sty.img__h6OAj)}
+                  displayHeight={"auto"}
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"100%"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={"auto"}
+                  loading={"lazy"}
+                  src={{
+                    src: "/plasmic/honey_teaaa_art/images/ratPicsBadgeGif.gif",
+                    fullWidth: 88,
+                    fullHeight: 62,
+                    aspectRatio: undefined
+                  }}
+                />
+              </_88X31Button>
+              <PlasmicImg__
+                alt={""}
+                className={classNames(sty.img__i6Jg4)}
+                displayHeight={"31px"}
+                displayMaxHeight={"none"}
+                displayMaxWidth={"88px"}
+                displayMinHeight={"0"}
+                displayMinWidth={"0"}
+                displayWidth={"88px"}
+                loading={"lazy"}
+                src={{
+                  src: "/plasmic/honey_teaaa_art/images/balatroPng.png",
+                  fullWidth: 88,
+                  fullHeight: 31,
+                  aspectRatio: undefined
+                }}
+              />
 
-          <_88X31Button
-            className={classNames("__wab_instance", sty._88X31Button___1KbFn)}
-            link={"https://on3ko.lol/main"}
-          >
-            <PlasmicImg__
-              alt={""}
-              className={classNames(sty.img__v1V7C)}
-              displayHeight={"auto"}
-              displayMaxHeight={"none"}
-              displayMaxWidth={"100%"}
-              displayMinHeight={"0"}
-              displayMinWidth={"0"}
-              displayWidth={"auto"}
-              loading={"lazy"}
-              src={{
-                src: "/plasmic/honey_teaaa_art/images/on3KobuttonGif.gif",
-                fullWidth: 88,
-                fullHeight: 62,
-                aspectRatio: undefined
-              }}
-            />
-          </_88X31Button>
-          <_88X31Button
-            className={classNames("__wab_instance", sty._88X31Button__xVFz4)}
-            link={"https://voidreddev.neocities.org"}
-          >
-            <PlasmicImg__
-              alt={""}
-              className={classNames(sty.img__u5Yj)}
-              displayHeight={"auto"}
-              displayMaxHeight={"none"}
-              displayMaxWidth={"100%"}
-              displayMinHeight={"0"}
-              displayMinWidth={"0"}
-              displayWidth={"auto"}
-              loading={"lazy"}
-              src={{
-                src: "/plasmic/honey_teaaa_art/images/redStampGif.gif",
-                fullWidth: 88,
-                fullHeight: 186,
-                aspectRatio: undefined
-              }}
-            />
-          </_88X31Button>
-          <PlasmicImg__
-            alt={""}
-            className={classNames(sty.img__r1Ahy)}
-            displayHeight={"31px"}
-            displayMaxHeight={"none"}
-            displayMaxWidth={"88px"}
-            displayMinHeight={"0"}
-            displayMinWidth={"0"}
-            displayWidth={"88px"}
-            loading={"lazy"}
-            src={{
-              src: "/plasmic/honey_teaaa_art/images/badappleGif.gif",
-              fullWidth: 88,
-              fullHeight: 31,
-              aspectRatio: undefined
-            }}
-          />
+              <PlasmicImg__
+                alt={""}
+                className={classNames(sty.img__kWCw)}
+                displayHeight={"31px"}
+                displayMaxHeight={"none"}
+                displayMaxWidth={"88px"}
+                displayMinHeight={"0"}
+                displayMinWidth={"0"}
+                displayWidth={"88px"}
+                loading={"lazy"}
+                src={{
+                  src: "/plasmic/honey_teaaa_art/images/button253Gif.gif",
+                  fullWidth: 88,
+                  fullHeight: 186,
+                  aspectRatio: undefined
+                }}
+              />
+
+              <_88X31Button
+                className={classNames(
+                  "__wab_instance",
+                  sty._88X31Button__x0Bua
+                )}
+                link={"https://korbinnevius.com"}
+              >
+                <PlasmicImg__
+                  alt={""}
+                  className={classNames(sty.img__yB2P)}
+                  displayHeight={"auto"}
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"100%"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={"auto"}
+                  loading={"lazy"}
+                  src={{
+                    src: "/plasmic/honey_teaaa_art/images/korbiespaghettiPng.png",
+                    fullWidth: 88,
+                    fullHeight: 31,
+                    aspectRatio: undefined
+                  }}
+                />
+              </_88X31Button>
+              <_88X31Button
+                className={classNames(
+                  "__wab_instance",
+                  sty._88X31Button___45IWv
+                )}
+                link={"https://www.redpandastudios.net"}
+              >
+                <PlasmicImg__
+                  alt={""}
+                  className={classNames(sty.img__dCuOq)}
+                  displayHeight={"auto"}
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"100%"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={"auto"}
+                  loading={"lazy"}
+                  src={{
+                    src: "/plasmic/honey_teaaa_art/images/image21.gif",
+                    fullWidth: 88,
+                    fullHeight: 31,
+                    aspectRatio: undefined
+                  }}
+                />
+              </_88X31Button>
+              <_88X31Button
+                className={classNames(
+                  "__wab_instance",
+                  sty._88X31Button___9NUpP
+                )}
+                link={"https://miku.rat.pics"}
+              >
+                <PlasmicImg__
+                  alt={""}
+                  className={classNames(sty.img__qrsCt)}
+                  displayHeight={"auto"}
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"100%"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={"auto"}
+                  loading={"lazy"}
+                  src={{
+                    src: "/plasmic/honey_teaaa_art/images/funnydogPng.png",
+                    fullWidth: 88,
+                    fullHeight: 31,
+                    aspectRatio: undefined
+                  }}
+                />
+              </_88X31Button>
+              <PlasmicImg__
+                alt={""}
+                className={classNames(sty.img__p5AH8)}
+                displayHeight={"31px"}
+                displayMaxHeight={"none"}
+                displayMaxWidth={"88px"}
+                displayMinHeight={"0"}
+                displayMinWidth={"0"}
+                displayWidth={"88px"}
+                loading={"lazy"}
+                src={{
+                  src: "/plasmic/honey_teaaa_art/images/b14Png.png",
+                  fullWidth: 88,
+                  fullHeight: 31,
+                  aspectRatio: undefined
+                }}
+              />
+
+              <_88X31Button
+                className={classNames(
+                  "__wab_instance",
+                  sty._88X31Button___1KbFn
+                )}
+                link={"https://on3ko.lol/main"}
+              >
+                <PlasmicImg__
+                  alt={""}
+                  className={classNames(sty.img__v1V7C)}
+                  displayHeight={"auto"}
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"100%"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={"auto"}
+                  loading={"lazy"}
+                  src={{
+                    src: "/plasmic/honey_teaaa_art/images/on3KobuttonGif.gif",
+                    fullWidth: 88,
+                    fullHeight: 62,
+                    aspectRatio: undefined
+                  }}
+                />
+              </_88X31Button>
+              <_88X31Button
+                className={classNames(
+                  "__wab_instance",
+                  sty._88X31Button__xVFz4
+                )}
+                link={"https://voidreddev.neocities.org"}
+              >
+                <PlasmicImg__
+                  alt={""}
+                  className={classNames(sty.img__u5Yj)}
+                  displayHeight={"auto"}
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"100%"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={"auto"}
+                  loading={"lazy"}
+                  src={{
+                    src: "/plasmic/honey_teaaa_art/images/redStampGif.gif",
+                    fullWidth: 88,
+                    fullHeight: 186,
+                    aspectRatio: undefined
+                  }}
+                />
+              </_88X31Button>
+              <PlasmicImg__
+                alt={""}
+                className={classNames(sty.img__r1Ahy)}
+                displayHeight={"31px"}
+                displayMaxHeight={"none"}
+                displayMaxWidth={"88px"}
+                displayMinHeight={"0"}
+                displayMinWidth={"0"}
+                displayWidth={"88px"}
+                loading={"lazy"}
+                src={{
+                  src: "/plasmic/honey_teaaa_art/images/badappleGif.gif",
+                  fullWidth: 88,
+                  fullHeight: 31,
+                  aspectRatio: undefined
+                }}
+              />
+            </div>
+          </div>
+          <div className={classNames(projectcss.all, sty.column__fBr8)}>
+            <div className={classNames(projectcss.all, sty.freeBox__uDf9R)}>
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__cpswW
+                )}
+              >
+                {"Put me on your website! "}
+              </div>
+              <_88X31Button
+                className={classNames(
+                  "__wab_instance",
+                  sty._88X31Button__v4GbE
+                )}
+                link={"https://HoneyTeaaa.art"}
+              >
+                <PlasmicImg__
+                  alt={""}
+                  className={classNames(sty.img__qzPFh)}
+                  displayHeight={"auto"}
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"100%"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={"auto"}
+                  loading={"lazy"}
+                  src={{
+                    src: "/plasmic/honey_teaaa_art/images/ezgif893F65C2826C68Gif.gif",
+                    fullWidth: 88,
+                    fullHeight: 62,
+                    aspectRatio: undefined
+                  }}
+                />
+              </_88X31Button>
+            </div>
+          </div>
         </div>
       </div>
     </React.Fragment>

@@ -198,6 +198,7 @@
   user-select: text;
   text-decoration-line: none;
   text-overflow: clip;
+  padding-top: 0px;
 }
 .column__kbG1O {
   display: flex;

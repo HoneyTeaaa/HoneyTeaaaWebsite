@@ -1348,6 +1348,11 @@
           "id": "BQ10iBv7CtXW",
           "name": "ezgif-893f65c2826c68.gif",
           "filePath": "../public/plasmic/honey_teaaa_art/images/ezgif893F65C2826C68Gif.gif"
+        },
+        {
+          "id": "N4vgY0ZHaOSG",
+          "name": "Anthrocon2025.png",
+          "filePath": "../public/plasmic/honey_teaaa_art/images/anthrocon2025Png.png"
         }
       ],
       "indirect": false,
@@ -1622,6 +1627,6 @@
   "nextjsConfig": {
     "pagesDir": "../pages"
   },
-  "cliVersion": "0.1.338",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.338/dist/plasmic.schema.json"
+  "cliVersion": "0.1.340",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.340/dist/plasmic.schema.json"
 }

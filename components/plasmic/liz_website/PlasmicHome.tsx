@@ -275,7 +275,7 @@ function PlasmicHome__RenderFunc(props: {
                             )}
                           >
                             {
-                              "Started updating About Me and Portfolio pages (still in progress)"
+                              "Started updating About Me and Portfolio pages (still in progress"
                             }
                           </li>
                           <li
@@ -283,10 +283,10 @@ function PlasmicHome__RenderFunc(props: {
                               projectcss.all,
                               projectcss.li,
                               projectcss.__wab_text,
-                              sty.li__iU48
+                              sty.li__o7Lk8
                             )}
                           >
-                            {"Adding 88x31s to the home page"}
+                            {""}
                           </li>
                           <li
                             className={classNames(

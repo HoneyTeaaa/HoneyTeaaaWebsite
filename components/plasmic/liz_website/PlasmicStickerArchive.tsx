@@ -292,12 +292,12 @@ function PlasmicStickerArchive__RenderFunc(props: {
               hasGap={true}
               className={classNames(projectcss.all, sty.column__ltgqP)}
             >
-              <div className={classNames(projectcss.all, sty.freeBox__aWVow)}>
+              <div className={classNames(projectcss.all, sty.freeBox___4DxLn)}>
                 <div
                   className={classNames(
                     projectcss.all,
                     projectcss.__wab_text,
-                    sty.text___60Bng
+                    sty.text__rafp
                   )}
                 >
                   <React.Fragment>
@@ -305,7 +305,7 @@ function PlasmicStickerArchive__RenderFunc(props: {
                       className={"plasmic_default__all plasmic_default__span"}
                       style={{ fontWeight: 700 }}
                     >
-                      {"HoneyTeaaa Cup Logo"}
+                      {"Bladeshow 2025"}
                     </span>
                   </React.Fragment>
                 </div>
@@ -313,218 +313,14 @@ function PlasmicStickerArchive__RenderFunc(props: {
                   className={classNames(
                     projectcss.all,
                     projectcss.__wab_text,
-                    sty.text__nnnP3
+                    sty.text__a48UU
                   )}
                 >
-                  {"Cut out the cup of my logo and made it into a sticker"}
-                </div>
-                <div className={classNames(projectcss.all, sty.freeBox__ubm5Z)}>
-                  <PlasmicImg__
-                    alt={""}
-                    className={classNames(sty.img__rmooP)}
-                    displayHeight={"auto"}
-                    displayMaxHeight={"none"}
-                    displayMaxWidth={"55%"}
-                    displayMinHeight={"0"}
-                    displayMinWidth={"0"}
-                    displayWidth={"auto"}
-                    loading={"lazy"}
-                    src={{
-                      src: "/plasmic/liz_website/images/bigCupPng.png",
-                      fullWidth: 1984,
-                      fullHeight: 1508,
-                      aspectRatio: undefined
-                    }}
-                  />
-
-                  <PlasmicImg__
-                    alt={""}
-                    className={classNames(sty.img___1KwDz)}
-                    displayHeight={"auto"}
-                    displayMaxHeight={"none"}
-                    displayMaxWidth={"50%"}
-                    displayMinHeight={"0"}
-                    displayMinWidth={"0"}
-                    displayWidth={"auto"}
-                    loading={"lazy"}
-                    src={{
-                      src: "/plasmic/liz_website/images/bigCupStickerNoWebsitePng.png",
-                      fullWidth: 2149,
-                      fullHeight: 1671,
-                      aspectRatio: undefined
-                    }}
-                  />
-                </div>
-              </div>
-              <div className={classNames(projectcss.all, sty.freeBox__kmZ2Q)}>
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__vhUa
-                  )}
-                >
-                  <React.Fragment>
-                    <span
-                      className={"plasmic_default__all plasmic_default__span"}
-                      style={{ fontWeight: 700 }}
-                    >
-                      {"HoneyTeaaa Logo V. 2 with Background"}
-                    </span>
-                  </React.Fragment>
-                </div>
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__re9T8
-                  )}
-                >
-                  {
-                    "Added a background to make it easier to cut out for stickers"
-                  }
+                  {"A sticker made for Blade Show 2025"}
                 </div>
                 <PlasmicImg__
                   alt={""}
-                  className={classNames(sty.img__qFMqn)}
-                  displayHeight={"auto"}
-                  displayMaxHeight={"none"}
-                  displayMaxWidth={"90%"}
-                  displayMinHeight={"0"}
-                  displayMinWidth={"0"}
-                  displayWidth={"auto"}
-                  loading={"lazy"}
-                  src={{
-                    src: "/plasmic/liz_website/images/honeyTeaaaSticker2Png.png",
-                    fullWidth: 767,
-                    fullHeight: 314,
-                    aspectRatio: undefined
-                  }}
-                />
-              </div>
-              <div className={classNames(projectcss.all, sty.freeBox___82UV9)}>
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__yb2Zw
-                  )}
-                >
-                  <React.Fragment>
-                    <span
-                      className={"plasmic_default__all plasmic_default__span"}
-                      style={{ fontWeight: 700 }}
-                    >
-                      {"HoneyTeaaa Logo V. 2"}
-                    </span>
-                  </React.Fragment>
-                </div>
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__bzUzn
-                  )}
-                >
-                  {"We adjusted the y to sit against the hexagon"}
-                </div>
-                <PlasmicImg__
-                  alt={""}
-                  className={classNames(sty.img__cgex0)}
-                  displayHeight={"auto"}
-                  displayMaxHeight={"none"}
-                  displayMaxWidth={"100%"}
-                  displayMinHeight={"0"}
-                  displayMinWidth={"0"}
-                  displayWidth={"auto"}
-                  loading={"lazy"}
-                  src={{
-                    src: "/plasmic/honey_teaaa_art/images/honeyTeaaaLogoV2Black1KPng.png",
-                    fullWidth: 1024,
-                    fullHeight: 349,
-                    aspectRatio: undefined
-                  }}
-                />
-              </div>
-              <div className={classNames(projectcss.all, sty.freeBox__bwmR1)}>
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__as82P
-                  )}
-                >
-                  <React.Fragment>
-                    <span
-                      className={"plasmic_default__all plasmic_default__span"}
-                      style={{ fontWeight: 700 }}
-                    >
-                      {"HoneyTeaaa Logo V. 1"}
-                    </span>
-                  </React.Fragment>
-                </div>
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__ky5MX
-                  )}
-                >
-                  {"My very first logo design, made in 2024."}
-                </div>
-                <PlasmicImg__
-                  alt={""}
-                  className={classNames(sty.img__wyB0P)}
-                  displayHeight={"auto"}
-                  displayMaxHeight={"none"}
-                  displayMaxWidth={"100%"}
-                  displayMinHeight={"0"}
-                  displayMinWidth={"0"}
-                  displayWidth={"auto"}
-                  loading={"lazy"}
-                  src={{
-                    src: "/plasmic/liz_website/images/image20.png",
-                    fullWidth: 1920,
-                    fullHeight: 768,
-                    aspectRatio: undefined
-                  }}
-                />
-              </div>
-            </Stack__>
-            <Stack__
-              as={"div"}
-              hasGap={true}
-              className={classNames(projectcss.all, sty.column__ol5Xy)}
-            >
-              <div className={classNames(projectcss.all, sty.freeBox__qOgkA)}>
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__tdMi0
-                  )}
-                >
-                  <React.Fragment>
-                    <span
-                      className={"plasmic_default__all plasmic_default__span"}
-                      style={{ fontWeight: 700 }}
-                    >
-                      {"HoneyTeaaa Bladeshow 2025"}
-                    </span>
-                  </React.Fragment>
-                </div>
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__k37Tk
-                  )}
-                >
-                  {"A sticker we made for Blade Show 2025"}
-                </div>
-                <PlasmicImg__
-                  alt={""}
-                  className={classNames(sty.img__mOLkp)}
+                  className={classNames(sty.img__tf6Na)}
                   displayHeight={"auto"}
                   displayMaxHeight={"none"}
                   displayMaxWidth={"90%"}
@@ -553,7 +349,7 @@ function PlasmicStickerArchive__RenderFunc(props: {
                       className={"plasmic_default__all plasmic_default__span"}
                       style={{ fontWeight: 700 }}
                     >
-                      {"HoneyTeaaa Logo Hex V. 1 with Background"}
+                      {"Hex V. 1 with Background"}
                     </span>
                   </React.Fragment>
                 </div>
@@ -564,7 +360,7 @@ function PlasmicStickerArchive__RenderFunc(props: {
                     sty.text__ac0R
                   )}
                 >
-                  {"Added the same swirl pattern to my hex logo"}
+                  {"Added the swirl pattern to the hex logo"}
                 </div>
                 <div className={classNames(projectcss.all, sty.freeBox__ga3VF)}>
                   <PlasmicImg__
@@ -599,7 +395,7 @@ function PlasmicStickerArchive__RenderFunc(props: {
                       className={"plasmic_default__all plasmic_default__span"}
                       style={{ fontWeight: 700 }}
                     >
-                      {"HoneyTeaaa Logo Hex V. 1"}
+                      {"Hex V. 1"}
                     </span>
                   </React.Fragment>
                 </div>
@@ -610,7 +406,7 @@ function PlasmicStickerArchive__RenderFunc(props: {
                     sty.text__k9F4T
                   )}
                 >
-                  {"My first hexagon design"}
+                  {"Put the logo inside the hexagon"}
                 </div>
                 <div
                   className={classNames(projectcss.all, sty.freeBox___0Dbmv)}
@@ -676,7 +472,7 @@ function PlasmicStickerArchive__RenderFunc(props: {
                     sty.text__c22Jo
                   )}
                 >
-                  {"A small change to the V. 1 logo"}
+                  {"Brightened the colors of the v. 1 logo"}
                 </div>
                 <PlasmicImg__
                   alt={""}
@@ -692,6 +488,252 @@ function PlasmicStickerArchive__RenderFunc(props: {
                     src: "/plasmic/honey_teaaa_art/images/honeyTeaaaLogoV151KPng.png",
                     fullWidth: 1024,
                     fullHeight: 366,
+                    aspectRatio: undefined
+                  }}
+                />
+              </div>
+              <div className={classNames(projectcss.all, sty.freeBox__bwmR1)}>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__as82P
+                  )}
+                >
+                  <React.Fragment>
+                    <span
+                      className={"plasmic_default__all plasmic_default__span"}
+                      style={{ fontWeight: 700 }}
+                    >
+                      {"HoneyTeaaa Logo V. 1"}
+                    </span>
+                  </React.Fragment>
+                </div>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__ky5MX
+                  )}
+                >
+                  {"My first logo design, made in 2024"}
+                </div>
+                <PlasmicImg__
+                  alt={""}
+                  className={classNames(sty.img__wyB0P)}
+                  displayHeight={"auto"}
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"100%"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={"auto"}
+                  loading={"lazy"}
+                  src={{
+                    src: "/plasmic/liz_website/images/image20.png",
+                    fullWidth: 1920,
+                    fullHeight: 768,
+                    aspectRatio: undefined
+                  }}
+                />
+              </div>
+            </Stack__>
+            <Stack__
+              as={"div"}
+              hasGap={true}
+              className={classNames(projectcss.all, sty.column__ol5Xy)}
+            >
+              <div className={classNames(projectcss.all, sty.freeBox__qOgkA)}>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__tdMi0
+                  )}
+                >
+                  <React.Fragment>
+                    <span
+                      className={"plasmic_default__all plasmic_default__span"}
+                      style={{ fontWeight: 700 }}
+                    >
+                      {"Anthrocon 2025"}
+                    </span>
+                  </React.Fragment>
+                </div>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__k37Tk
+                  )}
+                >
+                  {"A sticker made for Anthrocon 2025"}
+                </div>
+                <PlasmicImg__
+                  alt={""}
+                  className={classNames(sty.img__mOLkp)}
+                  displayHeight={"auto"}
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"90%"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={"50%"}
+                  loading={"lazy"}
+                  src={{
+                    src: "/plasmic/honey_teaaa_art/images/anthrocon2025Png.png",
+                    fullWidth: 951,
+                    fullHeight: 793,
+                    aspectRatio: undefined
+                  }}
+                />
+              </div>
+              <div className={classNames(projectcss.all, sty.freeBox__aWVow)}>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text___60Bng
+                  )}
+                >
+                  <React.Fragment>
+                    <span
+                      className={"plasmic_default__all plasmic_default__span"}
+                      style={{ fontWeight: 700 }}
+                    >
+                      {"Cup Logo"}
+                    </span>
+                  </React.Fragment>
+                </div>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__nnnP3
+                  )}
+                >
+                  {"The cup from my main logo, made into its own sticker"}
+                </div>
+                <div className={classNames(projectcss.all, sty.freeBox__ubm5Z)}>
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img__rmooP)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"55%"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"auto"}
+                    loading={"lazy"}
+                    src={{
+                      src: "/plasmic/liz_website/images/bigCupPng.png",
+                      fullWidth: 1984,
+                      fullHeight: 1508,
+                      aspectRatio: undefined
+                    }}
+                  />
+
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img___1KwDz)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"50%"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"auto"}
+                    loading={"lazy"}
+                    src={{
+                      src: "/plasmic/liz_website/images/bigCupStickerNoWebsitePng.png",
+                      fullWidth: 2149,
+                      fullHeight: 1671,
+                      aspectRatio: undefined
+                    }}
+                  />
+                </div>
+              </div>
+              <div className={classNames(projectcss.all, sty.freeBox__kmZ2Q)}>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__vhUa
+                  )}
+                >
+                  <React.Fragment>
+                    <span
+                      className={"plasmic_default__all plasmic_default__span"}
+                      style={{ fontWeight: 700 }}
+                    >
+                      {"HoneyTeaaa Logo V. 2 with Background"}
+                    </span>
+                  </React.Fragment>
+                </div>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__re9T8
+                  )}
+                >
+                  {"Added the swirl background to make it sticker-able"}
+                </div>
+                <PlasmicImg__
+                  alt={""}
+                  className={classNames(sty.img__qFMqn)}
+                  displayHeight={"auto"}
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"90%"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={"auto"}
+                  loading={"lazy"}
+                  src={{
+                    src: "/plasmic/liz_website/images/honeyTeaaaSticker2Png.png",
+                    fullWidth: 767,
+                    fullHeight: 314,
+                    aspectRatio: undefined
+                  }}
+                />
+              </div>
+              <div className={classNames(projectcss.all, sty.freeBox___82UV9)}>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__yb2Zw
+                  )}
+                >
+                  <React.Fragment>
+                    <span
+                      className={"plasmic_default__all plasmic_default__span"}
+                      style={{ fontWeight: 700 }}
+                    >
+                      {"HoneyTeaaa Logo V. 2"}
+                    </span>
+                  </React.Fragment>
+                </div>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__bzUzn
+                  )}
+                >
+                  {"Adjusted the y to sit against the hexagon"}
+                </div>
+                <PlasmicImg__
+                  alt={""}
+                  className={classNames(sty.img__cgex0)}
+                  displayHeight={"auto"}
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"100%"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={"auto"}
+                  loading={"lazy"}
+                  src={{
+                    src: "/plasmic/honey_teaaa_art/images/honeyTeaaaLogoV2Black1KPng.png",
+                    fullWidth: 1024,
+                    fullHeight: 349,
                     aspectRatio: undefined
                   }}
                 />
